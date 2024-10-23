@@ -1,0 +1,12 @@
+{
+    "type": "code",
+    "side": "server",
+    "modid": "dropresinanyway",
+    "name": "Drop Resin Anyway",
+    "description": "Always drop resin when breaking trees with not harvested leaking resin",
+    "authors": ["Craluminum2413"],
+    "version": "1.0.2",
+    "dependencies": {
+        "game": "1.18.8"
+    }
+}

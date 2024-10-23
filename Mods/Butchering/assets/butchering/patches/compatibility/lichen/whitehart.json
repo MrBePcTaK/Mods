@@ -1,0 +1,29 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/lichen/whitehart.json",
+    "dependsOn": [ { "modid": "lichenredux" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadwhitehart-male-dead"
+    },
+    "file": "lichen:entities/land/whitehart.json",
+    "dependsOn": [ { "modid": "lichenredux" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadwhitehart-male-dead"
+    },
+    "file": "lichen:entities/land/whitehart.json",
+    "dependsOn": [ { "modid": "lichenredux" } ]
+  }
+]

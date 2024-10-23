@@ -1,0 +1,69 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/medievalexpansion/aurochs.json",
+    "dependsOn": [ { "modid": "medievalexpansion" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadaurochs-female-dead"
+    },
+    "file": "medievalexpansion:entities/land/aurochs-female.json",
+    "dependsOn": [ { "modid": "medievalexpansion" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadaurochs-female-dead"
+    },
+    "file": "medievalexpansion:entities/land/aurochs-female.json",
+    "dependsOn": [ { "modid": "medievalexpansion" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadaurochs-male-dead"
+    },
+    "file": "medievalexpansion:entities/land/aurochs-male.json",
+    "dependsOn": [ { "modid": "medievalexpansion" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadaurochs-male-dead"
+    },
+    "file": "medievalexpansion:entities/land/aurochs-male.json",
+    "dependsOn": [ { "modid": "medievalexpansion" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadaurochs-baby-dead"
+    },
+    "file": "medievalexpansion:entities/land/aurochs-lamb.json",
+    "dependsOn": [ { "modid": "medievalexpansion" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadaurochs-baby-dead"
+    },
+    "file": "medievalexpansion:entities/land/aurochs-lamb.json",
+    "dependsOn": [ { "modid": "medievalexpansion" } ]
+  }
+]

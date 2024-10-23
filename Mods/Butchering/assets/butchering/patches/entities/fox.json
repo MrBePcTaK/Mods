@@ -1,0 +1,59 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "butchering:itemtypes/butchercreatures/fox.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "fox-female-red": "butchering:deadfox-female-red-dead",
+        "fox-male-red": "butchering:deadfox-male-red-dead",
+        "fox-pup-red": "butchering:deadfox-baby-red-dead",
+        "fox-female-arctic": "butchering:deadfox-female-arctic-dead",
+        "fox-male-arctic": "butchering:deadfox-male-arctic-dead",
+        "fox-pup-arctic": "butchering:deadfox-baby-arctic-dead"
+      }
+    },
+    "file": "game:entities/land/fox.json",
+    "dependsOn": [
+      {
+        "modid": "caninae",
+        "invert": true
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "fox-female-red": "butchering:deadfox-female-red-dead",
+        "fox-male-red": "butchering:deadfox-male-red-dead",
+        "fox-pup-red": "butchering:deadfox-baby-red-dead",
+        "fox-female-arctic": "butchering:deadfox-female-arctic-dead",
+        "fox-male-arctic": "butchering:deadfox-male-arctic-dead",
+        "fox-pup-arctic": "butchering:deadfox-baby-arctic-dead"
+      }
+    },
+    "file": "game:entities/land/fox.json",
+    "dependsOn": [
+      {
+        "modid": "caninae",
+        "invert": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "type": "content",
+  "name": "Just more ruins",
+  "modid": "justmoreruins",
+  "description" : "Adds additional ruins to world generation",
+  "authors": ["Hexedian","ChocoWizard"],
+	"side": "server",
+	"requiredOnClient": false,
+  "version": "0.9.8",
+  "dependency": {
+    "game": "1.19.*"
+  }
+}

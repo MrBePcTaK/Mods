@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "modid": "betterjonasdevices",
+  "name": "BetterJonasDevices",
+  "authors": [
+    "MistAway"
+  ],
+  "side": "Universal",
+  "requiredOnServer": true,
+  "requiredOnClient": true,
+  "description": "Tweaks to make Jonas devices more useful",
+  "version": "1.1.0"
+}

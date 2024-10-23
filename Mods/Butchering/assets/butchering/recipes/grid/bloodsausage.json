@@ -1,0 +1,80 @@
+[
+	{
+		"ingredientPattern": "C,H,M",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "offal-clean"
+			},
+			"H": {
+				"type": "block",
+				"code": "game:woodbucket"
+			},
+			"M": {
+				"type": "item",
+				"code": "game:redmeat-*",
+				"allowedVariants": [
+					"raw",
+					"cured"
+				],
+				"quantity": 2
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"recipeGroup": 1,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "butchering:bloodportion"
+				},
+				"requiresLitres": 0.2
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "sausage-bloodsausage-raw",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "C,H,M",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "offal-clean"
+			},
+			"H": {
+				"type": "block",
+				"code": "game:woodbucket"
+			},
+			"M": {
+				"type": "item",
+				"code": "game:bushmeat-*",
+				"allowedVariants": [
+					"raw",
+					"cured"
+				],
+				"quantity": 4
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"recipeGroup": 2,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "butchering:bloodportion"
+				},
+				"requiresLitres": 0.2
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "sausage-bloodsausage-raw",
+			"quantity": 1
+		}
+	}
+]

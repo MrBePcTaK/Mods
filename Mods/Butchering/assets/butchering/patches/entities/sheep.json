@@ -1,0 +1,56 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadsheep-female-dead"
+    },
+    "file": "game:entities/land/sheep-bighorn-female.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadsheep-female-dead"
+    },
+    "file": "game:entities/land/sheep-bighorn-female.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadsheep-male-dead"
+    },
+    "file": "game:entities/land/sheep-bighorn-male.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadsheep-male-dead"
+    },
+    "file": "game:entities/land/sheep-bighorn-male.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadsheep-baby-dead"
+    },
+    "file": "game:entities/land/sheep-bighorn-lamb.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadsheep-baby-dead"
+    },
+    "file": "game:entities/land/sheep-bighorn-lamb.json"
+  }
+]

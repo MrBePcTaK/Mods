@@ -1,0 +1,80 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"string": "tstools:item/string",
+		"titan-tip": "tstools:item/iron-tip"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 10.0, 0.5, 7.7 ],
+			"to": [ 10.0, 0.5, 7.7 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#string", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#string", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#string", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#string", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#string", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#string", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "segment 3 tip",
+					"from": [ -1.7, 0.0, 0.8 ],
+					"to": [ -1.2, 0.5, 2.3 ],
+					"rotationOrigin": [ -1.2, 0.5, 0.8 ],
+					"rotationY": -45.0,
+					"faces": {
+						"north": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+						"south": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+						"up": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
+						"down": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 0.5, 1.5 ] }
+					},
+					"children": [
+						{
+							"name": "tip",
+							"from": [ -0.3536, 0.0, -1.2021 ],
+							"to": [ 0.6464, 0.6, 0.7979 ],
+							"rotationOrigin": [ 0.1464, 0.5, -1.2021 ],
+							"rotationY": 5.0,
+							"faces": {
+								"north": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+								"east": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"south": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+								"west": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"up": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+								"down": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 1.0, 2.0 ] }
+							},
+							"children": [
+								{
+									"name": "tip2",
+									"from": [ 0.3531, 0.0, -1.6017 ],
+									"to": [ 1.3531, 0.6, 0.3983 ],
+									"rotationOrigin": [ 0.8531, 0.5, -1.6017 ],
+									"rotationY": -8.0,
+									"faces": {
+										"north": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+										"east": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+										"south": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+										"west": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+										"up": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+										"down": { "texture": "#titan-tip", "uv": [ 0.0, 0.0, 1.0, 2.0 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

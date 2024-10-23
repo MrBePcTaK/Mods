@@ -1,0 +1,20 @@
+[
+	{	__comment: "BASIC to SUPER use cloth black",
+		ingredientPattern: "SFN,LBL,GLM",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"N": { type: "item", code: "game:sewingkit" },
+			
+			"L": { type: "item", code: "game:cloth-brown", quantity: "4"},
+			"G": { type: "item",  code: "game:ore-lapislazuli", quantity: 1 },
+			"M": { type: "item", code: "game:metalplate-blackbronze", quantity: 1 },
+			"B": { type: "item",  code: "abcsreborn:basicbackpack" }
+		},
+		width: 3,	
+		height: 3,
+		recipeGroup: 1,			
+		name: "superbackpack", 
+		output: { type: "item", code: "abcsreborn:superbackpack"  }
+	}
+]

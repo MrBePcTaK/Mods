@@ -1,0 +1,13 @@
+{
+	"type": "Code",
+	"name": "Capture Animals",
+	"modid": "captureanimals",
+	"version": "2.7.0",
+	"description": "Capture them all!",
+	"website": "https://github.com/DArkHekRoMaNT/CaptureAnimals",
+	"authors": ["DArkHekRoMaNT"],
+	"dependencies": {
+		"game": "1.19.0",
+		"commonlib": "2.3.0"
+	}
+}

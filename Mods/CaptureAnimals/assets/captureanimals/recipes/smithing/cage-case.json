@@ -1,0 +1,19 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "game:ingot-*",
+    "name": "metal",
+    "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "creative"]
+  },
+  "pattern": [[
+    "__###__",
+    "_#_#_#_",
+    "#__#__#",
+    "#######",
+    "#__#__#",
+    "_#_#_#_",
+    "__###__"
+  ]],
+  "name": "Cage",
+  "output": { "type": "item", "code": "cage-case-{metal}" }
+}

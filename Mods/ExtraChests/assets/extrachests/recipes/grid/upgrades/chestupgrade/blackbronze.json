@@ -1,0 +1,37 @@
+[
+  {
+    "ingredientPattern": "_S_,SPS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-blackbronze"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "chestupgrade-blackbronze"
+    }
+  },
+  {
+    "ingredientPattern": "U",
+    "ingredients": {
+      "U": {
+        "type": "item",
+        "code": "trunkupgrade-blackbronze"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "chestupgrade-blackbronze",
+      "quantity": 2
+    }
+  }
+]

@@ -1,0 +1,156 @@
+{
+	"code": "pondtemplate",
+	"class": "fieldsofsalt:pondtemplate",
+	"attributes": {
+		"template": {
+			"border": {
+				"code": "game:rockpolished-{rock}",
+				"variantgroups": [
+					{
+						"code": "rock",
+						"states": [
+							"whitemarble",
+							"greenmarble",
+							"redmarble",
+							"suevite",
+							"kimberlite"
+						],
+						"loadFromProperties": "game:block/rock"
+					}
+				]
+			},
+			"bottom": {
+				"code": "game:polishedrockslab-{rock}-down-free",
+				"variantgroups": [
+					{
+						"code": "rock",
+						"states": [
+							"whitemarble",
+							"greenmarble",
+							"redmarble",
+							"suevite",
+							"kimberlite"
+						],
+						"loadFromProperties": "game:block/rock"
+					}
+				]
+			},
+			"connector": {
+				"code": "connector-{rock}-{side}",
+				"variantgroups": [
+					{
+						"code": "rock",
+						"states": [
+							"whitemarble",
+							"greenmarble",
+							"redmarble",
+							"suevite",
+							"kimberlite"
+						],
+						"loadFromProperties": "game:block/rock"
+					},
+					{
+						"code": "side",
+						"states": ["ns", "we"]
+					}
+				]
+			},
+			"maxSize": 31
+		},
+		"multiblock": {
+			"main": {
+				"code": "pondmain"
+			},
+			"surrogate": {
+				"code": "surrogate-render"
+			}
+		},
+		"handbook": {
+			"extraSections": [
+				{
+					"title": "fieldsofsalt:handbooktitle-pond",
+					"text": "fieldsofsalt:handbooktext-pondtemplate"
+				}
+			]
+		}
+	},
+	"maxstacksize": 1,
+	"materialDensity": 210,
+	"creativeinventory": {
+		"general": ["*"],
+		"items": ["*"]
+	},
+	"shape": { "base": "item/pondtemplate" },
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 105,
+			"y": -75,
+			"z": 1
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.2,
+			"z": 0.5
+		},
+		"scale": 1.9
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": -0.2,
+			"y": 0.3,
+			"z": 0
+		},
+		"rotation": {
+			"x": -15,
+			"y": 65,
+			"z": 69
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.1,
+			"z": 0.5
+		},
+		"scale": 2.07
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.75,
+			"y": -0.16,
+			"z": -0.73
+		},
+		"rotation": {
+			"x": 97,
+			"y": 35,
+			"z": -5
+		},
+		"origin": {
+			"x": 0.45,
+			"y": 0.05,
+			"z": 0.45
+		},
+		"scale": 0.67
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -7,
+			"y": 0,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.07,
+			"z": 0.41
+		},
+		"scale": 3.5
+	}
+}

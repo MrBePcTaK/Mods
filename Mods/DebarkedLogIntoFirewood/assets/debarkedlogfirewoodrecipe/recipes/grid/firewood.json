@@ -1,0 +1,24 @@
+[
+	{
+		ingredientPattern: "A	L",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"L": { type: "block", code: "game:debarkedlog-*", allowedVariants: ["birch-ud", "oak-ud", "maple-ud", "pine-ud", "acacia-ud", "redwood-ud", "larch-ud", "baldcypress-ud", "walnut-ud"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:firewood", quantity: 4  }
+	},
+	{
+		ingredientPattern: "A	L",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"L": { type: "block", code: "game:debarkedlog-*", allowedVariants: ["kapok-ud", "purpleheart-ud", "ebony-ud"] }
+		},
+		recipeGroup: 1,
+		width: 1,
+		height: 2,
+		name: "Kapok Firewood",
+		output: { type: "item", code: "game:firewood", quantity: 3  }
+	}
+]

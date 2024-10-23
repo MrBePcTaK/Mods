@@ -1,0 +1,23 @@
+{
+	"ingredient": {
+		"type": "item",
+		"code": "game:ingot-tinbronze"
+		
+	},
+		
+	
+	
+	"output": { 
+		"type": "item", 
+		"code": "tstools:tbhead" },
+	"pattern": [[ 
+		"_____##",
+		"__#####",
+		"#######",
+		"__#####",
+		"_____##"
+		
+		
+		]]
+	
+}

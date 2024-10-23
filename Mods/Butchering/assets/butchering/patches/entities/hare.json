@@ -1,0 +1,56 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadhare-female-{type}-dead"
+    },
+    "file": "game:entities/land/hare-female.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadhare-female-{type}-dead"
+    },
+    "file": "game:entities/land/hare-female.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadhare-male-{type}-dead"
+    },
+    "file": "game:entities/land/hare-male.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadhare-male-{type}-dead"
+    },
+    "file": "game:entities/land/hare-male.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadhare-baby-brown-dead"
+    },
+    "file": "game:entities/land/hare-baby.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadhare-baby-brown-dead"
+    },
+    "file": "game:entities/land/hare-baby.json"
+  }
+]

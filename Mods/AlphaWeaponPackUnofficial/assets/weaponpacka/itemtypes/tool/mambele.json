@@ -1,0 +1,125 @@
+{
+	code: "mambele",
+	class: "ItemSpear",
+	damagedby: ["attacking"],
+	tool: "spear",
+	maxstacksize: 1,
+	storageFlags: 513,
+	variantgroups: [
+		{ code: "material", states: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] },
+	],
+	shapeByType: {
+		"*": { base: "item/weapon/mambele" }
+	},
+	heldTpHitAnimation: "falx",
+	heldTpUseAnimation: "interactstatic",
+	texturesByType: {
+		"*": {
+			"iron": { base: "game:block/metal/anvil/{material}" },
+		}
+	},
+	attackRange: 2.3,
+	attackpowerbytype: {
+		"*-copper": 5.5,
+		"*-bismuthbronze": 7,
+		"*-tinbronze": 7,
+		"*-blackbronze": 7,
+		"*-iron": 8.5,
+		"*-meteoriciron": 9,
+		"*-steel": 11
+	},
+	durabilitybytype: {
+		"*-copper": 200,
+		"*-tinbronze": 410,
+		"*-bismuthbronze": 420,
+		"*-blackbronze": 440,
+		"*-iron": 675,
+		"*-meteoriciron": 735,
+		"*-steel": 980
+	},
+	tooltierbytype: {
+		"*-copper": 1,
+		"*-bismuthbronze": 2,
+		"*-tinbronze": 2,
+		"*-blackbronze": 2,
+		"*-iron": 3,
+		"*-meteoriciron": 3,
+		"*-steel": 4
+	},
+	damageTypeByType: {
+		"*": "PiercingAttack",
+	},
+	"__comment": "Thrown damage",
+	attributes: {
+		damageByType: {
+			"*-copper": 7.5,
+			"*-bismuthbronze": 9.6,
+			"*-tinbronze": 9.8,
+			"*-blackbronze": 10,
+			
+			"*-iron": 12,
+			"*-meteoriciron": 13,
+			"*-steel": 16
+		},
+		tooltierbytype: {
+			"*-copper": 1,
+			"*-bismuthbronze": 2,
+			"*-tinbronze": 2,
+			"*-blackbronze": 2,
+			"*-iron": 3,
+			"*-meteoriciron": 3,
+			"*-steel": 4
+		},
+		damageTypeByType: {
+		"*": "PiercingAttack",
+		},
+		spearEntityCode: "weaponpacka:mambele-{material}",
+		handbook: {
+			groupBy: ["mambele-*"]
+		},
+		toolrackTransform: {
+			translation: { x: -1, y: 0.8, z: 0 },
+			rotation: { x: 0, y: -180, z: 0 },
+			scale: 1.7
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.26, z: -0.01 },
+			rotation: { x: -65, y: -90, z: 0 },
+			scale: 1.1
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	},{ name: "AnimationAuthoritative" }],
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "alphaweaponpack": ["*"] },
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -60, y: 50, z: 0 },
+		origin: { x: 0.6, y: 1.08, z: 0.11 },
+		scale: 2.75
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 1.2, z: -0.14 },
+		rotation: { x: -35, y: -5, z: 90 },
+		origin: { x: 0.6, y: 0, z: 0.7 },
+		scale: 3.35
+	},
+	tpHandTransform: {
+		translation: { x: -1.04, y: -0.4, z: 0.075 },
+		rotation: { x: 90, y: 0, z: 0 },
+		scale: 1.25
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.55, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 5.65
+	}
+}

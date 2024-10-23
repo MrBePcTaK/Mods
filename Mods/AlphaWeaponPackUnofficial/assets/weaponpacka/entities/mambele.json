@@ -1,0 +1,41 @@
+{
+	code: "mambele",
+	class: "EntityProjectile",
+	hitboxSize: { x: 0.5, y: 0.5 },
+	variantgroups: [
+		{ code: "material", states: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] },
+	],
+	client: {
+		renderer: "Shape",
+		shapeByType: {
+		"mambele-*": { base: "item/tool/mambele" }
+		},
+		texturesByType: {
+			"*": {
+			"iron": { base: "game:block/metal/anvil/{material}" },
+			}
+		},
+		behaviors: [
+			{ 
+				code: "passivephysics", 
+				groundDragFactor: 1,
+				airDragFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "interpolateposition" }
+		],
+	},
+	server: {
+		behaviors: [
+			{ 
+				code: "passivephysics", 
+				groundDragFactor: 1,
+				airDragFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "despawn", minSeconds: 1200 }
+		]
+	},
+	sounds: {
+	},
+}

@@ -1,0 +1,17 @@
+{
+	ingredient: { type: "item", code: "game:stone-*", name: "rock", allowedVariants: ["obsidian"] },
+	pattern: [[
+		"#__#__#___",
+		"##_##_##_#",
+		"#__#__#_##",
+		"_________#",
+		"#__#__#___",
+		"##_##_##__",
+		"#__#__#__#",
+		"________##",
+		"_#___#___#",
+		"###_###___",
+	]],
+	name: "Stone spear",
+	output: { type: "item", code: "throwingspearhead-{rock}", stacksize: 8  }
+}

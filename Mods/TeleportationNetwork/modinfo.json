@@ -1,0 +1,13 @@
+{
+	"type": "Code",
+	"name": "Teleportation Network",
+	"modid": "tpnet",
+	"version": "1.14.3",
+	"description": "Adds surface teleport network",
+	"website": "https://github.com/DArkHekRoMaNT/TeleportationNetwork",
+	"authors": ["DArkHekRoMaNT"],
+	"dependencies": {
+		"game": "1.19.0",
+		"commonlib": "2.3.0"
+	}
+}

@@ -1,0 +1,215 @@
+{
+	"enabled": false,
+	"code": "deadstrigopidae",
+	"class": "butcherable",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "male", "female", "baby" ]
+		},
+		{
+			"code": "state",
+			"states": [ "dead", "skinned", "bledout", "rotten" ]
+		}
+	],
+	"maxstacksize": 1,
+	"behaviors": [],
+	"texturesByType": {
+		"deadstrigopidae-male-dead": { "meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" } },
+		"deadstrigopidae-female-dead": { "meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" } },
+		"deadstrigopidae-baby-dead": { "meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" } },
+		"deadstrigopidae-male-skinned": {
+			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" }
+		},
+		"deadstrigopidae-female-skinned": {
+			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" }
+		},
+		"deadstrigopidae-baby-skinned": {
+			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" }
+		},
+		"deadstrigopidae-male-bledout": {
+			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" }
+		},
+		"deadstrigopidae-female-bledout": {
+			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" }
+		},
+		"deadstrigopidae-baby-bledout": {
+			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" }
+		},
+		"deadstrigopidae-male-rotten": {
+			"fur": { "base": "game:block/creature/rot/rot" },
+			"meat": { "base": "game:block/creature/rot/rot" }
+		},
+		"deadstrigopidae-female-rotten": {
+			"fur": { "base": "game:block/creature/rot/rot" },
+			"meat": { "base": "game:block/creature/rot/rot" }
+		},
+		"deadstrigopidae-baby-rotten": {
+			"fur": { "base": "game:block/creature/rot/rot" },
+			"meat": { "base": "game:block/creature/rot/rot" }
+		}
+	},
+	"attributesByType": {
+		"deadstrigopidae-male-*": {
+			"size": 0.5,
+			"weight": 0.02,
+			"bloodAmount": 50,
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:butchercreatures/genericsmall/small-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadstrigopidae-female-*": {
+			"size": 0.5,
+			"weight": 0.02,
+			"bloodAmount": 50,
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:butchercreatures/genericsmall/small-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadstrigopidae-baby-*": {
+			"size": 0.5,
+			"weight": 0,
+			"bloodAmount": 20,
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:butchercreatures/genericsmall/small-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+			],
+			"skinningRewards": [
+			]
+		}
+	},
+
+	"shapeByType": {
+		"deadstrigopidae-male-*": { "base": "butchering:butchercreatures/genericsmall/small-dead" },
+		"deadstrigopidae-female-*": { "base": "butchering:butchercreatures/genericsmall/small-dead" },
+		"deadstrigopidae-baby-*": { "base": "butchering:butchercreatures/genericsmall/small-dead" }
+
+	},
+	"storageFlagsbytype": {
+		"deadstrigopidae-baby-*": 2049,
+		"*-rotten": 1,
+		"*": 2050
+	},
+	"transitionablePropsByType": {
+		"*-rotten": [],
+		"*": [
+			{
+				"type": "perish",
+				"freshHours": {
+					"avg": 80
+				},
+				"transitionHours": {
+					"avg": 24
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "butchering:deadstrigopidae-{type}-rotten"
+				},
+				"transitionRatio": 1
+			}
+		]
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ]
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -20,
+			"y": 21,
+			"z": 180
+		},
+		"origin": {
+			"x": 0.53,
+			"y": 0.35,
+			"z": 0.5
+		},
+		"scale": 1,
+		"rotate": true
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -132,
+			"y": -180,
+			"z": -18
+		}
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.5,
+			"y": -0.3,
+			"z": -0.7
+		},
+		"rotation": {
+			"x": -89,
+			"y": -12,
+			"z": 3
+		},
+		"scale": 0.86
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 180,
+			"y": 33,
+			"z": -180
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 4.5
+	}
+}

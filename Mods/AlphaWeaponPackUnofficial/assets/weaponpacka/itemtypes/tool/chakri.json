@@ -1,0 +1,119 @@
+{
+	code: "chakri",
+	class: "ItemSpear",
+	damagedby: ["blockbreaking"],
+	tool: "spear",
+	maxstacksize: 880,
+	storageFlags: 513,
+	variantgroups: [
+		{ code: "material", states: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] },
+	],
+  behaviors: [{ name: "AnimationAuthoritative" }],
+	shapeByType: {
+		"*": { base: "item/tool/chakri" }
+	},
+	heldTpHitAnimation: "spearhit",
+	texturesByType: {
+		"*": {
+			"tinbronze": { base: "game:block/metal/anvil/{material}" },
+		}
+	},
+	attackRange: 2.1,
+	attackpowerbytype: {
+		
+		"*-copper": 1.5,
+		"*-bismuthbronze": 2,
+		"*-tinbronze": 2.2,
+		"*-blackbronze": 2.4,
+		
+		"*-iron": 3,
+		"*-meteoriciron": 3.25,
+		"*-steel": 4
+	},
+	tooltierbytype: {
+		"*-copper": 2,
+		"*-bismuthbronze": 3,
+		"*-tinbronze": 3,
+		"*-blackbronze": 3,
+		"*-iron": 4,
+		"*-meteoriciron": 4,
+		"*-steel": 5
+	},
+	damageTypeByType: {
+		"*": "PiercingAttack",
+	},
+	"__comment": "Thrown damage",
+	attributes: {
+		damageByType: {
+			"*-copper": 5.5,
+			"*-bismuthbronze": 7.6,
+			"*-tinbronze": 7.7,
+			"*-blackbronze": 8,
+			
+			"*-iron": 10,
+			"*-meteoriciron": 11,
+			"*-steel": 14
+		},
+		tooltierbytype: {
+			"*-copper": 2,
+			"*-bismuthbronze": 3,
+			"*-tinbronze": 3,
+			"*-blackbronze": 3,
+			"*-iron": 4,
+			"*-meteoriciron": 4,
+			"*-steel": 5
+		},
+		damageTypeByType: {
+		"*": "PiercingAttack",
+		},
+		breakChanceOnImpactByType: {
+			"*-copper": 0.05,
+			"*-bismuthbronze": 0.01,
+			"*-tinbronze": 0.01,
+			"*-blackbronze": 0.01,
+			
+			"*-iron": 0,
+			"*-meteoriciron": 0,
+			"*-steel": 0
+		},
+		spearEntityCode: "weaponpacka:chakri-{material}",
+		handbook: {
+			groupBy: ["throwingspear-*"]
+		},
+		toolrackTransformByType: {
+			"*": {
+				rotation: { x: 90, y: 1, z: -1 },
+				translation: { x: -0.2, y: 0.05, z: 0.5 },
+				scale: 1
+			}
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "alphaweaponpack": ["*"] },
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -75, y: 45, z: 25 },
+		origin: { x: 0.46, y: 0, z: 0.5 },
+		scale: 2.5
+	},
+	fpHandTransform: {
+		translation: { x: 0.2, y: 0.5, z: 0.16 },
+		rotation: { x: -85, y: 15, z: 95 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.25
+	},
+	groundTransformByType: {
+		"*":
+			{
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: 0, y: 0, z: 0 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 3.4
+			}
+	},
+	tpHandTransform: {
+		translation: { x: -0.98, y: -0.18, z: -0.7 },
+		rotation: { x: -81, y: 0, z: 0 },
+		origin: { x: 0.6, y: 0, z: 0.5 },
+		scale: 0.7
+	}
+}

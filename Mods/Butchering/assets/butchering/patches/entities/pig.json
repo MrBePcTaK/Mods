@@ -1,0 +1,56 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadpig-female-1-dead"
+    },
+    "file": "game:entities/land/pig-wild-female.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadpig-female-1-dead"
+    },
+    "file": "game:entities/land/pig-wild-female.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadpig-male-1-dead"
+    },
+    "file": "game:entities/land/pig-wild-male.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadpig-male-1-dead"
+    },
+    "file": "game:entities/land/pig-wild-male.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadpig-baby-1-dead"
+    },
+    "file": "game:entities/land/pig-wild-piglet.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadpig-baby-1-dead"
+    },
+    "file": "game:entities/land/pig-wild-piglet.json"
+  }
+]

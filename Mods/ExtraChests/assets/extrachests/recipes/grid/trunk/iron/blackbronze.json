@@ -1,0 +1,52 @@
+[
+  {
+    "ingredientPattern": "_P_,SCS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*",
+        "quantity": 2
+      },
+      "C": {
+        "type": "block",
+        "code": "trunk-east",
+        "attributes": { "type": "blackbronze" }
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron",
+        "quantity": 2
+      }
+    },
+    "recipeGroup": 1,
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "trunk-east",
+      "attributes": { "type": "iron" }
+    }
+  },
+  {
+    "ingredientPattern": "CU",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "trunk-east",
+        "attributes": { "type": "blackbronze" }
+      },
+      "U": {
+        "type": "item",
+        "code": "trunkupgrade-iron"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "trunk-east",
+      "attributes": { "type": "iron" }
+    }
+  }
+]

@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"backDropShape": "game:block/clay/bowl-empty-ground",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"salt": "game:block/food/meal/group4-rice-parsnip-whitecurrant",
+	},
+	"elements": [
+		{
+			"name": "bowl",
+			"from": [ 6.5, 0.0, 6.5 ], 
+			"to": [ 9.5, 1.0, 9.5 ], 
+			"faces": {
+				"north": { "texture": "#ceramic", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+				"east": { "texture": "#ceramic", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+				"south": { "texture": "#ceramic", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+				"west": { "texture": "#ceramic", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+				"up": { "texture": "#ceramic", "uv": [ 10.0, 2.0, 13.0, 5.0 ], "enabled": false },
+				"down": { "texture": "#ceramic", "uv": [ 5.0, 5.0, 8.0, 8.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "salt",
+					"from": [ -0.5, 1.8, -0.5 ], 
+					"to": [ 3.5, 2.3, 3.5], 
+					"faces": {
+						"north": { "texture": "#salt", "uv": [ 0.0, 6.0, 4.0, 6.5 ] },
+						"east": { "texture": "#salt", "uv": [ 0.0, 4.0, 4.0, 4.5 ] },
+						"south": { "texture": "#salt", "uv": [ 0.0, 5.0, 4.0, 5.5 ] },
+						"west": { "texture": "#salt", "uv": [ 0.0, 7.0, 4.0, 7.5 ] },
+						"up": { "texture": "#salt", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
+						"down": { "texture": "#salt", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "enabled": false }
+					}
+				},
+			]
+		}
+	]}

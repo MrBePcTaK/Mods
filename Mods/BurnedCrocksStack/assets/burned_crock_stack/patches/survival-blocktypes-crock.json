@@ -1,0 +1,19 @@
+[
+  {
+    "op": "remove",
+    "path": "/maxStackSizeByType/*",
+    "file": "game:blocktypes/clay/crock.json"
+  },
+  {
+    "op": "add",
+    "path": "/maxStackSizeByType/crock-burned-*",
+    "value": 4,
+    "file": "game:blocktypes/clay/crock.json"
+  },
+  {
+    "op": "add",
+    "path": "/maxStackSizeByType/*",
+    "value": 1,
+    "file": "game:blocktypes/clay/crock.json"
+  },
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "ingredientPattern": "_S_,SPS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-steel"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "chestupgrade-steel"
+    }
+  },
+  {
+    "ingredientPattern": "U",
+    "ingredients": {
+      "U": {
+        "type": "item",
+        "code": "trunkupgrade-steel"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "chestupgrade-steel",
+      "quantity": 2
+    }
+  }
+]

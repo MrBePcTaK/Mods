@@ -1,0 +1,39 @@
+{
+	"game:tabname-ABCSR": "ABSC Reborn",
+
+	"item-minibackpack": "ミニ・リネンバックパック",
+	"itemdesc-minibackpack": "籠(カゴ)、ロープ、亜麻のより糸、布で作る素適なミニ・バックパック。",
+	
+	"item-tallbackpack": "トール・リネンバックパック",
+	"itemdesc-tallbackpack": "大きな底面ポケットを備え、グレードアップしたミニ・バックパック。",
+	
+	"item-basicbackpack": "ベーシック・リネンバックパック",
+	"itemdesc-basicbackpack": "上部側面に2つのポケット、下部に1つの大きなポケットを備え、更にグレードアップしたトール・バックパック。",
+	
+	"item-superbackpack": "スーパー・リネンバックパック",
+	"itemdesc-superbackpack": "大きな底面ポケットを備え、グレードアップしたベーシック・バックパック。",
+
+	"item-megabackpack": "メガ・リネンバックパック",
+	"itemdesc-megabackpack": "大きな側面ポケットを2つ備え、更にグレードアップしスーパー・バックパック。",
+
+	"item-ultrabackpack": "ウルトラ・リネンバックパック",
+	"itemdesc-ultrabackpack": "大きなポケットを3つ備え、更にグレードアップしたメガ・バックパック。",
+	
+	"item-minileatherbackpack": "ミニ・レザーバックパック",
+	"itemdesc-minileatherbackpack": "グレードアップしたスタンダートなレザーバックパック。",
+	
+	"item-tallleatherbackpack": "トール・レザーバックパック",
+	"itemdesc-tallleatherbackpack": "側面に小さなポケットを4つ備え、グレードアップしたミニ・レザーバックパック。",
+	
+	"item-basicleatherbackpack": "ベーシック・レザーバックパック",
+	"itemdesc-basicleatherbackpack": "前面ポケットを2つ備え、グレードアップしたトール・レザーバックパック。",
+	
+	"item-superleatherbackpack": "スーパー・レザーバックパック",
+	"itemdesc-superleatherbackpack": "前面ポケットを2つ、上部ポケットを1つ備え、グレードアップしたベーシック・レザーバックパック。",
+	
+	"item-megaleatherbackpack": "メガ・レザーバックパック",
+	"itemdesc-megaleatherbackpack": "前面ポケットを2つ、上部ポケットを1つ、側面ポケットを2つ備え、グレードアップしたスーパー・レザーバックパック。",
+	
+	"item-ultraleatherbackpack": "ウルトラ・レザーバックパック",
+	"itemdesc-ultraleatherbackpack": "前面ポケットを2つ、上部ポケットを1つ、側面ポケットを2つ、大きな前面ポケットを1つ備え、グレードアップしたメガ・レザーバックパック。"
+}

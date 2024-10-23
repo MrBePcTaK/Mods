@@ -1,0 +1,110 @@
+[
+  {
+    "file": "game:blocktypes/plant/plaintreesapling",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [ { "name": "XSkillsSapling" } ]
+  },
+  {
+    "file": "game:blocktypes/plant/fruittreesapling",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [ { "name": "XSkillsSapling" } ]
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/log",
+    "op": "add",
+    "path": "/behaviorsByType/*-grown-*/-",
+    "value": {
+      "name": "XSkillsWood",
+      "properties": {
+        "xp": 0.4
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/log-section",
+    "op": "add",
+    "path": "/behaviorsByType/*-grown-*/-",
+    "value": {
+      "name": "XSkillsWood",
+      "properties": {
+        "xp": 0.25
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/bamboo",
+    "op": "add",
+    "path": "/behaviorsByType/bamboo-grown-*/-",
+    "value": {
+      "name": "XSkillsWood",
+      "properties": {
+        "xp": 0.2
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/leaves/normal",
+    "op": "add",
+    "path": "/behaviorsByType/*-grown*-*/-",
+    "value": {
+      "name": "XSkillsLeaves",
+      "properties": {
+        "xp": 0.01
+      }
+    }
+  },
+  //{
+  //  "file": "game:blocktypes/plant/leaves/fallen",
+  //  "op": "add",
+  //  "path": "/behaviorsByType/*-grown-*/-",
+  //  "value": {
+  //    "name": "XSkillsLeaves",
+  //    "properties": {
+  //      "xp": 0.01
+  //    }
+  //  }
+  //},
+  {
+    "file": "game:blocktypes/plant/leaves/narrow",
+    "op": "add",
+    "path": "/behaviorsByType/*-grown-*/-",
+    "value": {
+      "name": "XSkillsLeaves",
+      "properties": {
+        "xp": 0.01
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/leaves/branchy",
+    "op": "add",
+    "path": "/behaviorsByType/*-grown*-*/-",
+    "value": {
+      "name": "XSkillsLeaves",
+      "properties": {
+        "xp": 0.02
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/leaves/bamboo",
+    "op": "add",
+    "path": "/behaviorsByType/bambooleaves-grown/-",
+    "value": { "name": "XSkillsLeaves" }
+  },
+  {
+    "file": "game:blocktypes/charcoalpile",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "XSkillsCharcoal",
+        "properties": {
+          "xp": 0.125
+        }
+      }
+    ]
+  }
+]

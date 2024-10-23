@@ -1,0 +1,163 @@
+{
+	"enabled": false,
+	"code": "deadwhitehart",
+	"class": "butcherable",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "male" ]
+		},
+		{
+			"code": "state",
+			"states": [ "dead", "skinned", "bledout", "rotten" ]
+		}
+	],
+	"maxstacksize": 1,
+	"behaviors": [],
+	"texturesByType": {
+		"deadwhitehart-male-dead": { "meat": { "base": "butchering:item/butchercreatures/animalredmeatbloody" } },
+		"deadwhitehart-male-skinned": {
+			"fur": { "base": "butchering:item/butchercreatures/animalredmeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalredmeatbloody" }
+		},
+		"deadwhitehart-male-bledout": {
+			"fur": { "base": "butchering:item/butchercreatures/animalredmeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalredmeatbledout" }
+		},
+		"deadwhitehart-male-rotten": {
+			"fur": { "base": "game:block/creature/rot/rot" },
+			"meat": { "base": "game:block/creature/rot/rot" }
+		}
+	},
+	"attributesByType": {
+		"deadwhitehart-male-*": {
+			"size": 0.5,
+			"weight": 0.04,
+			"bloodAmount": 200,
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:butchercreatures/genericmedium/medium-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:primemeat-raw",
+					"quantity": {
+						"avg": 1.5,
+						"var": 0.5
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 1.5,
+						"var": 0.5
+					}
+				}
+			],
+			"skinningRewards": [
+			]
+		}
+	},
+
+	"shapeByType": {
+		"deadwhitehart-male-*": { "base": "butchering:butchercreatures/genericmedium/medium-dead" }
+	},
+	"storageFlagsbytype": {
+		"*-rotten": 1,
+		"*": 2050
+	},
+	"transitionablePropsByType": {
+		"*-rotten": [],
+		"*": [
+			{
+				"type": "perish",
+				"freshHours": {
+					"avg": 80
+				},
+				"transitionHours": {
+					"avg": 24
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "butchering:deadwhitehart-{type}-rotten"
+				},
+				"transitionRatio": 1
+			}
+		]
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ]
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -20,
+			"y": 21,
+			"z": 180
+		},
+		"origin": {
+			"x": 0.53,
+			"y": 0.35,
+			"z": 0.5
+		},
+		"scale": 1,
+		"rotate": true
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -132,
+			"y": -180,
+			"z": -18
+		}
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.5,
+			"y": -0.3,
+			"z": -0.7
+		},
+		"rotation": {
+			"x": -89,
+			"y": -12,
+			"z": 3
+		},
+		"scale": 0.86
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 180,
+			"y": 33,
+			"z": -180
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 4.5
+	}
+}

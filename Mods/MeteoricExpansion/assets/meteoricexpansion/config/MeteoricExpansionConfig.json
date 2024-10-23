@@ -1,0 +1,12 @@
+{
+  "Destructive": false,
+  "ClaimsProtected": true,
+  "MinimumMinutesBetweenMeteorSpawns": 10,
+  "MaximumMinutesBetweenMeteorSpawns": 60,
+  "MinimumSpawnDistanceInChunks": 2,
+  "MaximumSpawnDistanceInChunks": 24,
+  "MinimumMeteorLifespanInSeconds": 4,
+  "MaximumMeteorLifespanInSeconds": 20,
+  "MinimumCraterSmoulderTimeInMinutes": 2,
+  "MaximumCraterSmoulderTimeInMinutes": 10
+}

@@ -1,0 +1,145 @@
+{
+	"code": "temporalbutcherbox",
+	"class": "BlockTemporalButcherBox",
+	"entityClass": "TemporalButcherBox",
+	"attributes": {
+		"spoilSpeedMulByFoodCatBytype": {
+			"*-on-*": {
+				"protein": 0.2
+			},
+			"*-off-*": {
+			}
+		}
+	},
+	"variantGroups": [
+		{
+			"code": "state",
+			"states": [ "on", "off" ]
+		},
+		{
+			"code": "side",
+			"loadFromProperties": "abstract/horizontalorientation"
+		}
+	],
+	"behaviors": [
+		{ "name": "Container" },
+		{
+			"name": "HorizontalOrientable"
+		},
+		{
+			"name": "Multiblock",
+			"propertiesByType": {
+				"*": {
+					"sizex": 1,
+					"sizey": 2,
+					"sizez": 1,
+					"cposition": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					}
+				}
+			}
+		}
+	],
+	"creativeinventory": {
+		"general": [
+			"*-north"
+		],
+		"butchering": [
+			"*-north"
+		]
+	},
+	"shape": {
+		"base": "butcherymachines/temporalbutcherbox",
+		"rotateYByType": {
+			"*-north": 0,
+			"*-east": 270,
+			"*-south": 180,
+			"*-west": 90
+		}
+	},
+	"texturesByType": {
+		"temporalbutcherbox-off-*": { "iceboxtemporallightoff": { "base": "block/butchermachine/iceboxtemporallightoff" } },
+		"temporalbutcherbox-on-*": { "iceboxtemporallightoff": { "base": "block/butchermachine/iceboxtemporallighton" } }
+	},
+	"drawtype": "json",
+	"blockmaterial": "Metal",
+	"replaceable": 600,
+	"resistance": 5,
+	"heldTpIdleAnimation": "holdunderarm",
+	"heldTpUseAnimation": "twohandplaceblock",
+	"lightAbsorption": 0,
+	"vertexFlagsByType": {
+		"temporalbutcherbox-on-*": { "glowLevel": 20 },
+		"temporalbutcherbox-off-*": { "glowLevel": 0 }
+	},
+	"lightHsvByType": {
+		"temporalbutcherbox-on-*": [ 1, 0, 5 ],
+		"temporalbutcherbox-off-*": [ 0, 0, 0 ]
+	},
+	"sounds": {
+		"place": "game:block/metaldoor-place",
+		"break": "game:block/metaldoor-place",
+		"hit": "game:block/metaldoor-place"
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sideao": {
+		"all": true
+	},
+	"emitsideao": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"collisionbox": {
+		"x1": 0,
+		"y1": 0,
+		"z1": 0,
+		"x2": 1,
+		"y2": 1,
+		"z2": 1
+	},
+	"selectionbox": {
+		"x1": 0,
+		"y1": 0,
+		"z1": 0,
+		"x2": 1,
+		"y2": 1,
+		"z2": 1
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.4,
+			"y": -0.5,
+			"z": -0.7
+		},
+		"rotation": {
+			"x": 79,
+			"y": 10,
+			"z": -89
+		},
+		"scale": 0.48
+	},
+	"guiTransform": {
+		"translation": {
+			"x": -3,
+			"y": 11,
+			"z": 10
+		},
+		"rotation": {
+			"x": -19,
+			"y": -149,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.4,
+			"y": 0.6,
+			"z": 0.8
+		},
+		"scale": 0.7
+	}
+}

@@ -1,0 +1,188 @@
+[
+  {
+    "ingredientPattern": "_P_,SCS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*",
+        "quantity": 2
+      },
+      "C": {
+        "type": "block",
+        "code": "labeledtrunk-east",
+        "attributes": { "type": "copper" }
+
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-bismuthbronze",
+        "quantity": 2
+      }
+    },
+    "recipeGroup": 1,
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "bismuthbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "SC",
+    "ingredients": {
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      },
+      "C": {
+        "type": "block",
+        "code": "trunk-east",
+        "attributes": { "type": "bismuthbronze" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "bismuthbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CU",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "labeledtrunk-east",
+        "attributes": { "type": "copper" }
+      },
+      "U": {
+        "type": "item",
+        "code": "trunkupgrade-bismuthbronze"
+      }
+    },
+    "recipeGroup": 1,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "bismuthbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CU",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "trunk-east",
+        "attributes": { "type": "bismuthbronze" }
+      },
+      "U": {
+        "type": "item",
+        "code": "labelupgrade"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "bismuthbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "LL",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "bismuthbronze" }
+      }
+    },
+    "recipeGroup": 3,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "bismuthbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "bismuthbronze" }
+      },
+      "L": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "bismuthbronze" }
+      }
+    },
+    "recipeGroup": 3,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "bismuthbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CS",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "bismuthbronze" },
+        "quantity": 2
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      }
+    },
+    "recipeGroup": 3,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "bismuthbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CSC",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "bismuthbronze" }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      }
+    },
+    "recipeGroup": 3,
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "iron" }
+    }
+  }
+]

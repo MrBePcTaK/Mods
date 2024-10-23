@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DropResinAnyway/1.0.0": {
+        "runtime": {
+          "DropResinAnyway.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DropResinAnyway/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

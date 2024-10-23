@@ -1,0 +1,56 @@
+{
+	code: "throwingspear",
+	class: "EntityProjectile",
+	hitboxSize: { x: 0.15, y: 0.15 },
+	variantgroups: [
+		{ code: "material", states: ["obsidian", "flint", "bone", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] },
+	],
+	client: {
+		renderer: "Shape",
+		shapeByType: {
+		"throwingspear-*": { base: "item/tool/throwingspear-copper" }
+		},
+		texturesByType: {
+			"throwingspear-obsidian": {
+				"material": { base: "game:block/stone/rock/{material}1" },
+			},
+			"throwingspear-flint": {
+				"material": { base: "game:block/stone/{material}" },
+			},
+			"throwingspear-bone": {
+			"material": { base: "game:block/creature/bone-yellow" },
+			},
+			"throwingspear-steel": {
+			"material": { base: "game:block/metal/anvil/steel" },
+			},
+			"throwingspear-meteoriciron": {
+			"material": { base: "game:block/metal/anvil/meteoriciron" },
+			},
+			"*": {
+				"material": { base: "game:item/tool/material/{material}" },
+			}
+		},
+		behaviors: [
+			{ 
+				code: "passivephysics", 
+				groundDragFactor: 1,
+				airDragFactor: -20,
+				gravityFactor: 0
+			}, 
+			{ code: "interpolateposition" }
+		],
+	},
+	server: {
+		behaviors: [
+			{ 
+				code: "passivephysics", 
+				groundDragFactor: 1,
+				airDragFactor: -20,
+				gravityFactor: 0
+			}, 
+			{ code: "despawn", minSeconds: 10 }
+		]
+	},
+	sounds: {
+	},
+}

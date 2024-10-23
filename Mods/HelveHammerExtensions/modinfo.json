@@ -1,0 +1,12 @@
+{
+	"type": "Code",
+	"name": "Helve Hammer Extensions",
+	"modid": "helvehammerext",
+	"version": "1.6.0",
+	"description": "Automatic forging for most things!",
+	"authors": ["DArkHekRoMaNT"],
+	"dependencies": {
+		"game": "1.19.0-rc.5",
+		"commonlib": "2.3.0"
+	}
+}

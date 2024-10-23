@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "medievalexpansion",
+  "name": "Medieval Expansion",
+  "author": "Rhonen",
+  "description": "Medieval Expansion",
+  "version": "3.13.1",
+  "gameversions": [ "1.19.0" ],
+  "dependencies": {
+    "game": ""
+  }
+}

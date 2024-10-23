@@ -1,0 +1,208 @@
+[
+  {
+    "file": "game:entities/humanoid/trader-agriculture",
+    "op": "addmerge",
+    "path": "/attributes/tradeProps/selling/list",
+    "value": [{
+        "code": "xlib:skillbook-normal-darkgreen",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+            "avg": 1,
+            "var": 0
+        },
+        "price": {
+            "avg": 20,
+            "var": 0
+        },
+        "attributes": {
+          "skill": "farming"
+        }
+      },
+      {
+        "code": "xlib:skillbook-normal-cherryred",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+            "avg": 1,
+            "var": 0
+        },
+        "price": {
+            "avg": 20,
+            "var": 0
+        },
+        "attributes": {
+          "skill": "cooking"
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:entities/humanoid/trader-artisan",
+    "op": "addmerge",
+    "path": "/attributes/tradeProps/selling/list",
+    "value": [{
+        "code": "xlib:skillbook-normal-brickred",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+            "avg": 1,
+            "var": 0
+        },
+        "price": {
+            "avg": 20,
+            "var": 0
+        },
+        "attributes": {
+          "skill": "metalworking"
+        }
+      },
+      {
+        "code": "xlib:skillbook-normal-darkbeige",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+            "avg": 1,
+            "var": 0
+        },
+        "price": {
+            "avg": 20,
+            "var": 0
+        },
+        "attributes": {
+          "skill": "pottery"
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:entities/humanoid/trader-buildmaterials",
+    "op": "addmerge",
+    "path": "/attributes/tradeProps/selling/list",
+    "value": [{
+        "code": "xlib:skillbook-normal-orange",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+            "avg": 1,
+            "var": 0
+        },
+        "price": {
+            "avg": 20,
+            "var": 0
+        },
+        "attributes": {
+          "skill": "digging"
+        }
+      },
+      {
+        "code": "xlib:skillbook-normal-darkolive",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+            "avg": 1,
+            "var": 0
+        },
+        "price": {
+            "avg": 20,
+            "var": 0
+        },
+        "attributes": {
+          "skill": "forestry"
+        }
+      },
+      {
+        "code": "xlib:skillbook-normal-darkgray",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+            "avg": 1,
+            "var": 0
+        },
+        "price": {
+            "avg": 20,
+            "var": 0
+        },
+        "attributes": {
+          "skill": "mining"
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:entities/humanoid/trader-survivalgoods",
+    "op": "addmerge",
+    "path": "/attributes/tradeProps/selling/list",
+    "value": [{
+        "code": "xlib:skillbook-normal-olive",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+            "avg": 1,
+            "var": 0
+        },
+        "price": {
+            "avg": 20,
+            "var": 0
+        },
+        "attributes": {
+          "skill": "survival"
+        }
+      },
+      {
+        "code": "xlib:skillbook-normal-orangebrown",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+            "avg": 1,
+            "var": 0
+        },
+        "price": {
+            "avg": 20,
+            "var": 0
+        },
+        "attributes": {
+          "skill": "husbandry"
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:entities/humanoid/trader-treasurehunter",
+    "op": "addmerge",
+    "path": "/attributes/tradeProps/selling/list",
+    "value": [{
+        "code": "xlib:skillbook-normal-purpleorange",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+            "avg": 1,
+            "var": 0
+        },
+        "price": {
+            "avg": 20,
+            "var": 0
+        },
+        "attributes": {
+          "skill": "combat"
+        }
+      },
+      {
+        "code": "xlib:skillbook-normal-gray",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+            "avg": 1,
+            "var": 0
+        },
+        "price": {
+            "avg": 20,
+            "var": 0
+        },
+        "attributes": {
+          "skill": "temporaladaptation"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+{
+"ingredientPattern": "_C_,_FM,ZSR",
+	"ingredients": {
+	"C": {
+		"type": "item",
+		"code": "game:hammer-iron",
+		"quantity": 1,
+		"isTool": true,
+		"toolDurabilityCost": 100
+	},
+	"F": {
+		"type": "item",
+		"code": "game:chisel-iron",
+		"quantity": 1,
+		"isTool": true,
+		"toolDurabilityCost": 100
+	},
+		"S": {
+		"type": "item",
+		"code": "game:metalplate-iron",
+		"quantity": 3
+},
+			"Z": {
+		"type": "item",
+		"code": "game:ingot-titanium",
+		"quantity": 2
+},
+			"R": {
+		"type": "item",
+		"code": "tstools:fixer",
+		"quantity": 4
+},
+			"M": {
+		"type": "item",
+		"code": "game:gear-temporal",
+		"quantity": 1
+},
+
+
+
+	
+
+	},
+	"width": 3,
+	"height": 3,
+	"shapeless": false,
+	"output": { 
+		"type": "item", 
+		"code": "tstools:repear" },
+	"quantity": 1
+	
+}

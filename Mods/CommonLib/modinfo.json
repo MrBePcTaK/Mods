@@ -1,0 +1,11 @@
+{
+	"type": "Code",
+	"name": "CommonLib",
+	"modid": "commonlib",
+	"version": "2.5.0-rc.2",
+	"authors": ["DArkHekRoMaNT"],
+	"requiredOnServer": false,
+	"dependencies": {
+		"game": "1.19.4"
+	}
+}

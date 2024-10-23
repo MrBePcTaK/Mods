@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "modid": "hudclock",
+  "name": "HUD Clock",
+  "author": "Rhonen",
+  "description": "Visual extension for ingame date time,season and some other informations. Compatible with 1.18.7+",
+  "side": "client",
+  "version": "3.4.0",
+  "gameversions": [ "1.19.0" ],
+  "dependencies": {
+    "game": ""
+  }
+}

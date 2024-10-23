@@ -1,0 +1,34 @@
+{
+  "code": "meta",
+  "classByType": {
+    "@*-(water|lava|air)": "WorldGenReplaceMetaBlock"
+  },
+  "entityClassByType": {
+    "*-dome": "Dome"
+  },
+  "attributes": {
+    "handbook": {
+      "exclude": true
+    },
+    "worldGenReplaceByType": {
+      "*-water": "water-still-7",
+      "*-lava": "lava-still-7",
+      "*-air": "air"
+    }
+  },
+  "variantgroups": [{ "code": "type", "states": [ "teleport", "waterbarrier", "dome", "lava", "water" ]}],
+  "shape": { "base": "game:block/basic/cube" },
+  "drawtype": "cube",
+  "creativeinventory": { "meta": ["*"], "tpnet":  ["*"] },
+  "blockmaterial": "Meta",
+  "faceCullMode": "Merge",
+  "vertexFlags": { "zOffset": 7 },
+  "renderPass": "meta",
+  "replaceable": 900,
+  "lightAbsorption": 0,
+  "textures": { "all": { "base": "block/meta/{type}" }},
+  "resistance": 0.25,
+  "sideopaque": { "all": false },
+  "sidesolid": { "all": true },
+  "collisionbox": null
+}

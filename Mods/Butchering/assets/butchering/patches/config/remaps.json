@@ -1,0 +1,15 @@
+[
+  {
+    "file": "game:config/remaps.json",
+    "op": "add",
+    "path": "/butchering:Butchering",
+    "value": [
+      "/iir remapq butchering:smoked-none-bushmeat butchering:smoked-bushmeat force",
+      "/iir remapq butchering:smoked-none-redmeat butchering:smoked-redmeat force",
+
+      "/iir remapq game:arrow-flint butchering:arrow-bone force",
+
+      "/iir remapq butchering:butcherybag-primitive butchering:butcherybag force"
+    ]
+  }
+]

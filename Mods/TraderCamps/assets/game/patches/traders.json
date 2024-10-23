@@ -1,0 +1,113 @@
+[
+ {
+    "op": "replace",
+    "path": "/structures/18/buildProtected",
+    "value": false,
+    "file": "game:worldgen/structures.json",
+    "condition": {
+      "when": "LoneTraderSetup",
+	"isValue": "2" }
+ },
+ {
+    "op": "replace",
+    "path": "/structures/18/buildProtected",
+    "value": false,
+    "file": "game:worldgen/structures.json",
+    "condition": {
+      "when": "LoneTraderSetup",
+	"isValue": "4" }
+ },
+ {
+    "op": "replace",
+    "path": "/structures/18/chance",
+    "value": 0,
+    "file": "worldgen/structures.json",
+	"condition": {
+      "when": "LoneTraderSetup",
+	"isValue": "0" }
+ },
+ {
+    "op": "replace",
+    "path": "/structures/18/chance",
+    "value": 0.24,
+    "file": "worldgen/structures.json",
+	"condition": {
+      "when": "LoneTraderSetup",
+	"isValue": "1" }
+  },
+  {
+    "op": "replace",
+    "path": "/structures/18/chance",
+    "value": 0.24,
+    "file": "worldgen/structures.json",
+	"condition": {
+      "when": "LoneTraderSetup",
+	"isValue": "2" }
+  },
+  {
+    "op": "replace",
+    "path": "/structures/18/chance",
+    "value": 0.3,
+    "file": "worldgen/structures.json",
+	"condition": {
+      "when": "LoneTraderSetup",
+	"isValue": "3" }
+  },
+  {
+    "op": "replace",
+    "path": "/structures/18/chance",
+    "value": 0.3,
+    "file": "worldgen/structures.json",
+	"condition": {
+      "when": "LoneTraderSetup",
+	"isValue": "4" }
+  },
+  {
+    "op": "replace",
+    "path": "/structures/18/minGroupDistance",
+    "value": 900,
+    "file": "worldgen/structures.json",
+	"condition": {
+      "when": "LoneTraderSetup",
+	"isValue": "1" }
+  },
+  {
+    "op": "replace",
+    "path": "/structures/18/minGroupDistance",
+    "value": 900,
+    "file": "worldgen/structures.json",
+	"condition": {
+      "when": "LoneTraderSetup",
+	"isValue": "2" }
+  },
+  {
+    "op": "replace",
+    "path": "/structures/18/minGroupDistance",
+    "value": 750,
+    "file": "worldgen/structures.json",
+	"condition": {
+      "when": "LoneTraderSetup",
+	"isValue": "3" }
+  },
+  {
+    "op": "replace",
+    "path": "/structures/18/minGroupDistance",
+    "value": 750,
+    "file": "worldgen/structures.json",
+	"condition": {
+      "when": "LoneTraderSetup",
+	"isValue": "4" }
+  },
+  {
+    "op": "replace",
+    "path": "/structures/19/chance",
+    "value": 0,
+    "file": "worldgen/structures.json"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/20/chance",
+    "value": 0,
+    "file": "worldgen/structures.json"
+  }
+]

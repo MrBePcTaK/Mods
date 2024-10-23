@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "tarmor",
+  "name": "Titanium Armor",
+  "description": "Adds titanium armor and tools to create it",
+  "version": "0.2.2",
+  "authors": [ "AeroCooLEX" ],
+  "dependencies": {
+    "game": "1.19.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "code",
+  "modid": "xskills",
+  "name": "XSkills",
+  "authors": [ "Xandu" ],
+  "description": "Adds skills to the game.",
+  "website": "https://www.vintagestory.at/forums/topic/1720-xlib-and-xskills/",
+  "version": "0.8.8",
+  "dependencies": {
+    "game": "1.19.8",
+    "survival": "1.19.8",
+    "xlib": "0.8.6"
+  }
+}

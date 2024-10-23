@@ -1,0 +1,39 @@
+{
+	"game:tabname-ABCSR": "ABSC Reborn",
+    
+    "item-minibackpack": "Mini Mochila de Linho",
+    "itemdesc-minibackpack": "Mini mochila feita de um cesto, corda, fio de linho ou tecido",
+    
+    "item-tallbackpack": "Mochila de Linho Alta",
+    "itemdesc-tallbackpack": "Mini mochila melhorada com uma bolsa grande embaixo",
+    
+    "item-basicbackpack": "Mochila de Linho Básica",
+    "itemdesc-basicbackpack": "Mochila alta melhorada com 2 bolsas laterais superiores e uma bolsa grande embaixo",
+    
+    "item-superbackpack": "Super Mochila de Linho",
+    "itemdesc-superbackpack": "Mochila básica melhorada com uma bolsa grande embaixo",
+ 
+    "item-megabackpack": "Mega Mochila de Linho",
+    "itemdesc-megabackpack": "Super mochila melhorada com 2 bolsas laterais grandes",
+ 
+    "item-ultrabackpack": "Ultra Mochila de Linho",
+    "itemdesc-ultrabackpack": "Mega mochila melhorada com 3 bolsas grandes",
+    
+    "item-minileatherbackpack": "Mini Mochila de Couro",
+    "itemdesc-minileatherbackpack": "Mochila de caçador melhorada",
+    
+    "item-tallleatherbackpack": "Mochila de Couro Alta",
+    "itemdesc-tallleatherbackpack": "Mini mochila de couro melhorada com 4 bolsas laterais pequenas",
+    
+    "item-basicleatherbackpack": "Mochila de Couro Básica",
+    "itemdesc-basicleatherbackpack": "Mochila de couro alta melhorada com 2 bolsas frontais",
+    
+    "item-superleatherbackpack": "Super Mochila de Couro",
+    "itemdesc-superleatherbackpack": "Mochila de couro básica melhorada com 2 bolsas frontais e uma bolsa superior",
+    
+    "item-megaleatherbackpack": "Mega Mochila de Couro",
+    "itemdesc-megaleatherbackpack": "Super mochila de couro melhorada com 2 bolsas frontais, bolsa superior e 2 bolsas laterais",
+    
+    "item-ultraleatherbackpack": "Ultra Mochila de Couro",
+    "itemdesc-ultraleatherbackpack": "Mega mochila de couro melhorada com 2 bolsas frontais, bolsa superior e 2 bolsas laterais e uma bolsa frontal grande"
+}

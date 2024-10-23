@@ -1,0 +1,35 @@
+{
+"ingredientPattern": "N_N,SKS,_M_",
+	"ingredients": {
+	"N": {
+		"type": "item",
+		"code": "tstools:tstip",
+		"quantity": 1
+	},
+	"S": {
+		"type": "item",
+		"code": "tstools:fixer",
+		"quantity": 4
+	},
+		"K": {
+		"type": "item",
+		"code": "game:bladehead-short-iron",
+		"quantity": 1
+},
+		"M": {
+		"type": "item",
+		"code": "tstools:khandle",
+		"quantity": 1
+}
+	
+
+	},
+	"width": 3,
+	"height": 3,
+	"shapeless": false,
+	"output": { 
+		"type": "item", 
+		"code": "tstools:tssword" },
+	"quantity": 1
+	
+}

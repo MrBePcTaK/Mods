@@ -1,0 +1,74 @@
+{
+	code: "metalclub",
+	damagedby: ["attacking"],
+	tool: "sword",
+	class: "SlowSwordChargeFast",
+	attributes: {
+		handbook: { groupBy: ["metalclub-*"] },
+		groundStorageTransformByType: {
+			"*": {
+				translation: { x: 0.2, y: 0.8, z: 0 },
+				scale: 1.5
+			}
+		},
+		toolrackTransform: {
+			translation: { x: 0, y: 0.8, z: 0 },
+			scale: 1.5
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffYByType: {
+				"*": 2
+			},
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	},{ name: "AnimationAuthoritative" }],
+	variantgroups: [
+		{ code: "metal", states: ["lead"] },
+	],
+	shape: { base: "item/weapon/leadclub" },
+	heldTpHitAnimation: "smithing",
+	heldTpUseAnimation: "interactstatic",
+	attackRange: 2.3,
+	tooltierbytype: {
+		"*-lead": 2
+	},
+	attackpowerbytype: {
+		"*-lead": 3.5
+	},
+	durabilitybytype: {
+		"*-lead": 400
+	},
+	damageTypeByType: {
+		"*": "BluntAttack",
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "alphaweaponpack": ["*"] },
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -65, y: 55, z: 20 },
+		origin: { x: 0.3, y: -0.15, z: 0.55 },
+		scale: 2.5
+	},
+	fpHandTransform: {
+		translation: { x: -0.5, y: 0, z: 0 },
+		rotation: { x: 15, y: 10, z: 90 },
+		origin: { x: 0.6, y: 0.5, z: 0.5 },
+		scale: 3
+	},
+	tpHandTransform: {
+		translation: { x: -1.05, y: -0.5, z: -0.05 },
+		rotation: { x: 90, y: 0, z: 0 },
+		scale: 0.95
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.4, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 4
+	}
+}

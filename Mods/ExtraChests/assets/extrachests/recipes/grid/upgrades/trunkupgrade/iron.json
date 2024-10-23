@@ -1,0 +1,55 @@
+[
+  {
+    "ingredientPattern": "SSS,SPS,SSS",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "trunkupgrade-iron"
+    }
+  },
+  {
+    "ingredientPattern": "UU",
+    "ingredients": {
+      "U": {
+        "type": "item",
+        "code": "chestupgrade-iron"
+      }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "trunkupgrade-iron"
+    }
+  },
+  {
+    "ingredientPattern": "U",
+    "ingredients": {
+      "U": {
+        "type": "item",
+        "code": "chestupgrade-iron",
+        "quantity": 2
+      }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "trunkupgrade-iron"
+    }
+  }
+]

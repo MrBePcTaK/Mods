@@ -1,0 +1,52 @@
+[
+	{
+		"ingredientPattern": "MMK,MM_",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "needle-bone-kit",
+				"quantity": 1,
+				"istool": true,
+				"durabilityloss": 12
+			},
+			"M": {
+				"type": "item",
+				"code": "game:leather-plain",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "item",
+			"code": "game:sewingkit",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "MMK,MMM",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "needle-bone-kit",
+				"quantity": 1,
+				"istool": true,
+				"durabilityloss": 12
+			},
+			"M": {
+				"type": "item",
+				"code": "sinew-dry",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 3,
+		"output": {
+			"type": "item",
+			"code": "game:sewingkit",
+			"quantity": 1
+		}
+	}
+]

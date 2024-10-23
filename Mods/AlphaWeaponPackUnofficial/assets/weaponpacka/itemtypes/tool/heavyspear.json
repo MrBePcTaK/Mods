@@ -1,0 +1,93 @@
+{
+	code: "polespear",
+	class: "SlowSpearChargeFast",
+	damagedby: ["attacking"],
+	tool: "spear",
+	attributes: {
+		handbook: { groupBy: ["polespear"] },
+		toolrackTransform: {
+				translation: { x: -0.2, y: 0.5, z: 0 },
+				rotation: { x: 0, y: 1, z: -1 }
+			},
+		groundStorageTransformByType: {
+			"*": {
+				translation: { x: 0, y: 0.3, z: 0.32 },
+				rotation: { x: 16, y: 90, z: 90 },
+				scale: 0.85
+			}
+		},
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 2,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	},{ name: "AnimationAuthoritative" }],
+	variantgroups: [
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	],
+	shape: { base: "item/weapon/pike1" },
+	heldTpHitAnimation: "spearhit",
+	heldTpUseAnimation: "interactstatic",
+	textures: { "iron": { base: "game:block/metal/anvil/{metal}" } },
+	attackRange: 4,
+	tooltierbytype: {
+		"*-copper": 3,
+		"*-bismuthbronze": 4,
+		"*-tinbronze": 4,
+		"*-blackbronze": 4,
+		"*-iron": 5,
+		"*-meteoriciron": 5,
+		"*-steel": 6
+	},
+	attackpowerbytype: {
+		"*-copper": 4,
+		"*-tinbronze": 5,
+		"*-bismuthbronze": 5,
+		"*-blackbronze": 5,
+		"*-iron": 6.5,
+		"*-meteoriciron": 7,
+		"*-steel": 8.5
+	},
+	durabilitybytype: {
+		"*-copper": 480,
+		"*-tinbronze": 640,
+		"*-bismuthbronze": 650,
+		"*-blackbronze": 660,
+		"*-iron": 980,
+		"*-meteoriciron": 1120,
+		"*-steel": 1960
+	},
+	damageTypeByType: {
+		"*": "PiercingAttack",
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "alphaweaponpack": ["*"] },
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -50, y: 42, z: -10 },
+		origin: { x: 1.4, y: 0.5, z: 0.26 },
+		scale: 3
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -85, y: 70, z: 90 },
+		origin: { x: 0.5, y: 0, z: 0.3 },
+		scale: 3.5
+	},
+	tpHandTransform: {
+		translation: { x: -1.65, y: -0.01, z: -0.5899 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.6, y: 0, z: 0.5 },
+		scale: 0.8
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.4
+	}
+}

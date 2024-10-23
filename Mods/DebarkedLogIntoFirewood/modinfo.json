@@ -1,0 +1,10 @@
+{
+    "type": "content",
+    "modid": "debarkedlogintofirewood",
+    "name": "DebarkedLogIntoFirewood",
+    "authors": [
+        "NemaxuswarZet"
+    ],
+    "description": "Simple mod to allow you craft firewood from debarked logs",
+    "version": "1.0.0"
+}

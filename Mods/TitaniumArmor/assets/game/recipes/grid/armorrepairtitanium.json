@@ -1,0 +1,63 @@
+[
+    {
+        "ingredientPattern": "_IL,HAC",
+        "width": 3,
+        "height": 2,
+        "ingredients": {
+            "A": { "type": "item", "code": "game:armor-head-*-titanium", name: "type", allowedVariants: ["chain"]},
+            "I": { "type": "item", "code": "game:metalplate-titanium", quantity: 2},
+            "L": { "type": "item", "code": "game:leather-plain", quantity: 3},
+            "H": { "type": "item", "code": "game:hammer-*", isTool: true, allowedVariants: ["steel"]},
+            "C": { "type": "item", "code": "game:chisel-*", isTool: true, allowedVariants: ["steel"]}
+        },
+		averageDurability: false,
+        name: "{type} helmet",
+        "output": { "type": "item", "code": "game:armor-head-{type}-titanium"}
+    },
+    {
+        "ingredientPattern": "_IL,HAC",
+        "width": 3,
+        "height": 2,
+        "ingredients": {
+            "A": { "type": "item", "code": "game:armor-body-*-titanium", name: "type", allowedVariants: ["chain"]},
+            "I": { "type": "item", "code": "game:metalplate-titanium", quantity: 2},
+            "L": { "type": "item", "code": "game:leather-plain", quantity: 5},
+            "H": { "type": "item", "code": "game:hammer-*", isTool: true, allowedVariants: ["steel"]},
+            "C": { "type": "item", "code": "game:chisel-*", isTool: true, allowedVariants: ["steel"]}
+        },
+		averageDurability: false,
+        name: "{type} body armor",
+        "output": { "type": "item", "code": "game:armor-body-{type}-titanium"}
+    },
+    {
+        "ingredientPattern": "_IL,HAC",
+        "width": 3,
+        "height": 2,
+        "ingredients": {
+            "A": { "type": "item", "code": "game:armor-legs-*-titanium", name: "type", allowedVariants: ["chain"]},
+            "I": { "type": "item", "code": "game:metalplate-titanium", quantity: 2},
+            "L": { "type": "item", "code": "game:leather-plain", quantity: 4},
+            "H": { "type": "item", "code": "game:hammer-*", isTool: true, allowedVariants: ["steel"]},
+            "C": { "type": "item", "code": "game:chisel-*", isTool: true, allowedVariants: ["steel"]}
+        },
+		averageDurability: false,
+        name: "{type} leg armor",
+        "output": { "type": "item", "code": "game:armor-legs-{type}-titanium"}
+    },
+	{
+     "ingredientPattern": "_IL,HAC",
+        "width": 3,
+        "height": 2,
+        "ingredients": {
+            "A": { "type": "item", "code": "game:armor-body-plate-titanium"},
+            "I": { "type": "item", "code": "game:metalplate-titanium", quantity: 2},
+            "L": { "type": "item", "code": "game:leather-plain", quantity: 5},
+            "H": { "type": "item", "code": "game:hammer-*", isTool: true, allowedVariants: ["steel"]},
+            "C": { "type": "item", "code": "game:chisel-*", isTool: true, allowedVariants: ["steel"]}
+        },
+		averageDurability: false,
+        name: "{type} leg armor",
+        "output": { "type": "item", "code": "game:armor-body-plate-titanium"}
+	
+	}
+]

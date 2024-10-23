@@ -1,0 +1,47 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"aged": "game:block/wood/debarked/aged"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.7, 7.7 ], 
+			"to": [ 8.0, 0.7, 7.7 ], 
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#tinbronze", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "enabled": false },
+				"west": { "texture": "#tinbronze", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "enabled": false },
+				"up": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#tinbronze", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "hilt",
+					"from": [ -7.0, -0.1, -1.4 ], 
+					"to": [ 6.0, 0.7, 2.0 ], 
+					"autoUnwrap": false,
+					"uv": [ 8.0, 1.0 ],
+					"rotationOrigin": [ -7.0, -0.1, -1.4 ],
+					"faces": {
+						"north": { "texture": "#aged", "uv": [ 1.0, 15.0, 14.0, 15.5 ] },
+						"east": { "texture": "#aged", "uv": [ 0.0, 11.5, 3.0, 12.0 ] },
+						"south": { "texture": "#aged", "uv": [ 2.0, 14.5, 15.0, 15.0 ] },
+						"west": { "texture": "#aged", "uv": [ 5.5, 13.5, 8.5, 14.0 ] },
+						"up": { "texture": "#aged", "uv": [ 7.0, 1.5, 10.0, 14.5 ], "rotation": 90 },
+						"down": { "texture": "#aged", "uv": [ 7.0, 1.5, 10.0, 14.5 ], "rotation": 90 }
+					}
+				}
+			]
+		}
+	]}

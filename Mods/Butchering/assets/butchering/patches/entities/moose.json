@@ -1,0 +1,28 @@
+[
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-moose-*-adult": "butchering:deadmoose-male-adult-dead",
+        "*-baby": "butchering:deadmoose-male-baby-dead"
+      }
+    },
+    "file": "game:entities/land/hooved/moose.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-moose-*-adult": "butchering:deadmoose-male-adult-dead",
+        "*-baby": "butchering:deadmoose-male-baby-dead"
+      }
+    },
+    "file": "game:entities/land/hooved/moose.json"
+  }
+]

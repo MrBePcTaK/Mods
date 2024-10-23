@@ -1,0 +1,28 @@
+{
+     "code": "thandle",
+	 "creativeinventory": { "general": ["*"], "tools": ["*"], "tstools": ["*"] },
+	 "textures": {
+		 "titan-tip":{ "base": "tstools:item/handel-k" }
+	 },
+	
+	"shape": { "base": "tstools:item/thandle" },
+	 "maxstacksize": 8,
+	"fpHandTransform": { "rotation": { x: 180, y: -52, z: -80 },
+						"scale": 2.28},
+	"tpHandTransform": { "translation": { x: -0.09, y: -0.15, z: 0.5 },
+						"rotation": { x: -180, y: -176, z: -170 },
+						"origin": { x: 0, e: 0.5, z: 0 },
+						"scale": 0.7},
+	"guiTransform": { "translation": { x: -2, y: 3, z: 97 },
+						"rotation": { x: 50, y: 56, z: 65 },
+						"origin": { x: 0, y: -0.8, z: 0 },
+						"scale": 1.56},
+	"groundTransform": { "translation": { x: 0, y: -0.05, z: 0},
+						"rotation": { x: 99, y: -117, z: 0 },
+						"origin": { x: 0.5, y: 0.5, z: 0.5299 },
+						"scale": 3.98}
+	
+	
+	                          
+	 
+}

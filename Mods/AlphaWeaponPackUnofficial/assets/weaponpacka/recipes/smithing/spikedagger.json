@@ -1,0 +1,10 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"___#______",
+		"##########",
+		"___#______",
+	]],
+	name: "spikedagger",
+	output: { type: "item", code: "spikedagger-{metal}", quantity: 1  }
+}

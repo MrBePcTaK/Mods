@@ -1,0 +1,34 @@
+[{
+    "op": "add",
+    "path": "/villageTypes/-",
+    "value": {
+      "code": "battleground",
+      "chance": 0.0008,
+			"generator": "CloselyGrouped",
+			"minGroupDistance": 1000,
+			"quantityStructures": { avg: 7, var: 3 },
+		"schematics": [
+				{ path: "battleground/battlefield-locusts", weight: 70 },
+				{	path: "battleground/battlefield-trunk", weight: 40 },
+				{	path: "battleground/battleground-banner-fish", weight: 40 },
+				{	path: "battleground/battleground-banner-keys", weight: 40 },
+				{	path: "battleground/battleground-supplies", weight: 25 },
+				{	path: "battleground/brass-staff", weight: 75 },
+				{	path: "battleground/copper-shield", weight: 50 },
+				{	path: "battleground/dead-eidolon", weight: 45 },
+				{	path: "battleground/dirt-cube", weight: 40 },
+				{	path: "battleground/giant-belt", weight: 40 },
+				{	path: "battleground/obsidian-sword", weight: 70 },
+				{	path: "battleground/last-stand", weight: 90 }
+				
+      ],
+			"buildProtected": false,
+			"minTemp": -10,
+			"maxY": 0.8
+			
+    },
+    "file": "worldgen/villages.json"
+  }
+
+]
+

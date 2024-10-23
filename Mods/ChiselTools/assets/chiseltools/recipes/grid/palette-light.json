@@ -1,0 +1,65 @@
+[
+  {
+    ingredientPattern: "CMF	_L_",
+    ingredients: {
+      "C": {type: "item",code: "game:quicklime","quantity": 4},
+      "M": {type: "item",code: "game:fruit-*","quantity": 64},
+      "F": {type: "item",code: "game:ingot-cupronickel"},
+      "L": {"type": "block","code": "game:lantern-up","quantity": 8}
+    },
+
+    width: 3,
+    height: 2,
+
+    name: "Lighting Palette From Fruit",
+    
+    output: {
+      type: "item",
+      code: "palette-light"
+    }
+  },
+  {
+    ingredientPattern: "CMF	_L_",
+    ingredients: {
+      "C": {type: "item",code: "game:quicklime","quantity": 4},
+      "M": {type: "item",code: "game:vegetable-*","quantity": 32},
+      "F": {type: "item",code: "game:ingot-cupronickel"},
+      "L": {"type": "block","code": "game:lantern-up","quantity": 8}
+    },
+
+    width: 3,
+    height: 2,
+
+    name: "Lighting Palette From Veg",
+    
+    output: {
+      type: "item",
+      code: "palette-light"
+    }
+  },
+  {
+    ingredientPattern: "CMF	_L_",
+    ingredients: {
+      "C": {type: "item",code: "game:quicklime","quantity": 4},
+      "M": {type: "block",code: "game:woodbucket"},
+      "F": {type: "item",code: "game:ingot-cupronickel"},
+      "L": {"type": "block","code": "game:lantern-up","quantity": 8}
+    },
+
+    width: 3,
+    height: 2,
+    attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "dye-white" },
+				requiresLitres: 10,
+				consumeContainer: false
+			}
+		},
+    name: "Lighting Palette From Ink",
+    
+    output: {
+      type: "item",
+      code: "palette-light"
+    }
+  }
+]

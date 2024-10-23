@@ -1,0 +1,24 @@
+{
+"ingredientPattern": "N,S",
+	"ingredients": {
+	"N": {
+		"type": "item",
+		"code": "tstools:cshead",
+		"quantity": 1
+	},
+	"S": {
+		"type": "item",
+		"code": "tstools:thandle",
+		"quantity": 1
+	}
+		
+},
+	"width": 1,
+	"height": 2,
+	"shapeless": false,
+	"output": { 
+		"type": "item", 
+		"code": "tstools:coppersword" },
+	"quantity": 1
+	
+}

@@ -1,0 +1,13 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"____####__",
+		"_########_",
+		"_______###",
+		"___####___",
+		"########__",
+		"______###_",
+	]],
+	name: "harvestknifehead",
+	output: { type: "item", code: "harvestknifehead-{metal}", quantity: 2  }
+}

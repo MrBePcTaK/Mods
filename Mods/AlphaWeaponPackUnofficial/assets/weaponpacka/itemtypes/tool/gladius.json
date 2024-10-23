@@ -1,0 +1,85 @@
+{
+	code: "gladius",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "sword",
+	class: "NormalSwordChargeNone",
+	attributes: {
+		handbook: { groupBy: ["gladius"] },
+		toolrackTransform: {
+			translation: { x: -0.75, y: 0.6, z: 0 },
+			rotation: { x: 0, y: -180, z: 0 },
+			scale: 1.25
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.09, z: -0.13 },
+			rotation: { x: -65, y: -90, z: 0 },
+			scale: 0.85
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	},{ name: "AnimationAuthoritative" }],
+	variantgroups: [
+		{ code: "metal", states: ["tinbronze", "bismuthbronze", "blackbronze"] },
+	],
+	shape: { base: "item/weapon/spatha" },
+	heldTpHitAnimation: "falx",
+	heldTpUseAnimation: "interactstatic",
+	textures: { "tinbronze": { base: "game:block/metal/anvil/{metal}" } },
+	attackRange: 2.6,
+	tooltierbytype: {
+		"*-bismuthbronze": 2,
+		"*-tinbronze": 2,
+		"*-blackbronze": 2
+	},
+	attackpowerbytype: {
+		"*-bismuthbronze": 5,
+		"*-tinbronze": 5,
+		"*-blackbronze": 5
+	},
+	durabilitybytype: {
+		"*-tinbronze": 720,
+		"*-bismuthbronze": 735,
+		"*-blackbronze": 750
+	},
+	damageTypeByType: {
+		"*": "SlashingAttack",
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "alphaweaponpack": ["*"] },
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -60, y: 55, z: 15 },
+		origin: { x: 1, y: 0.32, z: 0.36 },
+		scale: 1.25
+	},
+	fpHandTransform: {
+		translation: { x: -0.35, y: -0.1, z: 0 },
+		rotation: { x: -167, y: 174, z: -92 },
+		origin: { x: 0.5, y: 0.6, z: 0.5 },
+		scale: 2.25
+	},	
+	fpHandTransform: {
+		translation: { x: -0.35, y: -0.1, z: 0 },
+		rotation: { x: -167, y: 174, z: -92 },
+		origin: { x: 0.5, y: 0.6, z: 0.5 },
+		scale: 2.25
+	},
+	tpHandTransform: {
+		translation: { x: -1.33, y: -0.73, z: -0.23 },
+		rotation: { x: 90, y: 0, z: 0 },
+		scale: 0.7
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.5, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 5.25
+	}
+}

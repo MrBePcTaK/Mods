@@ -1,0 +1,37 @@
+{
+	code: "haleberdhead",
+	attributes: {},
+	variantgroups: [
+		{ code: "metal", states: [ "iron", "meteoriciron", "steel" ] },
+	],
+	shape: { base: "item/head/halberdhead" },
+	textures: {
+		"iron": { base: "game:block/metal/anvil/{metal}" }, 
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "alphaweaponpack": ["*"] },
+	maxstacksize: 32,
+	materialDensity: 2500,
+	guiTransform: {
+		translation: { x: 0, y: 0, z: -20 },
+		rotation: { x: -180, y: -30, z: 140 },
+		origin: { x: 1.1, y: 0, z: 0.5 },
+		scale: 2
+	},
+	fpHandTransform: {
+		translation: { x: 2.6, y: -1.8, z: -1 },
+		rotation: { x: 180, y: -104, z: -88 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 3.5
+	},
+	tpHandTransform: {
+		translation: { x: -0.74, y: -1.34, z: -0.9 },
+		rotation: { x: 0, y: -180, z: 180 },
+		scale: 0.51
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.02, z: 0 },
+		rotation: { x: 90, y: 0, z: 0 },
+		origin: { x: 1, y: 0, z: 0.5 },
+		scale: 4
+	}
+}

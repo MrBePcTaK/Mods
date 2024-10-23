@@ -1,0 +1,227 @@
+[
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "tlhidden1",
+      "chance": 30,
+      "placement": "underground",
+      "schematics": [
+        "underground/tlhidden1"
+      ]
+    },
+    "file": "worldgen/structures.json"
+  },
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "underggranite1",
+      "chance": 5,
+      "placement": "underground",
+      "schematics": [
+        "underground/underggranite1"
+      ]
+    },
+    "file": "worldgen/structures.json"
+  },
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "underggranite2",
+      "chance": 60,
+      "placement": "underground",
+      "schematics": [
+        "underground/underggranite2"
+      ]
+    },
+    "file": "worldgen/structures.json"
+  },
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "undergmarble1",
+      "chance": 15,
+      "placement": "underground",
+      "schematics": [
+        "underground/undergmarble1"
+      ]
+    },
+    "file": "worldgen/structures.json"
+  },
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "undergmarble2",
+      "chance": 25,
+      "placement": "underground",
+      "schematics": [
+        "underground/undergmarble2"
+      ]
+    },
+    "file": "worldgen/structures.json"
+  },
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "undertrader1",
+      "chance": 20,
+      "placement": "underground",
+      "schematics": [
+        "underground/undertrader1"
+      ],
+			"buildProtected": true,
+			"buildProtectionName": "Trader",
+			"buildProtectionDesc": "Trader Perimeter",
+    },
+    "file": "worldgen/structures.json"
+  },
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "underggranite3",
+      "chance": 90,
+      "placement": "underground",
+      "schematics": [
+        "underground/underggranite3"
+      ]
+    },
+    "file": "worldgen/structures.json"
+  },
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "undergclaystone1",
+      "chance": 10,
+      "placement": "underground",
+      "schematics": [
+        "underground/undergclaystone1"
+      ]
+    },
+    "file": "worldgen/structures.json"
+  },
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "undergpreta1",
+      "chance": 0.05,
+      "placement": "underground",
+      "schematics": [
+        "underground/undergpreta1"
+      ],
+			"origin": "MiddleCenter",
+    },
+    "file": "worldgen/structures.json"
+  },
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "underggranite4",
+      "chance": 12,
+      "placement": "underground",
+      "schematics": [
+        "underground/underggranite4"
+      ]
+    },
+    "file": "worldgen/structures.json"
+  },
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "underggranite5",
+      "chance": 50,
+      "placement": "underground",
+      "schematics": [
+        "underground/underggranite5"
+      ]
+    },
+    "file": "worldgen/structures.json"
+  },
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "undergwallpaper1",
+      "chance": 4,
+      "placement": "underground",
+      "schematics": [
+        "underground/undergwallpaper1"
+      ]
+    },
+    "file": "worldgen/structures.json"
+  },
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "undergbasalt1",
+      "chance": 8,
+      "placement": "underground",
+      "schematics": [
+        "underground/undergbasalt1"
+      ]
+    },
+    "file": "worldgen/structures.json"
+  },
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "tldouble1",
+      "chance": 14,
+      "placement": "underground",
+      "schematics": [
+        "underground/tldouble1"
+      ]
+    },
+    "file": "worldgen/structures.json"
+  },
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "belltrap",
+      "chance": 15,
+      "placement": "underground",
+      "schematics": [
+        "underground/belltrap"
+      ]
+    },
+    "file": "worldgen/structures.json"
+  },
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "transloc",
+      "chance": 10,
+      "placement": "underground",
+      "schematics": [
+        "underground/transloc"
+      ]
+    },
+    "file": "worldgen/structures.json"
+  },
+	{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "giant-laboratory",
+      "chance": 20,
+      "placement": "underground",
+      "schematics": [
+        "underground/giant-laboratory"
+      ]
+    },
+    "file": "worldgen/structures.json"
+  }
+]

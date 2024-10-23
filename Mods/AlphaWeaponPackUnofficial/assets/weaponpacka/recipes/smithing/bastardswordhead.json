@@ -1,0 +1,10 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"____###########_",
+		"################",
+		"____###########_",
+	]],
+	name: "bastardswordhead",
+	output: { type: "item", code: "bastardswordhead-{metal}"  }
+}

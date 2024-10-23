@@ -1,0 +1,41 @@
+{
+	code: "chakri",
+	class: "EntityProjectile",
+	hitboxSize: { x: 0.65, y: 0.250 },
+	variantgroups: [
+		{ code: "material", states: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] },
+	],
+	client: {
+		renderer: "Shape",
+		shapeByType: {
+		"*": { base: "item/tool/chakri" }
+		},
+		texturesByType: {
+			"*": {
+				"tinbronze": { base: "game:block/metal/anvil/{material}" },
+			}
+		},
+		behaviors: [
+			{ 
+				code: "passivephysics", 
+				groundDragFactor: 1,
+				airDragFactor: 1.25,
+				gravityFactor: 0.1
+			}, 
+			{ code: "interpolateposition" }
+		],
+	},
+	server: {
+		behaviors: [
+			{ 
+				code: "passivephysics", 
+				groundDragFactor: 1,
+				airDragFactor: 1.25,
+				gravityFactor: 0.1
+			}, 
+			{ code: "despawn", minSeconds: 600 }
+		]
+	},
+	sounds: {
+	},
+}

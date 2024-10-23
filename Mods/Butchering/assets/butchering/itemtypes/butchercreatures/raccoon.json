@@ -1,0 +1,170 @@
+{
+	"code": "deadraccoon",
+	"class": "butcherable",
+	"variantgroups": [
+		{ "code": "type", "states": [ "male", "female", "baby"] },
+		{ "code": "state", "states": [ "dead", "skinned", "bledout", "rotten" ] }
+	],
+	"maxstacksize": 1,
+	"behaviors": [{ "name": "GroundStorable", "properties": { "layout": "SingleCenter", "collisionBox": { "x1": 0.2, "y1": 0, "z1": 0.2, "x2": 0.8, "y2": 0.5, "z2": 0.8 }}}],
+	"texturesByType": { 
+		"deadraccoon-male-dead": { "raccoon": { "base": "game:entity/raccoon/raccoon-male1" } },
+		"deadraccoon-female-dead": { "raccoon": { "base": "game:entity/raccoon/raccoon-female1" } },
+		"deadraccoon-baby-dead": { "pup": { "base": "game:entity/raccoon/raccoon-pup1" } },
+		"deadraccoon-male-skinned": { "raccoon": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" } },
+		"deadraccoon-female-skinned": { "raccoon": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" } },
+		"deadraccoon-baby-skinned": { "pup": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" } },
+		"deadraccoon-male-bledout": { "raccoon": { "base": "butchering:item/butchercreatures/animalbushmeatbledout" } },
+		"deadraccoon-female-bledout": { "raccoon": { "base": "butchering:item/butchercreatures/animalbushmeatbledout" } },
+		"deadraccoon-baby-bledout": { "pup": { "base": "butchering:item/butchercreatures/animalbushmeatbledout" } },
+		"deadraccoon-male-rotten": { "raccoon": { "base": "game:block/creature/rot/rot" } },
+		"deadraccoon-female-rotten": { "raccoon": { "base": "game:block/creature/rot/rot" } },
+		"deadraccoon-baby-rotten": { "pup": { "base": "game:block/creature/rot/rot" } }
+	},
+	"attributesByType": {
+		"deadraccoon-male-*": {
+			"size": 0.5,
+			"weight": 0.02,
+			"bloodAmount": 50,
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:butchercreatures/raccoon/raccoon-male-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:sinew-wet",
+					"quantity": {
+						"avg": 1,
+						"var": 0.2
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 1,
+						"var": 0.2
+					}
+				}
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadraccoon-female-*": {
+			"size": 0.5,
+			"weight": 0.02,
+			"bloodAmount": 50,
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:butchercreatures/raccoon/raccoon-female-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:sinew-wet",
+					"quantity": {
+						"avg": 1,
+						"var": 0.2
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 1,
+						"var": 0.2
+					}
+				}
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadraccoon-baby-*": {
+			"size": 0.5,
+			"weight": 0,
+			"bloodAmount": 10,
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:butchercreatures/raccoon/raccoon-pup-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+			],
+			"skinningRewards": [
+			]
+		}
+	},
+	
+	"shapeByType": {
+		 "deadraccoon-male-*": { "base": "butchercreatures/raccoon/raccoon-male-dead" },
+		 "deadraccoon-female-*": { "base": "butchercreatures/raccoon/raccoon-female-dead" },
+		 "deadraccoon-baby-*": { "base": "butchercreatures/raccoon/raccoon-pup-dead" }
+
+	},
+	"storageFlagsbytype": {
+		"deadraccon-baby-*": 2049,
+		"*-rotten": 1,
+		"*": 2049
+	},
+    "transitionablePropsByType": {
+		"*-rotten": [],
+		"*": [
+			{
+				"type": "perish",
+				"freshHours": {
+					"avg": 80
+				},
+				"transitionHours": {
+					"avg": 24
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "butchering:deadraccoon-{type}-rotten"
+				},
+				"transitionRatio": 1
+			}
+		]
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"heldTpIdleAnimation": "holdunderarm",
+	"guiTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -20, "y": 21, "z": 180 },
+		"origin": { "x": 0.53, "y": 0.35, "z": 0.5 },
+		"scale": 1,
+		"rotate": true
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -132, "y": -180, "z": -18 }
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.5, "y": -0.3, "z": -0.7 },
+		"rotation": { "x": -89, "y": -12, "z": 3 },
+		"scale": 0.86
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 180, "y": 33, "z": -180 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 4.5
+	}
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "ingredientPattern": "SC",
+    "ingredients": {
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      },
+      "C": {
+        "type": "block",
+        "code": "game:trunk-east",
+        "attributes": { "type": "normal-generic" }
+      }
+    },
+    "recipeGroup": 1,
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "normal" }
+    }
+  },
+  {
+    "ingredientPattern": "CU",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "game:trunk-east",
+        "attributes": { "type": "normal-generic" }
+      },
+      "U": {
+        "type": "item",
+        "code": "labelupgrade"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "normal" }
+    }
+  },
+  {
+    "ingredientPattern": "LL",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "game:labeledchest-east",
+        "attributes": { "type": "normal-labeled" }
+      }
+    },
+    "recipeGroup": 3,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "normal" }
+    }
+  },
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "game:chest-east",
+        "attributes": { "type": "normal-generic" }
+      },
+      "L": {
+        "type": "block",
+        "code": "game:labeledchest-east",
+        "attributes": { "type": "normal-labeled" }
+      }
+    },
+    "recipeGroup": 3,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "normal" }
+    }
+  },
+  {
+    "ingredientPattern": "CS",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "game:chest-east",
+        "attributes": { "type": "normal-generic" },
+        "quantity": 2
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      }
+    },
+    "recipeGroup": 3,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "normal" }
+    }
+  },
+  {
+    "ingredientPattern": "CSC",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "game:chest-east",
+        "attributes": { "type": "normal-generic" }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      }
+    },
+    "recipeGroup": 3,
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "normal" }
+    }
+  }
+]

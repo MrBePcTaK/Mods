@@ -1,0 +1,50 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadbull-dead"
+    },
+    "file": "medievalexpansion:entities/land/aurochs-male"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadbull-dead"
+    },
+    "file": "medievalexpansion:entities/land/aurochs-male"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/0/quantity/avg",
+    "value": 6,
+    "file": "medievalexpansion:entities/land/aurochs-male"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadcow-dead"
+    },
+    "file": "medievalexpansion:entities/land/aurochs-female"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadcow-dead"
+    },
+    "file": "medievalexpansion:entities/land/aurochs-female"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/0/quantity/avg",
+    "value": 6,
+    "file": "medievalexpansion:entities/land/aurochs-female"
+  }
+]

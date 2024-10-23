@@ -1,0 +1,50 @@
+[
+{
+	ingredientPattern: "A,F",
+	ingredients: {
+		"A": { type: "item", code: "throwingspearhead-*", name: "material"  },
+		"F": { type: "item", code: "javelinfletching", quantity: 1  }
+	},
+	width: 1,
+	height: 2,
+	shapeless: true,
+	output: { type: "item", code: "throwingspear-{material}", quantity: 5  }
+},
+{
+	ingredientPattern: "AF,S_",
+	ingredients: {
+		"F": { type: "item", code: "game:knife-*", isTool: true  },
+		"S": { type: "item", code: "game:feather", quantity: 2  },
+		"A": { type: "item", code: "game:stick", quantity: 2 }
+	},
+	width: 2,
+	height: 2,
+	recipeGroup: 1,
+	shapeless: true,
+	output: { type: "item", code: "javelinfletching", quantity: 11  }
+},
+{
+	ingredientPattern: "AF,S_",
+	ingredients: {
+		"F": { type: "item", code: "game:knife-*", isTool: true  },
+		"S": { type: "item", code: "game:feather", quantity: 2  },
+		"A": { type: "item", code: "game:plank-*", quantity: 1 }
+	},
+	width: 2,
+	height: 2,
+	recipeGroup: 2,
+	shapeless: true,
+	output: { type: "item", code: "javelinfletching", quantity: 11  }
+},
+{
+	ingredientPattern: "B,K",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true  },
+		"B": { type: "item", code: "game:bone"  }
+	},
+	width: 1,
+	height: 2,
+	shapeless: false,
+	output: { type: "item", code: "throwingspearhead-bone", quantity: 4  }
+}
+]

@@ -1,0 +1,7 @@
+{
+  "type": "code",
+  "modid": "tstools",
+  "name": "TSTools",
+  "description": "Adds new tools, weapons, tunnel hammer tool. Gives the possibility of growth after the creation of steel and the use of previously unused metals",
+  "version": "2.0.0"
+}

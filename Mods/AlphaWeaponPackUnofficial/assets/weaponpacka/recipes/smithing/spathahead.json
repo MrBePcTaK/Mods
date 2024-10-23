@@ -1,0 +1,10 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: [ "tinbronze", "bismuthbronze", "blackbronze"] },
+	pattern: [[
+		"____###########_",
+		"################",
+		"____###########_",
+	]],
+	name: "spathahead",
+	output: { type: "item", code: "spathahead-{metal}"  }
+}

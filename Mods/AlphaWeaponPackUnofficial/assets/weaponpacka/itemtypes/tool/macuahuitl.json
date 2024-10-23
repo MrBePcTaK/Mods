@@ -1,0 +1,77 @@
+{
+	code: "macu",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "sword",
+	class: "NormalSwordChargeNone",
+	attributes: {
+		handbook: { groupBy: ["machete"] },
+		toolrackTransform: {
+			translation: { x: 0, y: 0.77, z: 0 },
+			rotation: { x: 0, y: -180, z: 0 },
+			scale: 1.7
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.1, z: -0.06 },
+			rotation: { x: -65, y: -90, z: 0 }
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	},{ name: "AnimationAuthoritative" }],
+	variantgroups: [
+		{ code: "metal", states: ["flint", "obsidian"] },
+	],
+	shapeByType: { 
+		"macu-flint": { base: "item/matchfli" },
+		"macu-obsidian": { base: "item/matchobs" }
+	},
+	heldTpHitAnimation: "falx",
+	heldTpUseAnimation: "interactstatic",
+	attackRange: 2.5,
+	tooltierbytype: {
+		"macu-flint": 1,
+		"macu-obsidian": 1
+	},
+	attackpowerbytype: {
+		"macu-flint": 4,
+		"macu-obsidian": 4.3
+	},
+	durabilitybytype: {
+		"macu-flint": 80,
+		"macu-obsidian": 65
+	},
+	damageTypeByType: {
+		"*": "SlashingAttack",
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "alphaweaponpack": ["*"] },
+	guiTransform: {
+		translation: { x: 3, y: 0, z: 0 },
+		rotation: { x: -60, y: 50, z: 4 },
+		origin: { x: 0.54, y: 0.1, z: 0.5 },
+		scale: 2
+	},
+	fpHandTransform: {
+		translation: { x: -0.45, y: -0.1, z: 0 },
+		rotation: { x: -167, y: 174, z: -92 },
+		origin: { x: 0.5, y: 0.6, z: 0.5 },
+		scale: 3.15
+	},
+	tpHandTransform: {
+		translation: { x: -0.93, y: -0.5, z: -0.05 },
+		rotation: { x: 90, y: 0, z: 0 },
+		scale: 1
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.5, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 5.25
+	}
+}

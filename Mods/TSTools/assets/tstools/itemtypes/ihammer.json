@@ -1,0 +1,55 @@
+{
+	"code": "ihammer",
+	"tool": "pickaxe",
+	"class": "ihammer",
+"textures": { "iron":{ "base": "tstools:item/iron" } },
+	
+	"creativeinventory": { "general": ["*"], "items": ["*"], "tstools": ["*"] },
+	"damagedby": ["blockbreaking", "attacking"], 
+				 
+	"attackpower": 3,
+	"durability": 2000,
+	"shape": { "base": "tstools:item/ihammer" },
+	 "maxstacksize": 1,
+	"tooltier": 4,
+	"miningspeed": {
+			"ceramic": 3,
+			"stone": 8,
+			"ore": 8,
+			"metal": 7,
+			"ice": 4.5 },
+	"attackpower": 3,
+	"heldTpHitAnimation": "smithing",
+	"behaviors": [{ 
+		"name": "GroundStorable",
+			"sprintKey": true,
+			"selectionBox": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			"collisionBox": { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	],
+	"attributes": {
+		"toolrackTransform": { 
+			"translation": { x: 0.01, y: 0 },
+			"rotation": { y: 1, z: -1 },
+			"scale": 1.5
+		},
+		"groundStorageTransform": { 
+			"translation": { x: 0, y: -0.43 },
+			"rotation": { y: 0, z: 3 },
+			"scale": 1.4
+		}
+	},
+	"fpHandTransform": { "rotation": { x: 150, y: -14, z: -100 },
+						"scale": 2.36},
+	"tpHandTransform": { "translation": { x: -0.76, y: -0.5, z: -0.65},
+						"rotation": { x: -99, y: 18, z: -1},
+						"scale": 0.8},
+	"guiTransform": { "translation": { x: 0, y: -1, z: 0},
+						"rotation": { x: -96, y: 50, z: 0},
+						"origin": { x: 0.5, y: 2, z: 0.6 },
+						"scale": 1.91},
+	"groundTransform": { "translation": { x: 0, y: 0.045, z: 0},
+						"rotation": { x: 180, y: 9, z: 3},
+						"origin": { x: 0.5, y: 0.5, z: 0.5299 },
+						"scale": 4.68},
+}

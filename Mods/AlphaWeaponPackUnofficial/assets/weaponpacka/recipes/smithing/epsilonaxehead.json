@@ -1,0 +1,10 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze"] },
+	pattern: [[
+		"_########_",
+		"##########",
+		"##__##__##",
+	]],
+	name: "epsilonaxehead",
+	output: { type: "item", code: "epsilonaxehead-{metal}"  }
+}

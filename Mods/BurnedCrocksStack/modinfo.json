@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "burned_crock_stack",
+  "name": "Burned crocks stack",
+  "description" : "Makes burned crocks stack up to 4.",
+  "authors": ["MrBePcTaK"],
+  "version": "1.0.0",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "dependencies": {}
+}

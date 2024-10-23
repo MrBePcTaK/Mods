@@ -1,0 +1,38 @@
+{
+  "code": "labelupgrade",
+  "class": "LabelUpgrade",
+  "attributes": {
+    "handbook": { "groupBy": [ "upgrade-*" ] }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "extrachests": [ "*" ]
+  },
+  "variantgroups": [
+  ],
+  "texture": { "base": "item/labelupgrade" },
+  "maxstacksize": 16,
+  "materialDensity": 500,
+
+  "fpHandTransform": {
+    "translation": {
+      "x": 0.05,
+      "y": -0.1,
+      "z": 0.1
+    }
+  },
+
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.45,
+      "y": -1.8,
+      "z": -1.4
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": -180
+    }
+  }
+}

@@ -1,0 +1,35 @@
+[
+	{
+		"ingredientPattern": "C,H,F",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "offal-clean"
+			},
+			"H": {
+				"type": "block",
+				"code": "game:woodbucket"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "butchering:bloodportion"
+				},
+				"requiresLitres": 0.8
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "sausage-blackpudding-raw",
+			"quantity": 1
+		}
+	}
+]

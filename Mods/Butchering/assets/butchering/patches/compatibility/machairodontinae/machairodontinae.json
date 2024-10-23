@@ -1,0 +1,69 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/machairodontinae/machairodontinae.json",
+    "dependsOn": [ { "modid": "machairodontinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadmachairodontinae-female-dead"
+    },
+    "file": "machairodontinae:entities/land/machairodontinae-female.json",
+    "dependsOn": [ { "modid": "machairodontinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadmachairodontinae-female-dead"
+    },
+    "file": "machairodontinae:entities/land/machairodontinae-female.json",
+    "dependsOn": [ { "modid": "machairodontinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadmachairodontinae-male-dead"
+    },
+    "file": "machairodontinae:entities/land/machairodontinae-male.json",
+    "dependsOn": [ { "modid": "machairodontinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadmachairodontinae-male-dead"
+    },
+    "file": "machairodontinae:entities/land/machairodontinae-male.json",
+    "dependsOn": [ { "modid": "machairodontinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadmachairodontinae-baby-dead"
+    },
+    "file": "machairodontinae:entities/land/machairodontinae-baby.json",
+    "dependsOn": [ { "modid": "machairodontinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadmachairodontinae-baby-dead"
+    },
+    "file": "machairodontinae:entities/land/machairodontinae-baby.json",
+    "dependsOn": [ { "modid": "machairodontinae" } ]
+  }
+]

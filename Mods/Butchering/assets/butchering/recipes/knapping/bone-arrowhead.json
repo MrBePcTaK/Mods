@@ -1,0 +1,26 @@
+{
+	"ingredient": {
+		"type": "item",
+		"code": "game:bone"
+	},
+	"pattern": [
+		[
+			"__#_#__#_#",
+			"_#__#_#__#",
+			"_#_#__#_#_",
+			"__________",
+			"__#_#__#_#",
+			"_#__#_#__#",
+			"_#_#__#_#_",
+			"__________",
+			"_##____##_",
+			"___#__#___"
+		]
+	],
+	"name": "Bone Arrowhead",
+	"output": {
+		"type": "item",
+		"code": "toolhead-arrow-bone",
+		"stacksize": 10
+	}
+}

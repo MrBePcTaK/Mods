@@ -1,0 +1,50 @@
+[
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-whitetail-*-adult": "butchering:deaddeer-male-adultlarge-dead",
+        "*-redbrocket-*-adult": "butchering:deaddeer-male-adult-dead",
+        "*-marsh-*-adult": "butchering:deaddeer-male-adultlarge-dead",
+        "*-caribou-*-adult": "butchering:deaddeer-male-adultlarge-dead",
+        "*-water-*-adult": "butchering:deaddeer-male-adult-dead",
+        "*-pudu-*-adult": "butchering:deaddeer-male-baby-dead",
+        "*-elk-*-adult": "butchering:deaddeer-male-adultlarge-dead",
+        "*-taruca-*-adult": "butchering:deaddeer-male-adult-dead",
+        "*-chital-*-adult": "butchering:deaddeer-male-adultlarge-dead",
+        "*-guemal-*-adult": "butchering:deaddeer-male-adult-dead",
+        "*-pampas-*-adult": "butchering:deaddeer-male-adult-dead",
+        "*-fallow-*-adult": "butchering:deaddeer-male-adultlarge-dead",
+        "*-baby": "butchering:deaddeer-male-baby-dead"
+      }
+    },
+    "file": "game:entities/land/hooved/deer.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-whitetail-*-adult": "butchering:deaddeer-male-adultlarge-dead",
+        "*-redbrocket-*-adult": "butchering:deaddeer-male-adult-dead",
+        "*-marsh-*-adult": "butchering:deaddeer-male-adultlarge-dead",
+        "*-caribou-*-adult": "butchering:deaddeer-male-adultlarge-dead",
+        "*-water-*-adult": "butchering:deaddeer-male-adult-dead",
+        "*-pudu-*-adult": "butchering:deaddeer-male-baby-dead",
+        "*-elk-*-adult": "butchering:deaddeer-male-adultlarge-dead",
+        "*-taruca-*-adult": "butchering:deaddeer-male-adult-dead",
+        "*-chital-*-adult": "butchering:deaddeer-male-adultlarge-dead",
+        "*-guemal-*-adult": "butchering:deaddeer-male-adult-dead",
+        "*-pampas-*-adult": "butchering:deaddeer-male-adult-dead",
+        "*-fallow-*-adult": "butchering:deaddeer-male-adultlarge-dead",
+        "*-baby": "butchering:deaddeer-male-baby-dead"
+      }
+    },
+    "file": "game:entities/land/hooved/deer.json"
+  }
+]

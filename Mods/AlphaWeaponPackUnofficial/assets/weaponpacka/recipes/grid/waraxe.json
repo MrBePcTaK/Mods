@@ -1,0 +1,24 @@
+[
+{
+	ingredientPattern: "T,S",
+	ingredients: {
+		"T": { type: "item", code: "waraxehead-*", name: "material"  },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 1,
+	height: 2,
+	shapeless: true,
+	output: { type: "item", code: "waraxe-{material}", quantity: 1  }
+},
+{
+	ingredientPattern: "T,S",
+	ingredients: {
+		"T": { type: "item", code: "epsilonaxehead-*", name: "material"  },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 1,
+	height: 2,
+	shapeless: true,
+	output: { type: "item", code: "epsilonaxe-{material}", quantity: 1  }
+}
+]

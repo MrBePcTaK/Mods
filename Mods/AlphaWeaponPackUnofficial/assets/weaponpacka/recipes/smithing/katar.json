@@ -1,0 +1,12 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"#########_____",
+		"___#_#__####__",
+		"___#_#__######",
+		"___#_#__####__",
+		"#########_____",
+	]],
+	name: "katar",
+	output: { type: "item", code: "katar-{metal}"  }
+}

@@ -1,0 +1,134 @@
+{
+	"code": "butchertableadvanced",
+	"class": "BlockButcherTable",
+	"entityClass": "ButcherTable",
+	"attributes": {
+		"butcheringEfficiency": 2.4,
+		"butcherTableWidth": 3,
+		"backpack": {
+			"quantitySlots": 0,
+			"storageFlags": 1,
+			"slotBgColor": "#75251e"
+		}
+	},
+	"variantGroups": [
+		{
+			"code": "side",
+			"loadFromProperties": "abstract/horizontalorientation"
+		}
+	],
+	"behaviors": [
+		{
+			"name": "HorizontalOrientable"
+		},
+		{
+			"name": "Multiblock",
+			"propertiesByType": {
+				"*-north": {
+					"sizex": 3,
+					"sizey": 1,
+					"sizez": 1,
+					"cposition": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					}
+				},
+				"*-east": {
+					"sizex": 1,
+					"sizey": 1,
+					"sizez": 3,
+					"cposition": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					}
+				},
+				"*-south": {
+					"sizex": 3,
+					"sizey": 1,
+					"sizez": 1,
+					"cposition": {
+						"x": 2,
+						"y": 0,
+						"z": 0
+					}
+				},
+				"*-west": {
+					"sizex": 1,
+					"sizey": 1,
+					"sizez": 3,
+					"cposition": {
+						"x": 0,
+						"y": 0,
+						"z": 2
+					}
+				}
+			}
+		}
+	],
+	"creativeinventory": {
+		"general": [
+			"*-north"
+		],
+		"butchering": [
+			"*-north"
+		]
+	},
+	"shape": {
+		"base": "butcherytables/butcherytable",
+		"rotateYByType": {
+			"*-north": 0,
+			"*-east": 270,
+			"*-south": 180,
+			"*-west": 90
+		}
+	},
+	"textures": {
+		"ButcheringTable": { "base": "block/butchertable/butcheringtableadvanced" }
+	},
+	"maxstacksize": 1,
+	"storageFlags": 2,
+	"drawtype": "json",
+	"blockmaterial": "Wood",
+	"replaceable": 600,
+	"resistance": 3,
+	"heldTpIdleAnimation": "holdunderarm",
+	"heldTpUseAnimation": "twohandplaceblock",
+	"sounds": {
+		"walk": "game:player/buildhigh"
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sideao": {
+		"all": true
+	},
+	"emitsideao": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": 0,
+			"y": -0.5,
+			"z": -0.7
+		},
+		"rotation": {
+			"x": 79,
+			"y": 9,
+			"z": -25
+		},
+		"scale": 0.48
+	},
+	"guiTransform": {
+		"translation": {
+			"x": -10,
+			"y": 5,
+			"z": 0
+		},
+		"scale": 0.56
+	}
+}

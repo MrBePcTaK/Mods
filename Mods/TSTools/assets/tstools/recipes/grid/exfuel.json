@@ -1,0 +1,42 @@
+{
+"ingredientPattern": "ZD_,SCM,ZD_",
+	"ingredients": {
+	"Z": {
+		"type": "item",
+		"code": "game:ore-lignite",
+		"quantity": 2
+	},
+	"D": {
+		"type": "item",
+		"code": "game:ore-bituminouscoal",
+		"quantity": 2
+	},
+		"S": {
+		"type": "item",
+		"code": "game:powderedsulfur",
+		"quantity": 2
+},
+		"C": {
+		"type": "item",
+		"code": "game:coke",
+		"quantity": 2
+		},
+		"M": {
+		"type": "item",
+		"code": "game:hammer-iron",
+		"quantity": 1,
+			"isTool": true,
+			"toolDurabilityCost": 50
+		}
+	},
+	"width": 3,
+	"height": 3,
+	"shapeless": false,
+	"output": { 
+		"type": "item", 
+		"code": "tstools:exfuel",
+	"quantity": 2
+	},
+	
+	
+}

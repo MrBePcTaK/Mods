@@ -1,0 +1,97 @@
+[
+  {
+    "file": "game:blocktypes/soil/clay",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "XSkillsClay",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/soil/peat",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "XSkillsClay",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/stone/saltpeter",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "XSkillsSalpeter",
+        "properties": {
+          "xp": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/soil/soil",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsSoil",
+      "properties": {
+        "xp": 0.1
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/stone/sand",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsSand",
+      "properties": {
+        "xp": 0.1
+      }
+    }
+
+  },
+  {
+    "file": "game:blocktypes/stone/gravel",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsSand",
+      "properties": {
+        "xp": 0.1
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/soil/forestfloor",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsSoil",
+      "properties": {
+        "xp": 0.1
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/soil/muddygravel",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsSoil",
+      "properties": {
+        "xp": 0.1
+      }
+    }
+  },
+]

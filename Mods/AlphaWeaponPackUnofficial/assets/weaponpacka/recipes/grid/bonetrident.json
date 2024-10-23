@@ -1,0 +1,13 @@
+{
+	ingredientPattern: "BBB,RSR,KS_",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true  },
+		"B": { type: "item", code: "game:bone" },
+		"R": { type: "item", code: "game:rope" },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	shapeless: true,
+	output: { type: "item", code: "trident-bone", quantity: 1  }
+}

@@ -1,0 +1,40 @@
+{
+"ingredientPattern": "NTN,SKS,_M_",
+	"ingredients": {
+	"N": {
+		"type": "item",
+		"code": "tstools:itip",
+		"quantity": 1
+	},
+	"S": {
+		"type": "item",
+		"code": "tstools:fixer",
+		"quantity": 4
+	},
+		"K": {
+		"type": "item",
+		"code": "game:hammerhead-iron",
+		"quantity": 1
+},
+		"M": {
+		"type": "item",
+		"code": "tstools:khandle",
+		"quantity": 1
+},
+		"T": {
+		"type": "item",
+		"code": "game:ingot-tinbronze",
+		"quantity": 1
+}
+	
+
+	},
+	"width": 3,
+	"height": 3,
+	"shapeless": false,
+	"output": { 
+		"type": "item", 
+		"code": "tstools:ihammer" },
+	"quantity": 1
+	
+}

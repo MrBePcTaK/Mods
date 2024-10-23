@@ -1,0 +1,56 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadchicken-female-1-dead"
+    },
+    "file": "game:entities/land/chicken-hen.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadchicken-female-1-dead"
+    },
+    "file": "game:entities/land/chicken-hen.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadchicken-male-1-dead"
+    },
+    "file": "game:entities/land/chicken-rooster.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadchicken-male-1-dead"
+    },
+    "file": "game:entities/land/chicken-rooster.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadchicken-baby-1-dead"
+    },
+    "file": "game:entities/land/chicken-baby.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadchicken-baby-1-dead"
+    },
+    "file": "game:entities/land/chicken-baby.json"
+  }
+]

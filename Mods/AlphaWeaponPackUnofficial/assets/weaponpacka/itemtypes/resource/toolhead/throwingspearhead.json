@@ -1,0 +1,48 @@
+{
+	code: "throwingspearhead",
+	attributes: {},
+	variantgroups: [
+		{ code: "metal", states: ["bone", "flint", "obsidian", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] },
+	],
+	shape: { base: "item/throwingspearhead" },
+	texturesByType: {
+		"*-obsidian": {
+			"material": { base: "game:block/stone/rock/obsidian1" },
+		},
+		"*-flint": {
+			"material": { base: "game:block/stone/flint" },
+		},
+		"*-bone": {
+			"material": { base: "game:block/creature/bone-yellow" },
+		},
+		"*": {
+			"material": { base: "game:block/metal/anvil/{metal}" },
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "alphaweaponpack": ["*"] },
+	maxstacksize: 128,
+	materialDensity: 500,
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 50 },
+		rotation: { x: -99, y: -135, z: 145 },
+		origin: { x: 0.3, y: 0.35, z: 0.52 },
+		scale: 2.25
+	},
+	fpHandTransform: {
+		translation: { x: 1.9, y: -1.2, z: 0 },
+		rotation: { x: -180, y: -50, z: -80 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 4
+	},
+	tpHandTransform: {
+		translation: { x: -1.6, y: -1.14, z: -0.9 },
+		rotation: { x: 0, y: -180, z: 93 },
+		scale: 0.51
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 4
+	}
+}

@@ -1,0 +1,35 @@
+[
+  // Prime Meat
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:primemeat-raw",
+      "shapeElement": "bowl/meat/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  // Smoked Redmeat
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-*-redmeat",
+      "shapeElement": "bowl/meat/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  // Smoked Fish
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-*-fish",
+      "shapeElement": "bowl/meat/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  }
+]

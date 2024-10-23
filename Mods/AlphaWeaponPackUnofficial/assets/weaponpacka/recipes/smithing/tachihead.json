@@ -1,0 +1,11 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"___#########____",
+		"#############___",
+		"####_______###__",
+		"____________###_",
+	]],
+	name: "tachihead",
+	output: { type: "item", code: "tachihead-{metal}"  }
+}

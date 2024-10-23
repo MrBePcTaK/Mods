@@ -1,0 +1,37 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/manidae/manidae.json",
+    "dependsOn": [ { "modid": "manidae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "manidae-adult-female-*": "butchering:deadmanidae-female-dead",
+        "manidae-adult-male-*": "butchering:deadmanidae-male-dead",
+        "manidae-baby-*": "butchering:deadmanidae-baby-dead"
+      }
+    },
+    "file": "manidae:entities/land/manidae.json",
+    "dependsOn": [ { "modid": "manidae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "manidae-adult-female-*": "butchering:deadmanidae-female-dead",
+        "manidae-adult-male-*": "butchering:deadmanidae-male-dead",
+        "manidae-baby-*": "butchering:deadmanidae-baby-dead"
+      }
+    },
+    "file": "manidae:entities/land/manidae.json",
+    "dependsOn": [ { "modid": "manidae" } ]
+  }
+]

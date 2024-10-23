@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/class",
+    "value": "ItemFlint",
+    "file": "game:itemtypes/resource/bone.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/knappable",
+    "value": true,
+    "file": "game:itemtypes/resource/bone.json"
+  },
+  {
+    "enabled": false,
+    "op": "remove",
+    "path": "/behaviors/0",
+    "file": "game:itemtypes/resource/bone.json"
+  },
+  {
+    "op": "add",
+    "path": "/textures/bone",
+    "value": { "base": "block/creature/bonesrotten" },
+    "file": "game:blocktypes/stone/knappingsurface.json"
+  }
+]

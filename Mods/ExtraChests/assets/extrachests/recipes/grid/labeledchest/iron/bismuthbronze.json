@@ -1,0 +1,51 @@
+[
+  {
+    "ingredientPattern": "_P_,SCS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "C": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "bismuthbronze" }
+
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      }
+    },
+    "recipeGroup": 1,
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "labeledchest-east",
+      "attributes": { "type": "iron" }
+    }
+  },
+  {
+    "ingredientPattern": "CU",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "bismuthbronze" }
+      },
+      "U": {
+        "type": "item",
+        "code": "chestupgrade-iron"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledchest-east",
+      "attributes": { "type": "iron" }
+    }
+  }
+]

@@ -1,0 +1,51 @@
+[
+	{
+		"ingredientPattern": "WSH,PTP,RMR",
+		"ingredients": {
+			"W": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"quantity": 1,
+				"istool": true
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"quantity": 1,
+				"istool": true
+			},
+			"T": {
+				"type": "item",
+				"code": "game:ingot-cupronickel",
+				"quantity": 2
+			},
+			"P": {
+				"type": "block",
+				"code": "game:metal-parts",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:solderbar-*",
+				"quantity": 5
+			},
+			"R": {
+				"type": "item",
+				"code": "game:gear-rusty",
+				"quantity": 8
+			},
+			"M": {
+				"type": "block",
+				"code": "game:metal-scraps",
+				"quantity": 8
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": {
+			"type": "block",
+			"code": "temporalbutcherbox-off-north",
+			"quantity": 1
+		}
+	}
+]

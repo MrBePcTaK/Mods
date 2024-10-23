@@ -1,0 +1,20 @@
+[
+  {
+    "file": "game:blocktypes/machine/riftward",
+    "op": "add",
+    "path": "/lightHsv",
+    "value": [ 7, 3, 18 ]
+  },
+  {
+    "file": "game:blocktypes/machine/riftward",
+    "op": "replace",
+    "path": "/class",
+    "value": "BlockBetterRiftWard"
+  },
+  {
+    "file": "game:blocktypes/machine/riftward",
+    "op": "replace",
+    "path": "/entityClass",
+    "value": "BetterRiftWard"
+  }
+]

@@ -1,0 +1,87 @@
+[{
+		"op": "add",
+		"path": "/villageTypes/-",
+		"value": {
+			"code": "impoverishedvillage",
+			"chance": 0.0015,
+			"generator": "CloselyGrouped",
+			"group": "trader",
+			"minGroupDistance": 700,
+			"quantityStructures": {
+				avg: 5,
+				var: 3
+			},
+			"schematics": [{
+					path: "caravans/caravan1",
+					weight: 60
+				}, {
+					path: "caravans/caravan2",
+					weight: 40
+				}, {
+					path: "caravans/caravan3",
+					weight: 50
+				}, {
+					path: "caravans/caravan4",
+					weight: 30
+				}, {
+					path: "caravans/caravan5",
+					weight: 70
+				}, {
+					path: "caravans/caravan6",
+					weight: 60
+				}, {
+					path: "caravans/caravan7",
+					weight: 40
+				}, {
+					path: "caravans/caravan8",
+					weight: 80
+				}, {
+					path: "caravans/caravan9",
+					weight: 50
+				}, {
+					path: "caravans/caravan10",
+					weight: 100
+				}, {
+					path: "caravans/caravan11",
+					weight: 100
+				}, {
+					path: "caravans/caravanclutter1",
+					weight: 90
+				}, {
+					path: "caravans/caravanclutter2",
+					weight: 90
+				}, {
+					path: "caravans/caravanclutter3",
+					weight: 30
+				}, {
+					path: "caravans/caravanclutter4",
+					weight: 20
+				}, {
+					path: "caravans/caravanclutter5",
+					weight: 40
+				}, {
+					path: "caravans/caravanclutter6",
+					weight: 35
+				}, {
+					path: "caravans/caravanclutter7",
+					weight: 30
+				}, {
+					path: "caravans/caravanclutter8",
+					weight: 20
+				}, {
+					path: "caravans/caravanclutter9",
+					weight: 50
+				}
+			],
+			"buildProtected": true,
+			"buildProtectionName": "Trader",
+			"buildProtectionDesc": "Trader Perimeter",
+			"minTemp": -3,
+			"maxY": 0.7,
+			"minRain": 0.2
+
+		},
+		"file": "worldgen/villages.json"
+	}
+
+]

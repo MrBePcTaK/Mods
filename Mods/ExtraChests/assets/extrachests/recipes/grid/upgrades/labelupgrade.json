@@ -1,0 +1,22 @@
+[
+  {
+    "ingredientPattern": "_P_,PSP,_P_",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north",
+        "attributes": { "type": "normal-generic" }
+      }
+    },
+    "width": 3,
+    "height": 3,    
+    "output": {
+      "type": "item",
+      "code": "labelupgrade"
+    }
+  }
+]

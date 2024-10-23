@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "T,S",
+	ingredients: {
+		"T": { type: "item", code: "spontoonhead-*", name: "material"  },
+		"S": { type: "item", code: "game:stick", quantity: 2 }
+	},
+	width: 1,
+	height: 2,
+	shapeless: true,
+	output: { type: "item", code: "polespear-{material}", quantity: 1  }
+}

@@ -1,0 +1,115 @@
+[
+  {
+    "ingredientPattern": "_P_,SCS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "C": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "iron" }
+
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-steel"
+      }
+    },
+    "recipeGroup": 1,
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "labeledchest-east",
+      "attributes": { "type": "steel" }
+    }
+  },
+
+  {
+    "ingredientPattern": "SC",
+    "ingredients": {
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      },
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "steel" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledchest-east",
+      "attributes": { "type": "steel" }
+    }
+  },
+  {
+    "ingredientPattern": "CU",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "iron" }
+      },
+      "U": {
+        "type": "item",
+        "code": "chestupgrade-steel"
+      }
+    },
+    "recipeGroup": 1,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledchest-east",
+      "attributes": { "type": "steel" }
+    }
+  },
+  {
+    "ingredientPattern": "CU",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "steel" }
+      },
+      "U": {
+        "type": "item",
+        "code": "labelupgrade"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledchest-east",
+      "attributes": { "type": "steel" }
+    }
+  },
+  {
+    "ingredientPattern": "T",
+    "ingredients": {
+      "T": {
+        "type": "block",
+        "code": "labeledtrunk-east",
+        "attributes": { "type": "steel" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "labeledchest-east",
+      "attributes": { "type": "steel" },
+      "quantity": 2
+    }
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/capreolinae/alceini.json",
+    "dependsOn": [ { "modid": "capreolinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "cervidae-alceini-adult-female-*": "butchering:deadalceini-female-dead",
+        "cervidae-alceini-adult-male-*": "butchering:deadalceini-male-dead",
+        "cervidae-alceini-baby-*": "butchering:deadalceini-baby-dead"
+      }
+    },
+    "file": "capreolinae:entities/land/alceini.json",
+    "dependsOn": [ { "modid": "capreolinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "cervidae-alceini-adult-female-*": "butchering:deadalceini-female-dead",
+        "cervidae-alceini-adult-male-*": "butchering:deadalceini-male-dead",
+        "cervidae-alceini-baby-*": "butchering:deadalceini-baby-dead"
+      }
+    },
+    "file": "capreolinae:entities/land/alceini.json",
+    "dependsOn": [ { "modid": "capreolinae" } ]
+  }
+]

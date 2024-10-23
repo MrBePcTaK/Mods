@@ -1,0 +1,23 @@
+[
+  // Prime Meat
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/primemeat-raw",
+    "value": [ "meat", "group6" ],
+    "file": "game:blocktypes/clay/pot.json"
+  },
+  // Smoked Redmeat
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/butchering:smoked-*-redmeat",
+    "value": [ "meat", "group6" ],
+    "file": "game:blocktypes/clay/pot.json"
+  },
+  // Smoked Fish
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/butchering:smoked-*-fish",
+    "value": [ "meat", "group4" ],
+    "file": "game:blocktypes/clay/pot.json"
+  }
+]

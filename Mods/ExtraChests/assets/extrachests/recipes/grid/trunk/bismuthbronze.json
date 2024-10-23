@@ -1,0 +1,93 @@
+[
+  {
+    "ingredientPattern": "_P_,SCS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*",
+        "quantity": 2
+      },
+      "C": {
+        "type": "block",
+        "code": "trunk-east",
+        "attributes": { "type": "copper" }
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-bismuthbronze",
+        "quantity": 2
+      }
+    },
+    "recipeGroup": 1,
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "trunk-east",
+      "attributes": { "type": "bismuthbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CU",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "trunk-east",
+        "attributes": { "type": "copper" }
+      },
+      "U": {
+        "type": "item",
+        "code": "trunkupgrade-bismuthbronze"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "trunk-east",
+      "attributes": { "type": "bismuthbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CC",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "bismuthbronze" }
+      }
+    },
+    "recipeGroup": 1,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "trunk-east",
+      "attributes": { "type": "bismuthbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "bismuthbronze" },
+        "quantity": 2
+      }
+    },
+    "recipeGroup": 1,
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "trunk-east",
+      "attributes": { "type": "bismuthbronze" }
+    }
+  }
+]
+
+
+

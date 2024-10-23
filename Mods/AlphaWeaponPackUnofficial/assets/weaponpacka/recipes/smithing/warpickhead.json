@@ -1,0 +1,15 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"________#_______",
+		"________##______",
+		"________###_____",
+		"________####____",
+		"__##########____",
+		"________####____",
+		"_________##_____",
+		"________________",
+	]],
+	name: "warpick",
+	output: { type: "item", code: "warpickhead-{metal}"  }
+}

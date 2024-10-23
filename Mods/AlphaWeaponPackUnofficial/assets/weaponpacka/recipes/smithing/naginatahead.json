@@ -1,0 +1,12 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: [ "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"____________",
+		"##_##_______",
+		"#########___",
+		"###########_",
+		"##_##___####",
+	]],
+	name: "naginatahead",
+	output: { type: "item", code: "naginatahead-{metal}"  }
+}

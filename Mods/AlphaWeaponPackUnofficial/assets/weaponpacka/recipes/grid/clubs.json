@@ -1,0 +1,25 @@
+[
+{
+	ingredientPattern: "SK,R_",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true  },
+		"S": { type: "item", code: "game:bone", quantity: 2 },
+		"R": { type: "item", code: "game:rope" }
+	},
+	width: 2,
+	height: 2,
+	shapeless: true,
+	output: { type: "item", code: "club-bone", quantity: 1  }
+},
+{
+	ingredientPattern: "K,S",
+	ingredients: {
+		"K": { type: "item", code: "clubhead-lead"  },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 1,
+	height: 2,
+	shapeless: true,
+	output: { type: "item", code: "metalclub-lead", quantity: 1  }
+}
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "ingredientPattern": "_P_,SCS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*",
+        "quantity": 2
+      },
+      "C": {
+        "type": "block",
+        "code": "labeledtrunk-east",
+        "attributes": { "type": "copper" }
+
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-tinbronze",
+        "quantity": 2
+      }
+    },
+    "recipeGroup": 1,
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "tinbronze" }
+    }
+  },
+
+  {
+    "ingredientPattern": "SC",
+    "ingredients": {
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      },
+      "C": {
+        "type": "block",
+        "code": "trunk-east",
+        "attributes": { "type": "tinbronze" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "tinbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CU",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "labeledtrunk-east",
+        "attributes": { "type": "copper" }
+      },
+      "U": {
+        "type": "item",
+        "code": "trunkupgrade-tinbronze"
+      }
+    },
+    "recipeGroup": 1,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "tinbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CU",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "trunk-east",
+        "attributes": { "type": "tinbronze" }
+      },
+      "U": {
+        "type": "item",
+        "code": "labelupgrade"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "tinbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "LL",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "tinbronze" }
+      }
+    },
+    "recipeGroup": 3,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "tinbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "tinbronze" }
+      },
+      "L": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "tinbronze" }
+      }
+    },
+    "recipeGroup": 3,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "tinbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CS",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "tinbronze" },
+        "quantity": 2
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      }
+    },
+    "recipeGroup": 3,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "tinbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CSC",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "tinbronze" }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      }
+    },
+    "recipeGroup": 3,
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "tinbronze" }
+    }
+  }
+]

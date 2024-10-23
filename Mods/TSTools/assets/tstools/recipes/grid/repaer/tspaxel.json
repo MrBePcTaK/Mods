@@ -1,0 +1,17 @@
+[
+	{
+		"ingredientPattern": "G,L",
+		"recipeGroup": 2,
+		"ingredients": {
+			"G": { "type": "item", "code": "tstools:tspaxel" },
+			"L": { "type": "item", "code": "tstools:repear" }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"averageDurability": false,
+		"repairDurability": 300,
+		"copyAttributesFrom": 'L',
+		"output": { "type": "item", "code": "tstools:tspaxel"  }
+	}
+	]

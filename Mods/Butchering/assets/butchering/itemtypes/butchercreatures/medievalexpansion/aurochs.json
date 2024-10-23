@@ -1,0 +1,246 @@
+{
+	"enabled": false,
+	"code": "deadaurochs",
+	"class": "butcherable",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "male", "female", "baby" ]
+		},
+		{
+			"code": "state",
+			"states": [ "dead", "skinned", "bledout", "rotten" ]
+		}
+	],
+	"maxstacksize": 1,
+	"behaviors": [],
+	"texturesByType": {
+		"deadaurochs-male-dead": { "meat": { "base": "butchering:item/butchercreatures/animalredmeatbloody" } },
+		"deadaurochs-female-dead": { "meat": { "base": "butchering:item/butchercreatures/animalredmeatbloody" } },
+		"deadaurochs-baby-dead": { "meat": { "base": "butchering:item/butchercreatures/animalredmeatbloody" } },
+		"deadaurochs-male-skinned": {
+			"fur": { "base": "butchering:item/butchercreatures/animalredmeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalredmeatbloody" }
+		},
+		"deadaurochs-female-skinned": {
+			"fur": { "base": "butchering:item/butchercreatures/animalredmeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalredmeatbloody" }
+		},
+		"deadaurochs-baby-skinned": {
+			"fur": { "base": "butchering:item/butchercreatures/animalredmeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalredmeatbloody" }
+		},
+		"deadaurochs-male-bledout": {
+			"fur": { "base": "butchering:item/butchercreatures/animalredmeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalredmeatbledout" }
+		},
+		"deadaurochs-female-bledout": {
+			"fur": { "base": "butchering:item/butchercreatures/animalredmeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalredmeatbledout" }
+		},
+		"deadaurochs-baby-bledout": {
+			"fur": { "base": "butchering:item/butchercreatures/animalredmeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalredmeatbledout" }
+		},
+		"deadaurochs-male-rotten": {
+			"fur": { "base": "game:block/creature/rot/rot" },
+			"meat": { "base": "game:block/creature/rot/rot" }
+		},
+		"deadaurochs-female-rotten": {
+			"fur": { "base": "game:block/creature/rot/rot" },
+			"meat": { "base": "game:block/creature/rot/rot" }
+		},
+		"deadaurochs-baby-rotten": {
+			"fur": { "base": "game:block/creature/rot/rot" },
+			"meat": { "base": "game:block/creature/rot/rot" }
+		}
+	},
+	"attributesByType": {
+		"deadaurochs-male-*": {
+			"size": 0.5,
+			"weight": 0.08,
+			"bloodAmount": 400,
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:butchercreatures/genericlarge/large-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:primemeat-raw",
+					"quantity": {
+						"avg": 1,
+						"var": 0.8
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 2.25,
+						"var": 0.5
+					}
+				}
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadaurochs-female-*": {
+			"size": 0.5,
+			"weight": 0.08,
+			"bloodAmount": 400,
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:butchercreatures/genericlarge/large-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:primemeat-raw",
+					"quantity": {
+						"avg": 0.8,
+						"var": 0.6
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 2.25,
+						"var": 0.5
+					}
+				}
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadaurochs-baby-*": {
+			"size": 0.5,
+			"weight": 0,
+			"bloodAmount": 20,
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:butchercreatures/genericsmall/small-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [],
+			"skinningRewards": [
+			]
+		}
+	},
+
+	"shapeByType": {
+		"deadaurochs-male-*": { "base": "butchering:butchercreatures/genericlarge/large-dead" },
+		"deadaurochs-female-*": { "base": "butchering:butchercreatures/genericlarge/large-dead" },
+		"deadaurochs-baby-*": { "base": "butchering:butchercreatures/genericsmall/small-dead" }
+
+	},
+	"storageFlagsbytype": {
+		"deadaurochs-baby-*": 2049,
+		"*-rotten": 1,
+		"*": 2050
+	},
+	"transitionablePropsByType": {
+		"*-rotten": [],
+		"*": [
+			{
+				"type": "perish",
+				"freshHours": {
+					"avg": 80
+				},
+				"transitionHours": {
+					"avg": 24
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "butchering:deadaurochs-{type}-rotten"
+				},
+				"transitionRatio": 1
+			}
+		]
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ]
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -20,
+			"y": 21,
+			"z": 180
+		},
+		"origin": {
+			"x": 0.53,
+			"y": 0.35,
+			"z": 0.5
+		},
+		"scale": 1,
+		"rotate": true
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -132,
+			"y": -180,
+			"z": -18
+		}
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.5,
+			"y": -0.3,
+			"z": -0.7
+		},
+		"rotation": {
+			"x": -89,
+			"y": -12,
+			"z": 3
+		},
+		"scale": 0.86
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 180,
+			"y": 33,
+			"z": -180
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 4.5
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"code": "tsaxe",
+	"damagedby": ["blockbreaking", "attacking"],
+	"tool": "axe",
+	"class": "ItemAxe",
+	"behaviors": [{ 
+		"name": "GroundStorable",
+			"sprintKey": true,
+			"selectionBox": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			"collisionBox": { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	],
+	"attributes": {
+		"toolrackTransform": { 
+			"translation": { x: 0, y: 0.5, z: 0}
+		}
+	},
+	"shape": { "base": "tstools:item/tsaxe" },
+	"heldTpHitAnimation": "axechop",
+	"textures": {
+		"iron":{ "base": "item/iron" }
+		},
+	"attackRange": 4,
+	"tooltier": 6,
+	"miningspeed": {
+			"wood": 15,
+			"plant": 7,
+			"leaves": 4
+		},
+	"durability": 4000,
+		
+	"attackpower": 5,
+	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"], "tstools": ["*"] },
+
+	"fpHandTransform": {
+		"translation": { x: -0.3, y: -0.5, z: 0.3 },
+		"rotation": { x: -29, y: 1, z: 88 },
+		"origin": { x: 0.2, y: 0.5, z: 0.5 },
+		"scale": 2.5
+	},
+	"guiTransform": {
+			"translation": { x: 0, y: 0, z: 0 },
+			"rotation": { x: -63, y: -123, z: -180 },
+			"origin": { x: 0.61, y: 0, z: 0.47 },
+			"scale": 1.58
+		},
+		"groundTransform": {
+			"translation": { x: 0, y: 0, z: 0 },
+			"rotation": { x: 0, y: 0, z: 0 },
+			"origin": { x: 0.5, y: 0, z: 0.5 },
+			"scale": 3.6
+		
+	},
+	"tpHandTransform": {
+			"translation": { x: -0.89, y: -0.5, z: -0.1 },
+			"rotation": { x: 90, y: 0, z: -10 },
+			"scale": 0.95
+		}
+	
+}

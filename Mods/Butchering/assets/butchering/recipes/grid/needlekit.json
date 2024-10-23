@@ -1,0 +1,47 @@
+[
+	{
+		"ingredientPattern": "NF",
+		"ingredients": {
+			"N": {
+				"type": "item",
+				"code": "needle-bone",
+				"quantity": 12
+			},
+			"F": {
+				"type": "item",
+				"code": "game:flaxfibers",
+				"quantity": 4
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": {
+			"type": "item",
+			"code": "needle-bone-kit",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "NF",
+		"ingredients": {
+			"N": {
+				"type": "item",
+				"code": "needle-bone",
+				"quantity": 12
+			},
+			"F": {
+				"type": "item",
+				"code": "game:flaxtwine",
+				"quantity": 1
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 2,
+		"output": {
+			"type": "item",
+			"code": "needle-bone-kit",
+			"quantity": 1
+		}
+	}
+]

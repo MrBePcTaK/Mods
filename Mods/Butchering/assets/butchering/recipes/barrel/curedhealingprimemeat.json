@@ -1,0 +1,21 @@
+{
+	"code": "curedprimemeat",
+	"sealHours": 480,
+	"ingredients": [
+		{
+			"type": "item",
+			"code": "game:salt",
+			"quantity": 2
+		},
+		{
+			"type": "item",
+			"code": "primemeat-healing",
+			"quantity": 1
+		}
+	],
+	"output": {
+		"type": "item",
+		"code": "primemeat-curedhealing",
+		"stackSize": 1
+	}
+}

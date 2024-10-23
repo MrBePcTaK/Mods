@@ -1,0 +1,170 @@
+{
+	"code": "deadgazelle",
+	"class": "butcherable",
+	"variantgroups": [
+		{ "code": "type", "states": [ "male", "female", "calf"] },
+		{ "code": "state", "states": [ "dead", "skinned", "bledout", "rotten" ] }
+	],
+	"maxstacksize": 1,
+	"behaviors": [{ "name": "GroundStorable", "properties": { "layout": "SingleCenter", "collisionBox": { "x1": 0.2, "y1": 0, "z1": 0.2, "x2": 0.8, "y2": 0.5, "z2": 0.8 }}}],
+	"texturesByType": { 
+		"deadgazelle-male-dead": { "skin": { "base": "game:entity/gazelle/adult-male" } },
+		"deadgazelle-female-dead": { "skin": { "base": "game:entity/gazelle/adult-female" } },
+		"deadgazelle-calf-dead": { "calf": { "base": "game:entity/gazelle/calf" } },
+		"deadgazelle-male-skinned": { "skin": { "base": "butchering:item/butchercreatures/animalredmeatbloody" } },
+		"deadgazelle-female-skinned": { "skin": { "base": "butchering:item/butchercreatures/animalredmeatbloody" } },
+		"deadgazelle-calf-skinned": { "calf": { "base": "butchering:item/butchercreatures/animalredmeatbloody" } },
+		"deadgazelle-male-bledout": { "skin": { "base": "butchering:item/butchercreatures/animalredmeatbledout" } },
+		"deadgazelle-female-bledout": { "skin": { "base": "butchering:item/butchercreatures/animalredmeatbledout" } },
+		"deadgazelle-calf-bledout": { "calf": { "base": "butchering:item/butchercreatures/animalredmeatbledout" } },
+		"deadgazelle-male-rotten": { "skin": { "base": "game:block/creature/rot/rot" } },
+		"deadgazelle-female-rotten": { "skin": { "base": "game:block/creature/rot/rot" } },
+		"deadgazelle-calf-rotten": { "calf": { "base": "game:block/creature/rot/rot" } }
+	},
+	"attributesByType": {
+		"deadgazelle-male-*": {
+			"size": 0.5,
+			"weight": 0.04,
+			"bloodAmount": 200,
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:butchercreatures/gazelle/gazelle-male-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:primemeat-raw",
+					"quantity": {
+						"avg": 0.8,
+						"var": 0.6
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 1,
+						"var": 0.5
+					}
+				}
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadgazelle-female-*": {
+			"size": 0.5,
+			"weight": 0.04,
+			"bloodAmount": 200,
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:butchercreatures/gazelle/gazelle-female-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:primemeat-raw",
+					"quantity": {
+						"avg": 1,
+						"var": 0.8
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 1,
+						"var": 0.5
+					}
+				}
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadgazelle-calf-*": {
+			"size": 0.5,
+			"weight": 0,
+			"bloodAmount": 20,
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:butchercreatures/gazelle/gazelle-calf-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+			],
+			"skinningRewards": [
+			]
+		}
+	},
+	
+	"shapeByType": {
+		 "deadgazelle-male-*": { "base": "butchercreatures/gazelle/gazelle-male-dead" },
+		 "deadgazelle-female-*": { "base": "butchercreatures/gazelle/gazelle-female-dead" },
+		 "deadgazelle-calf-*": { "base": "butchercreatures/gazelle/gazelle-calf-dead" }
+
+	},
+	"storageFlagsbytype": {
+		"deadgazelle-calf-*": 2049,
+		"*-rotten": 1,
+		"*": 2050
+	},
+    "transitionablePropsByType": {
+		"*-rotten": [],
+		"*": [
+			{
+				"type": "perish",
+				"freshHours": {
+					"avg": 80
+				},
+				"transitionHours": {
+					"avg": 24
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "butchering:deadgazelle-{type}-rotten"
+				},
+				"transitionRatio": 1
+			}
+		]
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"heldTpIdleAnimation": "holdunderarm",
+	"guiTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -20, "y": 21, "z": 180 },
+		"origin": { "x": 0.53, "y": 0.35, "z": 0.5 },
+		"scale": 1,
+		"rotate": true
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -132, "y": -180, "z": -18 }
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.5, "y": -0.3, "z": -0.7 },
+		"rotation": { "x": -89, "y": -12, "z": 3 },
+		"scale": 0.86
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 180, "y": 33, "z": -180 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 4.5
+	}
+}

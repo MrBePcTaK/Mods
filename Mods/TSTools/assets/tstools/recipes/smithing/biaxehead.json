@@ -1,0 +1,23 @@
+{
+	"ingredient": {
+		"type": "item",
+		"code": "game:ingot-iron"
+		
+	},
+		
+	
+	
+	"output": { 
+		"type": "item", 
+		"code": "tstools:biaxehead" },
+	"pattern": [[ 
+		"___##__",
+		"_##_##_",
+		"###_###",
+		"_##_##_",
+		"__##___"
+		
+		
+		]]
+	
+}

@@ -1,0 +1,199 @@
+{
+	"enabled": true,
+	"code": "deadmoose",
+	"class": "butcherable",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "male" ]
+		},
+		{
+			"code": "age",
+			"states": [ "adult", "baby" ]
+		},
+		{
+			"code": "state",
+			"states": [ "dead", "skinned", "bledout", "rotten" ]
+		}
+	],
+	"maxstacksize": 1,
+	"behaviors": [
+		{
+			"name": "GroundStorable",
+			"properties": {
+				"layout": "SingleCenter",
+				"collisionBox": {
+					"x1": 0.2,
+					"y1": 0,
+					"z1": 0.2,
+					"x2": 0.8,
+					"y2": 0.5,
+					"z2": 0.8
+				}
+			}
+		}
+	],
+	"texturesByType": {
+		"deadmoose-*-adult-dead": { "hide": { "base": "game:entity/hooved/deer/moose-adult" } },
+		"deadmoose-*-baby-dead": { "hide": { "base": "game:entity/hooved/deer/moose-baby" } },
+		"deadmoose-*-adult-skinned": { "hide": { "base": "butchering:item/butchercreatures/animalredmeatbloody" } },
+		"deadmoose-*-baby-skinned": { "hide": { "base": "butchering:item/butchercreatures/animalredmeatbloody" } },
+		"deadmoose-*-adult-bledout": { "hide": { "base": "butchering:item/butchercreatures/animalredmeatbledout" } },
+		"deadmoose-*-baby-bledout": { "hide": { "base": "butchering:item/butchercreatures/animalredmeatbledout" } },
+		"deadmoose-*-adult-rotten": { "hide": { "base": "game:block/creature/rot/rot" } },
+		"deadmoose-*-baby-rotten": { "hide": { "base": "game:block/creature/rot/rot" } }
+	},
+	"attributesByType": {
+		"deadmoose-male-adult-*": {
+			"size": 0.5,
+			"weight": 0.08,
+			"bloodAmount": 400,
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:butchercreatures/moose/moose-adult-hanging" },
+			"excludeRewards": [ "hide-raw-small" ],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:primemeat-raw",
+					"quantity": {
+						"avg": 1.4,
+						"var": 1
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 2,
+						"var": 0.5
+					}
+				}
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadmoose-male-baby-*": {
+			"size": 0.5,
+			"weight": 0,
+			"bloodAmount": 20,
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:butchercreatures/moose/moose-baby-hanging" },
+			"excludeRewards": [ "hide-raw-large" ],
+			"butcheringRewards": [
+			],
+			"skinningRewards": [
+			]
+		}
+	},
+
+	"shapeByType": {
+		"deadmoose-male-adult-*": { "base": "butchercreatures/moose/moose-adult-dead" },
+		"deadmoose-male-baby-*": { "base": "butchercreatures/moose/moose-baby-dead" }
+
+	},
+	"storageFlagsbytype": {
+		"deadmoose-baby-*": 2049,
+		"*-rotten": 1,
+		"*": 2050
+	},
+	"transitionablePropsByType": {
+		"*-rotten": [],
+		"*": [
+			{
+				"type": "perish",
+				"freshHours": {
+					"avg": 80
+				},
+				"transitionHours": {
+					"avg": 24
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "butchering:deadmoose-{type}-{age}-rotten"
+				},
+				"transitionRatio": 1
+			}
+		]
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ]
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -20,
+			"y": 21,
+			"z": 180
+		},
+		"origin": {
+			"x": 0.53,
+			"y": 0.35,
+			"z": 0.5
+		},
+		"scale": 1,
+		"rotate": true
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -132,
+			"y": -180,
+			"z": -18
+		}
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.5,
+			"y": -0.3,
+			"z": -0.7
+		},
+		"rotation": {
+			"x": -89,
+			"y": -12,
+			"z": 3
+		},
+		"scale": 0.86
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 180,
+			"y": 33,
+			"z": -180
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 4.5
+	}
+}

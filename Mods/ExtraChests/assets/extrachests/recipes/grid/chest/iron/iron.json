@@ -1,0 +1,20 @@
+[
+  {
+    "ingredientPattern": "T",
+    "ingredients": {
+      "T": {
+        "type": "block",
+        "code": "trunk-east",
+        "attributes": { "type": "iron" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "chest-east",
+      "attributes": { "type": "iron" },
+      "quantity": 2
+    }
+  }
+]

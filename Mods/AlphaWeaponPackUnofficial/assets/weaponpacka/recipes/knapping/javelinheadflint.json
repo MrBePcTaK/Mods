@@ -1,0 +1,17 @@
+{
+	ingredient: { type: "item", code: "game:flint" },
+	pattern: [[
+		"#__#__#___",
+		"##_##_##_#",
+		"#__#__#_##",
+		"_________#",
+		"#__#__#___",
+		"##_##_##__",
+		"#__#__#__#",
+		"________##",
+		"_#___#___#",
+		"###_###___",
+	]],
+	name: "Stone spear",
+	output: { type: "item", code: "throwingspearhead-flint", stacksize: 8  }
+}

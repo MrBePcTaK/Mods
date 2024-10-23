@@ -1,0 +1,339 @@
+{
+	"weaponpacka:blockdesc-toolmold-*-khopesh": "For making khopeshes",
+	"weaponpacka:block-toolmold-raw-khopesh": "Toolmold Raw (Khopesh)",
+	"weaponpacka:block-toolmold-burned-khopesh": "Toolmold Burned (Khopesh)",
+	
+	"weaponpacka:blockdesc-toolmold-*-machete": "Used to make bush knives",
+	"weaponpacka:block-toolmold-raw-machete": "Toolmold Raw (Bush knife)",
+	"weaponpacka:block-toolmold-burned-machete": "Toolmold Burned (Bush knife)",
+	
+	"weaponpacka:blockdesc-toolmold-*-club": "Used to make a cheap 1/2 metal cost club",
+	"weaponpacka:block-toolmold-raw-club": "Toolmold Raw (Club)",
+	"weaponpacka:block-toolmold-burned-club": "Toolmold Burned (Club)",
+	
+	"weaponpacka:blockdesc-toolmold-*-tachi": "For making tachi",
+	"weaponpacka:block-toolmold-raw-tachi": "Toolmold Raw (Tachi)",
+	"weaponpacka:block-toolmold-burned-tachi": "Toolmold Burned (Tachi)",
+	
+	
+	"weaponpacka:itemdesc-enlongblade-*": "A large metal sword with average damage, durability, range, and speed. Standard armor penetration",
+	"weaponpacka:item-enlongblade-iron": "Iron bastard sword",
+	"weaponpacka:item-enlongblade-meteoriciron": "Meteoric iron bastard sword",
+	"weaponpacka:item-enlongblade-steel": "Steel bastard sword",
+	
+	
+	"weaponpacka:itemdesc-gladius-*": "A long bronze sword with average damage, durability, range, and speed. It's light build leave it with poor armor penetration",
+	"weaponpacka:item-gladius-tinbronze": "Tin bronze spatha",
+	"weaponpacka:item-gladius-bismuthbronze": "Bismuth bronze spatha",
+	"weaponpacka:item-gladius-blackbronze": "Black bronze spatha",
+	
+	
+	"weaponpacka:itemdesc-haleberd-*": "A very slow but insanely high damage polearm, has high durability but lower range for a polearm. Good against armor",
+	"weaponpacka:item-haleberd-iron": "Iron halberd",
+	"weaponpacka:item-haleberd-meteoriciron": "Meteoric iron halberd",
+	"weaponpacka:item-haleberd-steel": "Steel halberd",
+	
+	
+	"weaponpacka:itemdesc-polespear-*": "A long-reaching, average damage polearm. Has a slow swing speed and slightly below average durability. Good against armor",
+	"weaponpacka:item-polespear-copper": "Copper spontoon",
+	"weaponpacka:item-polespear-tinbronze": "Tin bronze spontoon",
+	"weaponpacka:item-polespear-bismuthbronze": "Bismuth bronze spontoon",
+	"weaponpacka:item-polespear-blackbronze": "Black bronze spontoon",
+	"weaponpacka:item-polespear-iron": "Iron spontoon",
+	"weaponpacka:item-polespear-meteoriciron": "Meteoric iron spontoon",
+	"weaponpacka:item-polespear-steel": "Steel spontoon",
+	
+	
+	"weaponpacka:itemdesc-igorotaxe-*": "A particularly brutal type of war axe with a very sharp point. Deals exceedingly high damage at an average speed, but has a very poor durability. Good against armor",
+	"weaponpacka:item-igorotaxe-iron": "Iron igorot axe",
+	"weaponpacka:item-igorotaxe-meteoriciron": "Meteoric iron igorot axe",
+	"weaponpacka:item-igorotaxe-steel": "Steel igorot axe",
+	
+	
+	"weaponpacka:itemdesc-katar-*": "A push dagger capable of extremely rapid but very low damage attacks. The short blade gives it insanely high durability but quite low range. Good against armor",
+	"itemcraftdesc-katar-*": "A very fast push dagger which has very high durability but low damage",
+	"weaponpacka:item-katar-copper": "Copper katar",
+	"weaponpacka:item-katar-tinbronze": "Tin bronze katar",
+	"weaponpacka:item-katar-bismuthbronze": "Bismuth bronze katar",
+	"weaponpacka:item-katar-blackbronze": "Black bronze katar",
+	"weaponpacka:item-katar-iron": "Iron katar",
+	"weaponpacka:item-katar-meteoriciron": "Meteoric iron katar",
+	"weaponpacka:item-katar-steel": "Steel katar",
+	
+	
+	"weaponpacka:itemdesc-khopesh-*": "A casted sword-axe hybrid capable of above average damage at a slow speed. Has a somewhat poor durability. Standard armor penetration",
+	"weaponpacka:item-khopesh-copper": "Copper khopesh",
+	"weaponpacka:item-khopesh-tinbronze": "Tin bronze khopesh",
+	"weaponpacka:item-khopesh-bismuthbronze": "Bismuth bronze khopesh",
+	"weaponpacka:item-khopesh-blackbronze": "Black bronze khopesh",
+	
+	
+	"weaponpacka:itemdesc-machete-*": "Less of a weapon and more of a tool; this knife can harvest grass, carcasses, and rip through all plant matter with ease. Has a very high durability, but is unsuitable for crafting",
+	"weaponpacka:item-machete-copper": "Copper bush knife",
+	"weaponpacka:item-machete-tinbronze": "Tin bronze bush knife",
+	"weaponpacka:item-machete-bismuthbronze": "Bismuth bronze bush knife",
+	"weaponpacka:item-machete-blackbronze": "Black bronze bush knife",
+	"weaponpacka:item-machete-iron": "Iron bush knife",
+	"weaponpacka:item-machete-meteoriciron": "Meteoric iron bush knife",
+	"weaponpacka:item-machete-steel": "Steel bush knife",
+	
+	
+	"weaponpacka:itemdesc-macu-*": "A club with a set of sharp stone teeth. It deals a very high damage at an average speed, but it also has very low durability. Standard armor penetration",
+	"weaponpacka:item-macu-flint": "Flint macuahuitl",
+	"weaponpacka:item-macu-obsidian": "Obsidian macuahuitl",
+	
+	
+	"weaponpacka:itemdesc-naginata-*": "An average speed polearm with above average durability, but it deals slightly below average damage and has a lower range for a polearm. Poor against armor",
+	"weaponpacka:item-naginata-iron": "Iron naginata",
+	"weaponpacka:item-naginata-meteoriciron": "Meteoric iron naginata",
+	"weaponpacka:item-naginata-steel": "Steel naginata",
+	"weaponpacka:item-naginata-copper": "Copper naginata",
+	"weaponpacka:item-naginata-tinbronze": "Tin bronze naginata",
+	"weaponpacka:item-naginata-bismuthbronze": "Bismuth bronze naginata",
+	"weaponpacka:item-naginata-blackbronze": "Black bronze naginata",
+	
+	"weaponpacka:itemdesc-rapier-*": "A thin, long sword capable of delivering extremely quick piercing attacks that deal a low amount of damage with a below average durability. Great against armor",
+	"itemcraftdesc-rapier-*": "A very light and fast sword that has good reach but lower damage and durability",
+	"weaponpacka:item-rapier-iron": "Iron rapier",
+	"weaponpacka:item-rapier-meteoriciron": "Meteoric iron rapier",
+	"weaponpacka:item-rapier-steel": "Steel rapier",
+	
+	
+	"weaponpacka:itemdesc-spikedagger-*": "A small dagger shaped like a spike. Despite is low damage, speed, and durability; all of it's damage completely ignores armor",
+	"itemcraftdesc-spikedagger-*": "A fragile low damage and speed dagger that completely ignores armor",
+	"weaponpacka:item-spikedagger-iron": "Iron spike daggger",
+	"weaponpacka:item-spikedagger-meteoriciron": "Meteoric iron spike daggger",
+	"weaponpacka:item-spikedagger-steel": "Steel spike daggger",
+	"weaponpacka:item-spikedagger-copper": "Copper spike daggger",
+	"weaponpacka:item-spikedagger-tinbronze": "Tin bronze spike daggger",
+	"weaponpacka:item-spikedagger-bismuthbronze": "Bismuth bronze spike daggger",
+	"weaponpacka:item-spikedagger-blackbronze": "Black bronze spike daggger",
+	
+	
+	"weaponpacka:itemdesc-tachi-*": "A curved sword with below average damage but a quick swing speed and a high amount of durability. Poor against armor",
+	"weaponpacka:item-tachi-iron": "Iron tachi",
+	"weaponpacka:item-tachi-meteoriciron": "Meteoric iron tachi",
+	"weaponpacka:item-tachi-steel": "Steel tachi",
+	"weaponpacka:item-tachi-copper": "Copper tachi",
+	"weaponpacka:item-tachi-tinbronze": "Tin bronze tachi",
+	"weaponpacka:item-tachi-bismuthbronze": "Bismuth bronze tachi",
+	"weaponpacka:item-tachi-blackbronze": "Black bronze tachi",
+	
+	
+	"weaponpacka:itemdesc-throwingspear-*": "A single-use throwing weapon. While not an efficient way to use resources, the damage these little spears do when thrown is nothing to scoff at and they travel super fast. Can be used less effectively as a melee weapon",
+	"weaponpacka:item-throwingspear-obsidian": "Obsidian javelin",
+	"weaponpacka:item-throwingspear-flint": "Flint javelin",
+	"weaponpacka:item-throwingspear-copper": "Copper javelin",
+	"weaponpacka:item-throwingspear-tinbronze": "Tin bronze javelin",
+	"weaponpacka:item-throwingspear-bismuthbronze": "Bismuth bronze javelin",
+	"weaponpacka:item-throwingspear-blackbronze": "Black bronze javelin",
+	"weaponpacka:item-throwingspear-iron": "Iron javelin",
+	"weaponpacka:item-throwingspear-meteoriciron": "Meteoric iron javelin",
+	"weaponpacka:item-throwingspear-steel": "Steel javelin",
+	
+	
+	"weaponpacka:itemdesc-waraxe-*": "A slow but very high damage war axe with poor durability. Standard armor penetration", 
+	"weaponpacka:item-waraxe-iron": "Iron war axe",
+	"weaponpacka:item-waraxe-meteoriciron": "Meteoriciron war axe",
+	"weaponpacka:item-waraxe-steel": "Steel war axe",
+	
+	
+	"weaponpacka:itemdesc-warhammer-*": "A very slow war hammer capable of above average damage. It's solid head gives it high durability. Good against armor",
+	"weaponpacka:item-warhammer-iron": "Iron war hammer",
+	"weaponpacka:item-warhammer-meteoriciron": "Meteoric iron war hammer",
+	"weaponpacka:item-warhammer-steel": "Steel war hammer",
+	"weaponpacka:item-warhammer-tinbronze": "Tin bronze war hammer",
+	"weaponpacka:item-warhammer-bismuthbronze": "Bismuth bronze war hammer",
+	"weaponpacka:item-warhammer-blackbronze": "Black bronze war hammer",
+	"weaponpacka:item-warhammer-copper": "Copper war hammer",
+	
+	
+	"weaponpacka:itemdesc-warpick-*": "A war pick with a standard swing speed, very high durability, but slightly below average damage. Great against armor",
+	"weaponpacka:item-warpick-iron": "Iron war pick",
+	"weaponpacka:item-warpick-meteoriciron": "Meteoric iron war pick",
+	"weaponpacka:item-warpick-steel": "Steel war pick",
+	"weaponpacka:item-warpick-tinbronze": "Tin bronze war pick",
+	"weaponpacka:item-warpick-bismuthbronze": "Bismuth bronze war pick",
+	"weaponpacka:item-warpick-blackbronze": "Black bronze war pick",
+	
+	
+	"weaponpacka:itemdesc-epsilonaxe-*": "A slow but very high damage war axe with poor durability. Standard armor penetration",
+	"weaponpacka:item-epsilonaxe-copper": "Copper epsilon axe",
+	"weaponpacka:item-epsilonaxe-tinbronze": "Tinbronze epsilon axe",
+	"weaponpacka:item-epsilonaxe-bismuthbronze": "Bismuthbronze epsilon axe",
+	"weaponpacka:item-epsilonaxe-blackbronze": "Blackbronze epsilon axe",
+	
+	
+	"weaponpacka:itemdesc-mambele-*": "A hybrid melee-throwing weapon. Has a slow but powerful melee attack and gains a slight damage bonus when thrown. It's disposable design leaves it with low durability. Poor against armor",
+	"weaponpacka:item-mambele-copper": "Copper mambele",
+	"weaponpacka:item-mambele-tinbronze": "Tin bronze mambele",
+	"weaponpacka:item-mambele-bismuthbronze": "Bismuth bronze mambele",
+	"weaponpacka:item-mambele-blackbronze": "Black bronze mambele",
+	"weaponpacka:item-mambele-iron": "Iron mambele",
+	"weaponpacka:item-mambele-meteoriciron": "Meteoric iron mambele",
+	"weaponpacka:item-mambele-steel": "Steel mambele",
+	
+	
+	"weaponpacka:itemdesc-trident-*": "A trident with a set of carved bone forks, while very slow and not suitable for throwing, it offers superior reach and durability without sacrificing too much damage",
+	"weaponpacka:item-trident-bone": "Bone trident",
+	
+	
+	"weaponpacka:itemdesc-metalclub-*": "Essentially a stick with a lump of lead on the end. While extremely durable it is slow to swing. Good against armor",
+	"weaponpacka:item-metalclub-lead": "Lead club",
+	
+	
+	"weaponpacka:itemdesc-culacula-*": "A wooden war paddle carved from hardwood, it's light weight allows it to strike quickly but not very hard. Poor against armor",
+	"weaponpacka:item-culacula-oak": "Oak culacula",
+	"weaponpacka:item-culacula-maple": "Maple culacula",
+	"weaponpacka:item-culacula-walnut": "Walnut culacula",
+	"weaponpacka:item-culacula-birch": "Birch culacula",
+	"weaponpacka:item-culacula-acacia": "Acacia culacula",
+	"weaponpacka:item-culacula-ebony": "Ebony culacula",
+	"weaponpacka:item-culacula-purpleheart": "Purpleheart culacula",
+	
+	
+	"weaponpacka:itemdesc-clubhead-*": "Only takes half a lead ingot of metal to cast",
+	"weaponpacka:item-clubhead-lead": "Lead club head",
+	
+	"weaponpacka:itemdesc-javelinfletching": "Used to make throwing javelins",
+	"weaponpacka:item-javelinfletching": "Javelin fletchings",
+	
+	
+	"weaponpacka:itemdesc-harvestknifehead-*": "Created via casting, can also be made on an anvil",
+	"itemcraftdesc-harvestknifehead-*": "Used to make a knife that can harvest animals and tear through plant matter",
+	"weaponpacka:item-harvestknifehead-copper": "Bush knife head (Copper)",
+	"weaponpacka:item-harvestknifehead-tinbronze": "Bush knife head (Tinbronze)",
+	"weaponpacka:item-harvestknifehead-bismuthbronze": "Bush knife head (Bismuthbronze)",
+	"weaponpacka:item-harvestknifehead-blackbronze": "Bush knife head (Blackbronze)",
+	"weaponpacka:item-harvestknifehead-iron": "Bush knife head (Iron)",
+	"weaponpacka:item-harvestknifehead-meteoriciron": "Bush knife head (Meteoriciron)",
+	"weaponpacka:item-harvestknifehead-steel": "Bush knife head (Steel)",
+	
+	
+	"itemcraftdesc-mambelehead-*": "For making a pair of cheap but reusable throwing daggers",
+	"weaponpacka:item-mambelehead-copper": "Mambele head (Copper)",
+	"weaponpacka:item-mambelehead-tinbronze": "Mambele head (Tinbronze)",
+	"weaponpacka:item-mambelehead-bismuthbronze": "Mambele head (Bismuthbronze)",
+	"weaponpacka:item-mambelehead-blackbronze": "Mambele head (Blackbronze)",
+	"weaponpacka:item-mambelehead-iron": "Mambele head (Iron)",
+	"weaponpacka:item-mambelehead-meteoriciron": "Mambele head (Meteoriciron)",
+	"weaponpacka:item-mambelehead-steel": "Mambele head (Steel)",
+	
+	
+	"weaponpacka:item-club-bone": "Bone club",
+	"weaponpacka:itemdesc-club-*": "Most problems in life can be solved with a club. Slow but effective",
+	
+	
+	"itemcraftdesc-chakri-*": "Single use sharp throwing rings, you get more per ingot compared to javelins but they deal a bit less damage",
+	"weaponpacka:itemdesc-chakri-*": "A single-use throwing weapon. More cost efficient than javelins but they deal less damage. Can be used less effectively as a melee weapon",
+	"weaponpacka:item-chakri-copper": "Copper chakri",
+	"weaponpacka:item-chakri-tinbronze": "Tinbronze chakri",
+	"weaponpacka:item-chakri-bismuthbronze": "Bismuthbronze chakri",
+	"weaponpacka:item-chakri-blackbronze": "Blackbronze chakri",
+	"weaponpacka:item-chakri-iron": "Iron chakri",
+	"weaponpacka:item-chakri-meteoriciron": "Meteoriciron chakri",
+	"weaponpacka:item-chakri-steel": "Steel chakri",
+	
+	
+	"weaponpacka:item-throwingspear-bone": "Javelin (Bone)",
+	
+	
+	"itemcraftdesc-haleberdhead-*": "Used to make a high damage but slow polearm",
+	"weaponpacka:item-haleberdhead-iron": "Halberd head (Iron)",
+	"weaponpacka:item-haleberdhead-meteoriciron": "Halberd head (Meteoric iron)",
+	"weaponpacka:item-haleberdhead-steel": "Halberd head (Steel)",
+	
+	
+	"itemcraftdesc-throwingspearhead-*": "Used to make extremely high damage but single use javelins",
+	"weaponpacka:item-throwingspearhead-bone": "Javelin heads (Bone)",
+	"weaponpacka:item-throwingspearhead-flint": "Javelin heads (Flint)",
+	"weaponpacka:item-throwingspearhead-obsidian": "Javelin heads (Obsidian)",
+	"weaponpacka:item-throwingspearhead-copper": "Javelin heads (Copper)",
+	"weaponpacka:item-throwingspearhead-tinbronze": "Javelin heads (Tin bronze)",
+	"weaponpacka:item-throwingspearhead-bismuthbronze": "Javelin heads (Bismuth bronze)",
+	"weaponpacka:item-throwingspearhead-blackbronze": "Javelin heads (Black bronze)",
+	"weaponpacka:item-throwingspearhead-iron": "Javelin heads (Iron)",
+	"weaponpacka:item-throwingspearhead-meteoriciron": "Javelin heads (Meteoric iron)",
+	"weaponpacka:item-throwingspearhead-steel": "Javelin heads (Steel)",
+	
+	
+	"itemcraftdesc-bastardswordhead-*": "Used to make a well rounded sword",
+	"weaponpacka:item-bastardswordhead-iron": "Bastard sword head (Iron)",
+	"weaponpacka:item-bastardswordhead-meteoriciron": "Bastard sword head (Meteoric iron)",
+	"weaponpacka:item-bastardswordhead-steel": "Bastard sword head (Steel)",
+	
+	
+	"itemcraftdesc-epsilonaxehead-*": "Used to make a high damage but slow war axe",
+	"weaponpacka:item-epsilonaxehead-copper": "Epsilon axe head (Copper)",
+	"weaponpacka:item-epsilonaxehead-tinbronze": "Epsilon axe head (Tin bronze)",
+	"weaponpacka:item-epsilonaxehead-bismuthbronze": "Epsilon axe head (Bismuth bronze)",
+	"weaponpacka:item-epsilonaxehead-blackbronze": "Epsilon axe head (Black bronze)",
+	
+	
+	"itemcraftdesc-igorothead-*": "Used to make an extremely high damage but fragile axe",
+	"weaponpacka:item-igorothead-iron": "Igorot head (Iron)",
+	"weaponpacka:item-igorothead-meteoriciron": "Igorot head (Meteoric iron)",
+	"weaponpacka:item-igorothead-steel": "Igorot head (Steel)",
+	
+	
+	"itemcraftdesc-naginatahead-*": "Used to make a quick striking polearm that deals slightly less damage but has good durability",
+	"weaponpacka:item-naginatahead-copper": "Naginata head (Copper)",
+	"weaponpacka:item-naginatahead-tinbronze": "Naginata head (Tin bronze)",
+	"weaponpacka:item-naginatahead-bismuthbronze": "Naginata head (Bismuth bronze)",
+	"weaponpacka:item-naginatahead-blackbronze": "Naginata head (Black bronze)",
+	"weaponpacka:item-naginatahead-iron": "Naginata head (Iron)",
+	"weaponpacka:item-naginatahead-meteoriciron": "Naginata head (Meteoric iron)",
+	"weaponpacka:item-naginatahead-steel": "Naginata head (Steel)",
+	
+	
+	"itemcraftdesc-spontoonhead-*": "For building a long range polearm which deals standard damage but is slightly less durable",
+	"weaponpacka:item-spontoonhead-copper": "Spontoon head (Copper)",
+	"weaponpacka:item-spontoonhead-tinbronze": "Spontoon head (Tin bronze)",
+	"weaponpacka:item-spontoonhead-bismuthbronze": "Spontoon head (Bismuth bronze)",
+	"weaponpacka:item-spontoonhead-blackbronze": "Spontoon head (Black bronze)",
+	"weaponpacka:item-spontoonhead-iron": "Spontoon head (Iron)",
+	"weaponpacka:item-spontoonhead-meteoriciron": "Spontoon head (Meteoric iron)",
+	"weaponpacka:item-spontoonhead-steel": "Spontoon head (Steel)",
+	
+	
+	"itemcraftdesc-spathahead-*": "Used to make a well rounded bronze age sword",
+	"weaponpacka:item-spathahead-tinbronze": "Spatha head (Tin bronze)",
+	"weaponpacka:item-spathahead-bismuthbronze": "Spatha head (Bismuth bronze)",
+	"weaponpacka:item-spathahead-blackbronze": "Spatha head (Black bronze)",
+	
+	
+	"weaponpacka:itemdesc-tachihead-*": "Created via casting, can also be made on an anvil",
+	"itemcraftdesc-tachihead-*": "Used to make a quick striking but low damage sword",
+	"weaponpacka:item-tachihead-copper": "Tachi head (Copper)",
+	"weaponpacka:item-tachihead-tinbronze": "Tachi head (Tin bronze)",
+	"weaponpacka:item-tachihead-bismuthbronze": "Tachi head (Bismuth bronze)",
+	"weaponpacka:item-tachihead-blackbronze": "Tachi head (Black bronze)",
+	"weaponpacka:item-tachihead-iron": "Tachi head (Iron)",
+	"weaponpacka:item-tachihead-meteoriciron": "Tachi head (Meteoric iron)",
+	"weaponpacka:item-tachihead-steel": "Tachi head (Steel)",
+	
+	
+	"itemcraftdesc-waraxehead-*": "Used to make a high damage but slow war axe",
+	"weaponpacka:item-waraxehead-iron": "War axe head (Iron)",
+	"weaponpacka:item-waraxehead-meteoriciron": "War axe head (Meteoric iron)",
+	"weaponpacka:item-waraxehead-steel": "War axe head (Steel)",
+	
+	
+	"itemcraftdesc-warhammerhead-*": "Used to make a durable, moderate damage war hammer that is quite slow",
+	"weaponpacka:item-warhammerhead-copper": "War hammer head (Copper)",
+	"weaponpacka:item-warhammerhead-tinbronze": "War hammer head (Tin bronze)",
+	"weaponpacka:item-warhammerhead-bismuthbronze": "War hammer head (Bismuth bronze)",
+	"weaponpacka:item-warhammerhead-blackbronze": "War hammer head (Black bronze)",
+	"weaponpacka:item-warhammerhead-iron": "War hammer head (Iron)",
+	"weaponpacka:item-warhammerhead-meteoriciron": "War hammer head (Meteoric iron)",
+	"weaponpacka:item-warhammerhead-steel": "War hammer head (Steel)",
+	
+	
+	"itemcraftdesc-warpickhead-*": "Used to make a very durable, slightly lower damage war pick with an average attack speed",
+	"weaponpacka:item-warpickhead-tinbronze": "War pick head (Tin bronze)",
+	"weaponpacka:item-warpickhead-bismuthbronze": "War pick head (Bismuth bronze)",
+	"weaponpacka:item-warpickhead-blackbronze": "War pick head (Black bronze)",
+	"weaponpacka:item-warpickhead-iron": "War pick head (Iron)",
+	"weaponpacka:item-warpickhead-meteoriciron": "War pick head (Meteoric iron)",
+	"weaponpacka:item-warpickhead-steel": "War pick head (Steel)"
+}

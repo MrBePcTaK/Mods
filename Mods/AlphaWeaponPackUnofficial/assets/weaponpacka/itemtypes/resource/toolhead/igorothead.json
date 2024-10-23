@@ -1,0 +1,37 @@
+{
+	code: "igorothead",
+	attributes: {},
+	variantgroups: [
+		{ code: "metal", states: [ "iron", "meteoriciron", "steel" ] },
+	],
+	shape: { base: "item/head/igorothead" },
+	textures: {
+		"iron": { base: "game:block/metal/anvil/{metal}" }, 
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "alphaweaponpack": ["*"] },
+	maxstacksize: 32,
+	materialDensity: 2500,
+	guiTransform: {
+		translation: { x: 3, y: 1, z: -20 },
+		rotation: { x: -60, y: -45, z: -180 },
+		origin: { x: 0.93, y: 0, z: 0.45 },
+		scale: 2.25
+	},
+	fpHandTransform: {
+		translation: { x: 1.3, y: -0.7, z: -0.3 },
+		rotation: { x: -180, y: -180, z: -83 },
+		origin: { x: 0.2, y: -0.2, z: 0.8 },
+		scale: 3.5
+	},
+	tpHandTransform: {
+		translation: { x: -1.04, y: -1.04, z: -0.4 },
+		rotation: { x: -87, y: -179, z: 180 },
+		scale: 0.51
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 4
+	}
+}

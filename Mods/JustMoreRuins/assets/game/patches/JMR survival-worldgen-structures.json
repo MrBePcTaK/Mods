@@ -1,0 +1,621 @@
+[{
+		"op": "add",
+		"path": "/schematicYOffsets",
+		"value": {
+			"overground/andesite1": 0,
+			"overground/andesite2": -4,
+			"overground/basalt1": -1,
+			"overground/basalt2": -1,
+			"overground/bauxite1": -1,
+			"overground/bauxite2": -1,
+			"overground/chalk1": -1,
+			"overground/chalk2": -4,
+			"overground/chert1": -5,
+			"overground/chert2": -1,
+			"overground/claystone1": -1,
+			"overground/claystone2": -2,
+			"overground/conglomerate1": -6,
+			"overground/conglomerate2": -4,
+			"overground/granite1": -1,
+			"overground/granite2": -1,
+			"overground/kimberlite1": 0,
+			"overground/kimberlite2": -2,
+			"overground/limestone1": -1,
+			"overground/limestone2": -1,
+			"overground/marble1": -1,
+			"overground/peridotite1": -4,
+			"overground/peridotite2": -1,
+			"overground/phyllite1": -1,
+			"overground/phyllite2": -6,
+			"overground/sandstone1": -3,
+			"overground/sandstone2": -1,
+			"overground/shale1": -4,
+			"overground/shale2": -1,
+			"overground/slate1": -2,
+			"overground/slate2": 0,
+			"overground/suevite1": -4,
+			"overground/suevite2": -1,
+			"overground/broken-trader-cart1": 0,
+			"overground/bear1": -1,
+			"overground/wolf1": -2,
+			"overground/vixic": -5,
+			"overground/burnttower": -3,
+			"overground/sandpeat": -5,
+			"overground/skulltower": -2,
+			"overground/laboratory": -1,
+			"overground/zengarden": -4,
+			"overground/windmill": -1,
+			"overground/toxic-laboratory": -5,
+			
+			"caravans/caravan1": -1,
+			"caravans/caravan2": 0,
+			"caravans/caravan3": -1,
+			"caravans/caravan4": -1,
+			"caravans/caravan5": -1,
+			"caravans/caravan6": 0,
+			"caravans/caravan7": -1,
+			"caravans/caravan8": 0,
+			"caravans/caravan9": -1,
+			"caravans/caravan10": 0,
+			"caravans/caravan11": 0,
+			"caravans/caravanclutter1": -1,
+			"caravans/caravanclutter2": -1,
+			"caravans/caravanclutter3": -4,
+			"caravans/caravanclutter4": -5,
+			"caravans/caravanclutter5": -1,
+			"caravans/caravanclutter6": -1,
+			"caravans/caravanclutter7": -1,
+			"caravans/caravanclutter8": -1,
+			"caravans/caravanclutter9": -1,
+			
+			"battleground/battlefield-locusts": -1,
+			"battleground/battlefield-trunk": -1,
+			"battleground/battleground-banner-fish": -2,
+			"battleground/battleground-banner-keys": -1,
+			"battleground/battleground-supplies": -1,
+			"battleground/brass-staff": 0,
+			"battleground/copper-shield": 0,
+			"battleground/dead-eidolon": -1,
+			"battleground/dirt-cube": -3,
+			"battleground/giant-belt": 0,
+			"battleground/obsidian-sword": -3,
+			"overground/last-stand": -1
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "andesite1",
+			"chance": 0.003,
+			"placement": "surface",
+			"schematics": [
+				"overground/andesite1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "andesite2",
+			"chance": 0.004,
+			"placement": "surface",
+			"schematics": [
+				"overground/andesite2"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "basalt1",
+			"chance": 0.006,
+			"placement": "surface",
+			"schematics": [
+				"overground/basalt1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "basalt2",
+			"chance": 0.001,
+			"placement": "surface",
+			"schematics": [
+				"overground/basalt2"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "bauxite1",
+			"chance": 0.003,
+			"placement": "surface",
+			"schematics": [
+				"overground/bauxite1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "bauxite2",
+			"chance": 0.007,
+			"placement": "surface",
+			"schematics": [
+				"overground/bauxite2"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "chalk1",
+			"chance": 0.004,
+			"placement": "surface",
+			"schematics": [
+				"overground/chalk1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "chalk2",
+			"chance": 0.002,
+			"placement": "surface",
+			"schematics": [
+				"overground/chalk2"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "chert1",
+			"chance": 0.003,
+			"placement": "surface",
+			"schematics": [
+				"overground/chert1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "chert2",
+			"chance": 0.007,
+			"placement": "surface",
+			"schematics": [
+				"overground/chert2"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "claystone1",
+			"chance": 0.0028,
+			"placement": "surface",
+			"schematics": [
+				"overground/claystone1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "claystone2",
+			"chance": 0.006,
+			"placement": "surface",
+			"schematics": [
+				"overground/claystone2"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "conglomerate1",
+			"chance": 0.0035,
+			"placement": "surface",
+			"schematics": [
+				"overground/conglomerate1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "conglomerate2",
+			"chance": 0.005,
+			"placement": "surface",
+			"schematics": [
+				"overground/conglomerate2"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "granite1",
+			"chance": 0.004,
+			"placement": "surface",
+			"schematics": [
+				"overground/granite1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "granite2",
+			"chance": 0.006,
+			"placement": "surface",
+			"schematics": [
+				"overground/granite2"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "kimberlite1",
+			"chance": 0.0025,
+			"placement": "surface",
+			"schematics": [
+				"overground/kimberlite1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "kimberlite2",
+			"chance": 0.001,
+			"placement": "surface",
+			"schematics": [
+				"overground/kimberlite2"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "limestone1",
+			"chance": 0.005,
+			"placement": "surface",
+			"schematics": [
+				"overground/limestone1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "limestone2",
+			"chance": 0.005,
+			"placement": "surface",
+			"schematics": [
+				"overground/limestone2"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "marble1",
+			"chance": 0.0016,
+			"placement": "surface",
+			"schematics": [
+				"overground/marble1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "peridotite1",
+			"chance": 0.003,
+			"placement": "surface",
+			"schematics": [
+				"overground/peridotite1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "peridotite2",
+			"chance": 0.008,
+			"placement": "surface",
+			"schematics": [
+				"overground/peridotite2"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "phyllite1",
+			"chance": 0.001,
+			"placement": "surface",
+			"schematics": [
+				"overground/phyllite1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "phyllite2",
+			"chance": 0.0025,
+			"placement": "surface",
+			"schematics": [
+				"overground/phyllite2"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "sandstone1",
+			"chance": 0.003,
+			"placement": "surface",
+			"schematics": [
+				"overground/sandstone1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "sandstone2",
+			"chance": 0.005,
+			"placement": "surface",
+			"schematics": [
+				"overground/sandstone2"
+			],
+			"minTemp": 3
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "shale1",
+			"chance": 0.005,
+			"placement": "surface",
+			"schematics": [
+				"overground/shale1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "shale2",
+			"chance": 0.0025,
+			"placement": "surface",
+			"schematics": [
+				"overground/shale2"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "slate1",
+			"chance": 0.002,
+			"placement": "surface",
+			"schematics": [
+				"overground/slate1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "slate2",
+			"chance": 0.004,
+			"placement": "surface",
+			"schematics": [
+				"overground/slate2"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "suevite1",
+			"chance": 0.002,
+			"placement": "surface",
+			"schematics": [
+				"overground/suevite1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "suevite2",
+			"chance": 0.00125,
+			"placement": "surface",
+			"schematics": [
+				"overground/suevite2"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "broken-trader-cart1",
+			"chance": 0.003,
+			"placement": "surface",
+			"schematics": [
+				"overground/broken-trader-cart1"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "bear1",
+			"chance": 0.0014,
+			"placement": "surface",
+			"schematics": [
+				"overground/bear1"
+			],
+			"minTemp": -20,
+			"maxTemp": 11,
+			"minRain": 0.25
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "wolf1",
+			"chance": 0.0032,
+			"placement": "surface",
+			"schematics": [
+				"overground/wolf1"
+			],
+			"minTemp": -5,
+			"maxTemp": 25,
+			"minRain": 0.15
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "vixic",
+			"chance": 0.003,
+			"placement": "surface",
+			"schematics": [
+				"overground/vixic"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "burnttower",
+			"chance": 0.0032,
+			"placement": "surface",
+			"schematics": [
+				"overground/burnttower"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "sandpeat",
+			"chance": 0.0022,
+			"placement": "surface",
+			"schematics": [
+				"overground/sandpeat"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "skulltower",
+			"chance": 0.0025,
+			"placement": "surface",
+			"schematics": [
+				"overground/skulltower"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "laboratory",
+			"chance": 0.0025,
+			"placement": "surface",
+			"schematics": [
+				"overground/laboratory"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "zengarden",
+			"chance": 0.0055,
+			"placement": "surface",
+			"schematics": [
+				"overground/zengarden"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "windmill",
+			"chance": 0.005,
+			"placement": "surface",
+			"schematics": [
+				"overground/windmill"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}, {
+		"op": "add",
+		"path": "/structures/-",
+		"value": {
+			"code": "toxic-laboratory",
+			"chance": 0.0014,
+			"placement": "surface",
+			"schematics": [
+				"overground/toxic-laboratory"
+			]
+		},
+		"file": "game:worldgen/structures.json"
+	}
+]

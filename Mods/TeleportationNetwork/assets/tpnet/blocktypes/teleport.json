@@ -1,0 +1,53 @@
+{
+  "code": "teleport",
+  "class": "BlockTeleport",
+  "entityclass": "BETeleport",
+  "blockmaterial": "Stone",
+  "shapeByType": {
+    "*-broken-*": { "base": "block/teleport/broken" },
+    "*-normal-*": { "base": "block/teleport/normal" }
+  },
+  "behaviors": [{ "name": "WrenchOrientable", "properties": { "baseCode": "teleport-{state}"  } }],
+  "textures": {
+    "darkwood": { "base": "game:block/machine/statictranslocator/base_darkwood" },
+    "rusty": { "base": "game:block/machine/statictranslocator/rusty" },
+    "rustyglow": { "base": "game:block/machine/statictranslocator/rustyglow" },
+    "statictranslocator_glass": { "base": "game:block/machine/statictranslocator/statictranslocator_glass" },
+    "statictranslocator_structure": { "base": "game:block/machine/statictranslocator/statictranslocator_structure" },
+    "lead": { "base": "game:block/metal/ingot/lead" },
+
+    "empty": { "base": "empty" },
+    "seal": { "base": "block/teleport/seal" }
+  },
+  "variantgroups": [
+    { "code": "state", "states": [ "broken", "normal" ] },
+    { "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
+  ],
+  "creativeinventoryStacksByType": {
+    "*-north": [{
+      "tabs": [ "general", "decorative", "tpnet" ],
+      "stacks": [{
+        "type": "block",
+        "code": "teleport-{state}-north",
+        "attributes": { "frameCode": "game:cobblestone-granite" }
+      }]
+    }]
+  },
+  "replaceable": 200,
+  "resistance": 4,
+  "lightAbsorption": 0,
+  "lightHsvByType": { "*-normal-*": [ 34, 7, 7 ] },
+  "sideopaque": { "all": false },
+  "sidesolid": { "all": false },
+  "sounds": {
+    "walk": "game:walk/stone"
+  },
+  "entityBehaviors": [{ "name": "Animatable" }],
+  "heldTpIdleAnimation": "holdbothhandslarge",
+  "heldTpUseAnimation": "twohandplaceblock",
+  "tpHandTransform": {
+    "translation": { "x": -1.2, "y": -1.1, "z": -0.8 },
+    "rotation": { "x": -2, "y": 25, "z": -78 },
+    "scale": 0.37
+  }
+}

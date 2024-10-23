@@ -1,0 +1,69 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [ { "modid": "caninae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadcaninae-female-dead"
+    },
+    "file": "caninae:entities/land/canina-female.json",
+    "dependsOn": [ { "modid": "caninae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadcaninae-female-dead"
+    },
+    "file": "caninae:entities/land/canina-female.json",
+    "dependsOn": [ { "modid": "caninae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadcaninae-male-dead"
+    },
+    "file": "caninae:entities/land/canina-male.json",
+    "dependsOn": [ { "modid": "caninae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadcaninae-male-dead"
+    },
+    "file": "caninae:entities/land/canina-male.json",
+    "dependsOn": [ { "modid": "caninae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadcaninae-baby-dead"
+    },
+    "file": "caninae:entities/land/canina-baby.json",
+    "dependsOn": [ { "modid": "caninae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadcaninae-baby-dead"
+    },
+    "file": "caninae:entities/land/canina-baby.json",
+    "dependsOn": [ { "modid": "caninae" } ]
+  }
+]

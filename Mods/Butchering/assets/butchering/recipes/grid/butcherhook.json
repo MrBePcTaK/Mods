@@ -1,0 +1,15 @@
+[
+	{
+		"ingredientPattern": "SLS,RHF",
+		"ingredients": {
+			"L": { "type": "block", "code": "game:log-*", "quantity": 2 },
+			"H": { "type": "item", "code": "hook-*", "quantity": 2, "name": "material" },
+			"R": { "type": "item", "code": "game:resin", "quantity": 1 },
+			"F": { "type": "item", "code": "game:flint", "quantity": 1 },
+			"S": { "type": "item", "code": "game:stick", "quantity": 4 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "butcherhook-{material}-north", "quantity": 1  }
+	}
+]

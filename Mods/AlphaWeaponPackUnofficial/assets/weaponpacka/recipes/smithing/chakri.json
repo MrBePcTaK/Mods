@@ -1,0 +1,42 @@
+[
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper"] },
+	pattern: [[
+		"###_###_###_###",
+		"#_#_#_#_#_#_#_#",
+		"###_###_###_###",
+	]],
+	name: "chakri",
+	output: { type: "item", code: "chakri-{metal}", quantity: 220  }
+},
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze"] },
+	pattern: [[
+		"###_###_###_###",
+		"#_#_#_#_#_#_#_#",
+		"###_###_###_###",
+	]],
+	name: "chakri",
+	output: { type: "item", code: "chakri-{metal}", quantity: 330  }
+},
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "meteoriciron"] },
+	pattern: [[
+		"###_###_###_###",
+		"#_#_#_#_#_#_#_#",
+		"###_###_###_###",
+	]],
+	name: "chakri",
+	output: { type: "item", code: "chakri-{metal}", quantity: 440  }
+},
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel"] },
+	pattern: [[
+		"###_###_###_###",
+		"#_#_#_#_#_#_#_#",
+		"###_###_###_###",
+	]],
+	name: "chakri",
+	output: { type: "item", code: "chakri-{metal}", quantity: 660  }
+}
+]

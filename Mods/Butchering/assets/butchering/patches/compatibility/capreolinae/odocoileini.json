@@ -1,0 +1,37 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/capreolinae/odocoileini.json",
+    "dependsOn": [ { "modid": "capreolinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "cervidae-odocoileini-adult-female-*": "butchering:deadodocoileini-female-dead",
+        "cervidae-odocoileini-adult-male-*": "butchering:deadodocoileini-male-dead",
+        "cervidae-odocoileini-baby-*": "butchering:deadodocoileini-baby-dead"
+      }
+    },
+    "file": "capreolinae:entities/land/odocoileini.json",
+    "dependsOn": [ { "modid": "capreolinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "cervidae-odocoileini-adult-female-*": "butchering:deadodocoileini-female-dead",
+        "cervidae-odocoileini-adult-male-*": "butchering:deadodocoileini-male-dead",
+        "cervidae-odocoileini-baby-*": "butchering:deadodocoileini-baby-dead"
+      }
+    },
+    "file": "capreolinae:entities/land/odocoileini.json",
+    "dependsOn": [ { "modid": "capreolinae" } ]
+  }
+]

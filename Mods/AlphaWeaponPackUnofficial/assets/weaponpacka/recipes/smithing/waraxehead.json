@@ -1,0 +1,14 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"____#######",
+		"_____#####_",
+		"______###__",
+		"#########__",
+		"______###__",
+		"_____#####_",
+		"____#######",
+	]],
+	name: "waraxehead",
+	output: { type: "item", code: "waraxehead-{metal}"  }
+}

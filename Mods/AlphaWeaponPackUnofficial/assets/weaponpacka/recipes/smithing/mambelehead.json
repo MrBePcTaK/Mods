@@ -1,0 +1,14 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"____#________#__",
+		"__#__#____#___#_",
+		"_#__#_#__#___#_#",
+		"#_##____#_###___",
+		"___####_____####",
+		"___#________#___",
+		"___#________#___",
+	]],
+	name: "mambelehead",
+	output: { type: "item", code: "mambelehead-{metal}", quantity: 2  }
+}

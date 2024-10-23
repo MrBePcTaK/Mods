@@ -1,0 +1,127 @@
+{
+	code: "machete",
+	damagedby: ["blockbreaking", "attacking"],
+	class: "ItemKnife",
+	tool: "knife",
+	attributes: {
+		handbook: { groupBy: ["machete"] },
+		toolrackTransform: {
+			translation: { x: -1, y: 0.8, z: 0 },
+			rotation: { x: 0, y: -180, z: 0 },
+			scale: 1.7
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.19, z: 0.01 },
+			rotation: { x: -65, y: -90, z: 0 }
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	},{ name: "AnimationAuthoritative" }],
+	variantgroups: [
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	],
+	shape: { base: "item/weapon/harvestknife" },
+	heldTpHitAnimation: "breaktool",
+	heldTpUseAnimation: "knap",
+	textures: { "tinbronze": { base: "game:block/metal/anvil/{metal}" } },
+	attackRange: 2,
+	tooltierbytype: {
+		"*-copper": 2,
+		"*-bismuthbronze": 3,
+		"*-tinbronze": 3,
+		"*-blackbronze": 3,
+		"*-iron": 4,
+		"*-meteoriciron": 4,
+		"*-steel": 5
+	},
+	damageTypeByType: {
+		"*": "SlashingAttack",
+	},
+	miningspeedbytype: {
+		"machete-copper": {
+			"wood": 3,
+			"plant": 4,
+			"leaves": 4
+		},
+		"machete-bismuthbronze": {
+			"wood": 4.5,
+			"plant": 5.25,
+			"leaves": 5.25
+		},
+		"machete-tinbronze": {
+			"wood": 4.25,
+			"plant": 5,
+			"leaves": 5
+		},
+		"machete-blackbronze": {
+			"wood": 5,
+			"plant": 5.5,
+			"leaves": 5.5
+		},
+		"machete-iron": {
+			"wood": 7.5,
+			"plant": 7,
+			"leaves": 7
+		},
+		"machete-meteoriciron": {
+			"wood": 7.75,
+			"plant": 7.5,
+			"leaves": 7.5
+		},
+		"machete-steel": {
+			"wood": 8.5,
+			"plant": 9,
+			"leaves": 9
+		}
+	},
+	attackpowerbytype: {
+		"*-copper": 2,
+		"*-tinbronze": 2.7,
+		"*-bismuthbronze": 2.7,
+		"*-blackbronze": 2.7,
+		"*-iron": 3.7,
+		"*-meteoriciron": 4,
+		"*-steel": 4.3
+	},
+	durabilitybytype: {
+		"machete-copper": 650,
+		"machete-tinbronze": 850,
+		"machete-bismuthbronze": 875,
+		"machete-blackbronze": 900,
+		"machete-iron": 1500,
+		"machete-meteoriciron": 1850,
+		"machete-steel": 3200
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "alphaweaponpack": ["*"] },
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -60, y: 55, z: 0 },
+		origin: { x: 0.6, y: 0.92, z: 0.23 },
+		scale: 2.5
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 160, y: 180, z: -90 },
+		origin: { x: 0.1, y: 0.4, z: 0.5 },
+		scale: 3.15
+	},
+	tpHandTransform: {
+		translation: { x: -1.1, y: -0.5, z: -0.025 },
+		rotation: { x: 90, y: 0, z: 0 },
+		scale: 1
+	},
+		groundTransform: {
+		translation: { x: 0, y: 0.5, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 5.25
+	}
+}

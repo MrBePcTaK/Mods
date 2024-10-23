@@ -1,0 +1,36 @@
+[
+	{
+		"ingredientPattern": "T,H,M",
+		"ingredients": {
+			"T": {
+				"type": "block",
+				"code": "game:flower-horsetail-free",
+				"quantity": 2
+			},
+			"H": {
+				"type": "block",
+				"code": "game:woodbucket"
+			},
+			"M": {
+				"type": "item",
+				"code": "primemeat-raw"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "honeyportion"
+				},
+				"requiresLitres": 0.2
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "primemeat-healing",
+			"quantity": 1
+		}
+	}
+]

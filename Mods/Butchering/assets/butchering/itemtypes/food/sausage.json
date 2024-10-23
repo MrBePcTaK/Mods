@@ -1,0 +1,222 @@
+{
+	"code": "sausage",
+	"maxstacksize": 64,
+	"attributes": {
+		"inFirePitProps": {
+			"transform": {
+				"scale": 0.9,
+				"origin": {
+					"x": 0.5,
+					"y": 0.0625,
+					"z": 0.5
+				},
+				"translation": {
+					"x": 0.03125,
+					"y": 0.3125,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 53,
+					"z": 90
+				}
+			},
+			"useFirepitModel": "Spit"
+		}
+	},
+	"variantgroups": [
+		{
+			"code": "prepared",
+			"states": [ "bloodsausage", "blackpudding" ]
+		},
+		{
+			"code": "type",
+			"states": [ "raw", "cooked" ]
+		}
+	],
+	"shapebytype": {
+		"*": { "base": "butcheryresources/sausage" }
+	},
+	"texturesbytype": {
+		"*-bloodsausage-raw": {
+			"sausagemeat-raw": {
+				"base": "item/food/sausage/bloodsausagemeat-raw",
+				"overlays": [ "item/food/sausage/sausagemeatoverlay-raw" ]
+			}
+		},
+		"*-bloodsausage-cooked": {
+			"sausagemeat-raw": {
+				"base": "item/food/sausage/bloodsausagemeat-cooked",
+				"overlays": [ "item/food/sausage/sausagemeatoverlay-cooked" ]
+			}
+		},
+		"*-blackpudding-raw": {
+			"sausagemeat-raw": {
+				"base": "item/food/sausage/blackpuddingmeat-raw",
+				"overlays": [ "item/food/sausage/sausagemeatoverlay-raw" ]
+			}
+		},
+		"*-blackpudding-cooked": {
+			"sausagemeat-raw": {
+				"base": "item/food/sausage/blackpuddingmeat-cooked",
+				"overlays": [ "item/food/sausage/sausagemeatoverlay-cooked" ]
+			}
+		}
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"butchering": [ "*" ]
+	},
+	"nutritionPropsByType": {
+		"*-bloodsausage-raw": {
+			"satiety": 120,
+			"health": -1,
+			"foodcategory": "Protein"
+		},
+		"*-bloodsausage-cooked": {
+			"satiety": 680,
+			"health": 0,
+			"foodcategory": "Protein"
+		},
+		"*-blackpudding-raw": {
+			"satiety": 120,
+			"health": -2,
+			"foodcategory": "Protein"
+		},
+		"*-blackpudding-cooked": {
+			"satiety": 460,
+			"health": 0,
+			"foodcategory": "Protein"
+		}
+	},
+	"transitionablePropsByType": {
+		"*-bloodsausage-raw": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 48 },
+				"spoilHours": { "avg": 12 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "game:rot"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-bloodsausage-cooked": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 160 },
+				"spoilHours": { "avg": 24 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "game:rot"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-blackpudding-raw": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 48 },
+				"spoilHours": { "avg": 12 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "game:rot"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-blackpudding-cooked": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 160 },
+				"spoilHours": { "avg": 24 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "game:rot"
+				},
+				"transitionRatio": 1
+			}
+		]
+	},
+	"combustiblePropsByType": {
+		"*-bloodsausage-raw": {
+			"meltingPoint": 150,
+			"meltingDuration": 50,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": {
+				"type": "item",
+				"code": "sausage-bloodsausage-cooked"
+			},
+			"requiresContainer": false
+		},
+		"*-blackpudding-raw": {
+			"meltingPoint": 150,
+			"meltingDuration": 50,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": {
+				"type": "item",
+				"code": "sausage-blackpudding-cooked"
+			},
+			"requiresContainer": false
+		}
+	},
+	"materialDensity": 600,
+	"guiTransform": {
+		"translation": {
+			"x": -1.5,
+			"y": 8.2,
+			"z": 0
+		},
+		"rotation": {
+			"x": 167,
+			"y": -158,
+			"z": 24
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.08,
+			"z": 0.7
+		},
+		"scale": 4.61
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": 0.1,
+			"y": -0.1,
+			"z": -0.35
+		},
+		"rotation": {
+			"x": -14,
+			"y": 82,
+			"z": -8
+		},
+		"origin": {
+			"x": 0.23,
+			"y": 0,
+			"z": 0.13
+		},
+		"scale": 0.94
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 180,
+			"y": 30,
+			"z": -180
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 6
+	}
+}

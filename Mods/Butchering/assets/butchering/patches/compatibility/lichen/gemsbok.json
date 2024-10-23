@@ -1,0 +1,37 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/lichen/gemsbok.json",
+    "dependsOn": [ { "modid": "lichenredux" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "gemsbok-female-adult": "butchering:deadgemsbok-female-dead",
+        "gemsbok-male-adult": "butchering:deadgemsbok-male-dead",
+        "gemsbok-*-baby": "butchering:deadgemsbok-baby-dead"
+      }
+    },
+    "file": "lichen:entities/land/gemsbok.json",
+    "dependsOn": [ { "modid": "lichenredux" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "gemsbok-female-adult": "butchering:deadgemsbok-female-dead",
+        "gemsbok-male-adult": "butchering:deadgemsbok-male-dead",
+        "gemsbok-*-baby": "butchering:deadgemsbok-baby-dead"
+      }
+    },
+    "file": "lichen:entities/land/gemsbok.json",
+    "dependsOn": [ { "modid": "lichenredux" } ]
+  }
+]

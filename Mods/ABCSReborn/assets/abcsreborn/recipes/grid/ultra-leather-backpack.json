@@ -1,0 +1,20 @@
+[
+	{	_Comment: "Mega in Ultra whith white leather",
+		ingredientPattern: "SFN,LBL,GLM",
+		ingredients: {
+			
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"N": { type: "item", code: "game:sewingkit" },
+			
+			"L": { type: "item", code: "game:leather-white", quantity: 4},
+			"G": { type: "item",  code: "game:gem-diamond-rough", quantity: 1 },
+			"M": { type: "item", code: "game:metalplate-steel", quantity: 1 },
+			"B": { type: "item",  code: "abcsreborn:megaleatherbackpack" }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,	
+		output: { type: "item", code: "abcsreborn:ultraleatherbackpack"}
+	}
+]

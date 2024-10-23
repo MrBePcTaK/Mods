@@ -1,0 +1,37 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/dinornithidae/anatidae.json",
+    "dependsOn": [ { "modid": "dinornithidae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "anatidae-adult-female-*": "butchering:deadanatidae-female-dead",
+        "anatidae-adult-male-*": "butchering:deadanatidae-male-dead",
+        "anatidae-baby-*": "butchering:deadanatidae-baby-dead"
+      }
+    },
+    "file": "dinornithidae:entities/land/anatidae.json",
+    "dependsOn": [ { "modid": "dinornithidae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "anatidae-adult-female-*": "butchering:deadanatidae-female-dead",
+        "anatidae-adult-male-*": "butchering:deadanatidae-male-dead",
+        "anatidae-baby-*": "butchering:deadanatidae-baby-dead"
+      }
+    },
+    "file": "dinornithidae:entities/land/anatidae.json",
+    "dependsOn": [ { "modid": "dinornithidae" } ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+	{	_Comment: "Standart in Mini with gray leather",
+		ingredientPattern: "SFR,LBL,_L_",
+		ingredients: {
+			
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"R": { type: "item",  code: "game:rope", quantity: 4 },
+			
+			"L": { type: "item", code: "game:leather-plain", quantity: 4},
+			"B": { type: "item",  code: "game:backpack" }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,	
+		output: { type: "item", code: "abcsreborn:minileatherbackpack"}
+	}
+]

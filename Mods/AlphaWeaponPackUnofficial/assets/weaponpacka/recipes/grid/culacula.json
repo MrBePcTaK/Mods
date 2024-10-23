@@ -1,0 +1,13 @@
+{
+	ingredientPattern: "_L,KL,RS",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true  },
+		"L": { type: "block", code: "game:log-placed-*-ud", name: "wood", allowedVariants: ["oak", "maple", "walnut", "birch", "acacia", "ebony", "purpleheart"] },
+		"R": { type: "item", code: "game:rope" },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 2,
+	height: 3,
+	shapeless: true,
+	output: { type: "item", code: "culacula-{wood}", quantity: 1  }
+}

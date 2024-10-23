@@ -1,0 +1,342 @@
+{
+  "code": "labeledtrunk",
+  "class": "BlockLabeledTrunk",
+  "entityclass": "LabeledTrunk",
+  "attributes": {
+    "partialAttachable": true,
+    "inventoryClassName": "chest",
+    "defaultType": "normal",
+    "types": [ "normal", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "steel" ],
+
+    "rotatatableInterval": {
+      "copper": "22.5degnot45deg",
+      "tinbronze": "22.5degnot45deg",
+      "bismuthbronze": "22.5degnot45deg",
+      "blackbronze": "22.5degnot45deg",
+      "iron": "22.5degnot45deg",
+      "steel": "22.5degnot45deg"
+    },
+
+    "drop": {
+      "normal": true,
+      "copper": true,
+      "tinbronze": true,
+      "bismuthbronze": true,
+      "blackbronze": true,
+      "iron": true,
+      "steel": true
+    },
+
+    "quantitySlots": {
+      "normal": 36,
+      "copper": 54,
+      "tinbronze": 72,
+      "bismuthbronze": 72,
+      "blackbronze": 72,
+      "iron": 90,
+      "steel": 108
+    },
+
+    "quantityColumns": {
+      "normal":  9,
+      "bismuthbronze": 9,
+      "blackbronze": 9,
+      "copper": 9,
+      "iron": 9,
+      "steel": 9,
+      "tinbronze": 9
+    },
+
+
+    "dialogTitleLangCode": {
+      "copper": "trunkcontents",
+      "normal": "trunkcontents",
+      "tinbronze": "trunkcontents",
+      "bismuthbronze": "trunkcontents",
+      "blackbronze": "trunkcontents",
+      "iron": "trunkcontents",
+      "steel": "trunkcontents"
+    },
+
+    "storageType": {
+      "copper": 189,
+      "normal": 189,
+      "tinbronze": 189,
+      "bismuthbronze": 189,
+      "blackbronze": 189,
+      "iron": 189,
+      "steel": 189
+    },
+
+    "retrieveOnly": {
+      "copper": false,
+      "normal": false,
+      "tinbronze": false,
+      "bismuthbronze": false,
+      "blackbronze": false,
+      "iron": false,
+      "steel": false
+    },
+
+    "shape": {
+      "normal": "block/trunk/labeled/normal",
+      "copper": "block/trunk/labeled/copper",
+      "tinbronze": "block/trunk/labeled/tinbronze",
+      "bismuthbronze": "block/trunk/labeled/bismuthbronze",
+      "blackbronze": "block/trunk/labeled/blackbronze",
+      "iron": "block/trunk/labeled/iron",
+      "steel": "block/trunk/labeled/steel"
+    },
+
+    "typedOpenSound": {
+      "normal": "game:sounds/block/largechestopen",
+      "copper": "game:sounds/block/largechestopen",
+      "tinbronze": "game:sounds/block/largechestopen",
+      "bismuthbronze": "game:sounds/block/largechestopen",
+      "blackbronze": "game:sounds/block/largechestopen",
+      "iron": "game:sounds/block/largechestopen",
+      "steel": "game:sounds/block/largechestopen"
+    },
+
+    "typedCloseSound": {
+      "copper": "game:sounds/block/largechestclose",
+      "normal": "game:sounds/block/largechestclose",
+      "tinbronze": "game:sounds/block/largechestclose",
+      "bismuthbronze": "game:sounds/block/largechestclose",
+      "blackbronze": "game:sounds/block/largechestclose",
+      "iron": "game:sounds/block/largechestclose",
+      "steel": "game:sounds/block/largechestclose"
+    },
+
+    "variantByGroup": "side",
+    "variantByGroupInventory": null
+  },
+
+  "behaviors": [
+    {
+      "name": "HorizontalOrientable"
+    },
+    {
+      "name": "Multiblock",
+      "propertiesByType": {
+        "*-north": {
+          "sizex": 2,
+          "sizey": 1,
+          "sizez": 1,
+          "cposition": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "*-east": {
+          "sizex": 1,
+          "sizey": 1,
+          "sizez": 2,
+          "cposition": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "*-south": {
+          "sizex": 2,
+          "sizey": 1,
+          "sizez": 1,
+          "cposition": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "*-west": {
+          "sizex": 1,
+          "sizey": 1,
+          "sizez": 2,
+          "cposition": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          }
+        }
+      }
+    },
+    { "name": "Lockable" },
+    { "name": "Container" }
+  ],
+
+  "entityBehaviors": [ { "name": "Animatable" } ],
+
+  "variantgroups": [
+    {
+      "code": "side",
+      "loadFromProperties": "game:abstract/horizontalorientation"
+    }
+  ],
+
+  "creativeinventory": {},
+  "creativeinventoryStacksByType": {
+    "*-east": [
+      {
+        "tabs": [ "general", "decorative", "extrachests" ],
+        "stacks": [
+          {
+            "type": "block",
+            "code": "labeledtrunk-east",
+            "attributes": { "type": "normal" }
+          },
+          {
+            "type": "block",
+            "code": "labeledtrunk-east",
+            "attributes": { "type": "copper" }
+          },
+          {
+            "type": "block",
+            "code": "labeledtrunk-east",
+            "attributes": { "type": "tinbronze" }
+          },
+          {
+            "type": "block",
+            "code": "labeledtrunk-east",
+            "attributes": { "type": "bismuthbronze" }
+          },
+          {
+            "type": "block",
+            "code": "labeledtrunk-east",
+            "attributes": { "type": "blackbronze" }
+          },
+          {
+            "type": "block",
+            "code": "labeledtrunk-east",
+            "attributes": { "type": "iron" }
+          },
+          {
+            "type": "block",
+            "code": "labeledtrunk-east",
+            "attributes": { "type": "steel" }
+          }
+        ]
+      }
+    ]
+  },
+  "heldTpIdleAnimation": "holdunderarm",
+  "shapeInventory": {
+    "base": "game:block/wood/trunk/normal",
+    "rotateY": 270
+  },
+  "shapeByType": {
+    "*-north": {
+      "base": "game:block/wood/trunk/normal",
+      "rotateY": 0
+    },
+    "*-east": {
+      "base": "game:block/wood/trunk/normal",
+      "rotateY": 270
+    },
+    "*-west": {
+      "base": "game:block/wood/trunk/normal",
+      "rotateY": 90
+    },
+    "*-south": {
+      "base": "game:block/wood/trunk/normal",
+      "rotateY": 180
+    }
+  },
+  "_comment": "Must declare textures so they get added to the block texture atlas",
+  "textures": {
+    "normal-accessories": { "base": "game:block/wood/trunk/accessories" },
+    "normal-left-side": { "base": "game:block/wood/trunk/left-side" },
+    "normal-lid": { "base": "game:block/wood/trunk/lid" },
+    "normal-right-side": { "base": "game:block/wood/trunk/right-side" },
+    "normal-sides2": { "base": "game:block/wood/trunk/sides" },
+
+    "copper-accessories": { "base": "block/trunk/copper/accessories" },
+    "copper-left-side": { "base": "block/trunk/copper/left-side" },
+    "copper-lid": { "base": "block/trunk/copper/lid" },
+    "copper-right-side": { "base": "block/trunk/copper/right-side" },
+    "copper-sides2": { "base": "block/trunk/copper/sides" },
+
+    "tinbronze-accessories": { "base": "block/trunk/tinbronze/accessories" },
+    "tinbronze-left-side": { "base": "block/trunk/tinbronze/left-side" },
+    "tinbronze-lid": { "base": "block/trunk/tinbronze/lid" },
+    "tinbronze-right-side": { "base": "block/trunk/tinbronze/right-side" },
+    "tinbronze-sides2": { "base": "block/trunk/tinbronze/sides" },
+
+    "bismuthbronze-accessories": { "base": "block/trunk/bismuthbronze/accessories" },
+    "bismuthbronze-left-side": { "base": "block/trunk/bismuthbronze/left-side" },
+    "bismuthbronze-lid": { "base": "block/trunk/bismuthbronze/lid" },
+    "bismuthbronze-right-side": { "base": "block/trunk/bismuthbronze/right-side" },
+    "bismuthbronze-sides2": { "base": "block/trunk/bismuthbronze/sides" },
+
+    "blackbronze-accessories": { "base": "block/trunk/blackbronze/accessories" },
+    "blackbronze-left-side": { "base": "block/trunk/blackbronze/left-side" },
+    "blackbronze-lid": { "base": "block/trunk/blackbronze/lid" },
+    "blackbronze-right-side": { "base": "block/trunk/blackbronze/right-side" },
+    "blackbronze-sides2": { "base": "block/trunk/blackbronze/sides" },
+
+    "iron-accessories": { "base": "block/trunk/iron/accessories" },
+    "iron-left-side": { "base": "block/trunk/iron/left-side" },
+    "iron-lid": { "base": "block/trunk/iron/lid" },
+    "iron-right-side": { "base": "block/trunk/iron/right-side" },
+    "iron-sides2": { "base": "block/trunk/iron/sides" },
+
+    "steel-accessories": { "base": "block/trunk/steel/accessories" },
+    "steel-left-side": { "base": "block/trunk/steel/left-side" },
+    "steel-lid": { "base": "block/trunk/steel/lid" },
+    "steel-right-side": { "base": "block/trunk/steel/right-side" },
+    "steel-sides2": { "base": "block/trunk/steel/sides" }
+  },
+
+  "blockmaterial": "Wood",
+  "replaceable": 900,
+  "resistance": 3,
+  "lightAbsorption": 0,
+  "sideAo": { "all": false },
+  "sidesolid": {
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
+  },
+  "collisionSelectionBox": {
+    "x1": 0.0625,
+    "y1": 0,
+    "z1": 0.0625,
+    "x2": 1,
+    "y2": 0.8125,
+    "z2": 0.9375,
+    "rotateYByType": {
+      "*-east": 270,
+      "*-west": 90,
+      "*-south": 180
+    }
+  },
+  "sounds": {
+    "place": "game:block/planks",
+    "hit": "game:block/planks",
+    "break": "game:block/planks",
+    "walk": "game:walk/wood"
+  },
+  "materialDensity": 600,
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.3,
+      "y": -0.5,
+      "z": -0.3
+    },
+    "rotation": {
+      "x": 0,
+      "y": 90,
+      "z": -102
+    },
+    "scale": 0.56
+  },
+  "guiTransform": {
+    "origin": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.97
+    },
+    "scale": 0.95
+  }
+}

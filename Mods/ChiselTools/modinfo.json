@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "chiseltools",
+  "name": "chiseltools",
+  "description": "Quentin's Chiseling Tools'",
+  "author": "WQP",
+  "version": "1.12.10",
+  "dependency": {
+    "game": ""
+    
+  }
+}

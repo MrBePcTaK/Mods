@@ -1,0 +1,43 @@
+[
+  {
+    "ingredientPattern": "CC",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "iron" }
+      }
+    },
+    "recipeGroup": 1,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "trunk-east",
+      "attributes": { "type": "steel" }
+    }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "iron" },
+        "quantity": 2
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "trunk-east",
+      "attributes": { "type": "steel" }
+    }
+  }
+]
+
+
+
+

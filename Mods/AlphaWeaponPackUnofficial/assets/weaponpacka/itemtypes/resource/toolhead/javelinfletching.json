@@ -1,0 +1,31 @@
+{
+	code: "javelinfletching",
+	attributes: {},
+	shape: { base: "item/head/fletchings" },
+	creativeinventory: { "general": ["*"], "items": ["*"], "alphaweaponpack": ["*"] },
+	maxstacksize: 128,
+	materialDensity: 2500,
+	fpHandTransform: {
+		translation: { x: 1.4, y: -0.2, z: 0.5 },
+		rotation: { x: -180, y: -52, z: 90 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 2
+	},
+	guiTransform: {
+		translation: { x: 3, y: 1, z: -30 },
+		rotation: { x: 68, y: -127, z: -180 },
+		origin: { x: 0.2, y: 1.44, z: 0.9 },
+		scale: 2
+	},
+	tpHandTransform: {
+		translation: { x: -1.24, y: -1.44, z: -1 },
+		rotation: { x: 0, y: -180, z: 180 },
+		scale: 0.51
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 4
+	}
+}

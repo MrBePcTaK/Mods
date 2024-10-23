@@ -1,0 +1,82 @@
+{
+	code: "rapier",
+	damagedby: ["attacking"],
+	tool: "sword",
+	class: "VeryFastSwordChargeNone",
+	attributes: {
+		handbook: { groupBy: ["rapier-*"] },
+		groundStorageTransformByType: {
+			"*": {
+				translation: { x: 0, y: 0.07, z: 0.28 },
+				rotation: { x: -160, y: 90, z: -90 }
+			}
+		},
+		toolrackTransform: {
+			translation: { x: -0.5, y: 0.75, z: 0 },
+			rotation: { x: 0, y: -180, z: 0 },
+			scale: 1.5
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffYByType: {
+				"*": 2
+			},
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	},{ name: "AnimationAuthoritative" }],
+	variantgroups: [
+		{ code: "metal", states: ["iron", "meteoriciron", "steel"] },
+	],
+	shape: { base: "item/weapon/rapier1" },
+	heldTpHitAnimation: "spearhit",
+	heldTpUseAnimation: "interactstatic",
+	textures: { "iron": { base: "game:block/metal/anvil/{metal}" } },
+	attackRange: 3,
+	tooltierbytype: {
+		"*-iron": 6,
+		"*-meteoriciron": 6,
+		"*-steel": 7
+	},
+	attackpowerbytype: {
+		"*-iron": 5.5,
+		"*-meteoriciron": 6,
+		"*-steel": 7.5
+	},
+	durabilitybytype: {
+		"*-iron": 950,
+		"*-meteoriciron": 1050,
+		"*-steel": 1650
+	},
+	damageTypeByType: {
+		"*": "PiercingAttack",
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "alphaweaponpack": ["*"] },
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -80, y: 50, z: 25 },
+		origin: { x: 0.45, y: 0, z: 0.48 },
+		scale: 1.5
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -25, y: 15, z: 90 },
+		origin: { x: 0.2, y: 0.5, z: 0.6 },
+		scale: 3.5
+	},
+	tpHandTransform: {
+		translation: { x: -1.2, y: -0.5, z: -0.05 },
+		rotation: { x: 90, y: 0, z: 0 },
+		scale: 0.95
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.51, z: 0 },
+		rotation: { x: 25, y: 0, z: -5 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 5
+	}
+}

@@ -1,0 +1,189 @@
+[
+  {
+    "ingredientPattern": "_P_,SCS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*",
+        "quantity": 2
+      },
+      "C": {
+        "type": "block",
+        "code": "labeledtrunk-east",
+        "attributes": { "type": "normal" }
+
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 2
+      }
+    },
+    "recipeGroup": 1,
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "copper" }
+    }
+  },
+
+  {
+    "ingredientPattern": "SC",
+    "ingredients": {
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      },
+      "C": {
+        "type": "block",
+        "code": "trunk-east",
+        "attributes": { "type": "copper" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "copper" }
+    }
+  },
+  {
+    "ingredientPattern": "CU",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "labeledtrunk-east",
+        "attributes": { "type": "normal" }
+      },
+      "U": {
+        "type": "item",
+        "code": "trunkupgrade-copper"
+      }
+    },
+    "recipeGroup": 1,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "copper" }
+    }
+  },
+  {
+    "ingredientPattern": "CU",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "trunk-east",
+        "attributes": { "type": "copper" }
+      },
+      "U": {
+        "type": "item",
+        "code": "labelupgrade"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "copper" }
+    }
+  },
+  {
+    "ingredientPattern": "LL",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "copper" }
+      }
+    },
+    "recipeGroup": 3,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "copper" }
+    }
+  },
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "copper" }
+      },
+      "L": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "copper" }
+      }
+    },
+    "recipeGroup": 3,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "copper" }
+    }
+  },
+  {
+    "ingredientPattern": "CS",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "copper" },
+        "quantity": 2
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      }
+    },
+    "recipeGroup": 3,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "copper" }
+    }
+  },
+  {
+    "ingredientPattern": "CSC",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "copper" }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      }
+    },
+    "recipeGroup": 3,
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "copper" }
+    }
+  }
+]

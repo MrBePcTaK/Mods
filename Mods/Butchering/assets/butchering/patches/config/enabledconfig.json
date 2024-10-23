@@ -1,0 +1,76 @@
+[
+  // Bone Pickaxe
+  {
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "file": "butchering:recipes/knapping/bone-pick.json",
+    "condition": {
+      "when": "BonePickaxeEnabled",
+      "isValue": "false"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "file": "butchering:itemtypes/tool/pickaxe.json",
+    "condition": {
+      "when": "BonePickaxeEnabled",
+      "isValue": "false"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "butchering:recipes/grid/bonetools.json",
+    "condition": {
+      "when": "BonePickaxeEnabled",
+      "isValue": "false"
+    }
+  },
+  // Healing Prime Meat
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "butchering:recipes/grid/healingprimemeat.json",
+    "condition": {
+      "when": "HealingPrimeMeatRecipeEnabled",
+      "isValue": "false"
+    }
+  },
+  // Crude Arrow Recipe
+  {
+    "op": "add",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "butchering:recipes/grid/bonetools.json",
+    "condition": {
+      "when": "CrudeArrowBoneRecipeEnabled",
+      "isValue": "false"
+    }
+  },
+  // Temporal Butcher Box
+  {
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "file": "butchering:blocktypes/temporalbutcherbox.json",
+    "condition": {
+      "when": "TemporalButcherBoxEnabled",
+      "isValue": "false"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "butchering:recipes/grid/temporalbutcherbox.json",
+    "condition": {
+      "when": "TemporalButcherBoxEnabled",
+      "isValue": "false"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+	{	_Comment: "Mini in Tall with gray leather",
+		ingredientPattern: "SFN,LBL,_L_",
+		ingredients: {
+			
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"N": { type: "item", code: "game:sewingkit" },
+			
+			"L": { type: "item", code: "game:leather-gray", quantity: 4},
+			"B": { type: "item",  code: "abcsreborn:minileatherbackpack" }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,	
+		output: { type: "item", code: "abcsreborn:tallleatherbackpack"}
+	}
+]

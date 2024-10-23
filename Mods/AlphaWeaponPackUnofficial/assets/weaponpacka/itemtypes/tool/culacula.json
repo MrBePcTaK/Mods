@@ -1,0 +1,90 @@
+{
+	code: "culacula",
+	damagedby: ["attacking"],
+	tool: "sword",
+	class: "FastSwordChargeNone",
+	attributes: {
+		handbook: { groupBy: ["culacula-*"] },
+		groundStorageTransformByType: {
+			"*": {
+				translation: { x: 0, y: 0.19, z: -0.14 },
+				rotation: { x: 26, y: 90, z: -90 },
+				scale: 0.95
+			}
+		},
+		toolrackTransform: {
+			translation: { x: 0, y: 0.8, z: 0 },
+			scale: 1.5
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffYByType: {
+				"*": 2
+			},
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	},{ name: "AnimationAuthoritative" }],
+	variantgroups: [
+		{ code: "wood", states: ["oak", "maple", "walnut", "birch", "acacia", "ebony", "purpleheart"] },
+	],
+	shape: { base: "item/weapon/culacula" },
+	textures: {
+		"acacia": { base: "game:block/wood/debarked/{wood}" }, 
+	},
+	heldTpHitAnimation: "falx",
+	heldTpUseAnimation: "interactstatic",
+	attackRange: 2.8,
+	tooltierbytype: {
+		"*": 0
+	},
+	attackpowerbytype: {
+		"*-oak": 2.8,
+		"*-maple": 2.9,
+		"*-walnut": 2.8,
+		"*-birch": 2.9,
+		"*-acacia": 3,
+		"*-ebony": 3,
+		"*-purpleheart": 3,
+	},
+	durabilitybytype: {
+		"*-oak": 145,
+		"*-maple": 150,
+		"*-walnut": 140,
+		"*-birch": 150,
+		"*-acacia": 175,
+		"*-ebony": 180,
+		"*-purpleheart": 160,
+	},
+	damageTypeByType: {
+		"*": "SlashingAttack",
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "alphaweaponpack": ["*"] },
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -65, y: 52, z: 15 },
+		origin: { x: 0.6, y: -0.15, z: 0.55 },
+		scale: 2
+	},
+	fpHandTransform: {
+		translation: { x: -0.5, y: -0.2, z: 0 },
+		rotation: { x: 0, y: 10, z: 90 },
+		origin: { x: 0.5, y: 0.6, z: 0.5 },
+		scale: 3
+	},
+	tpHandTransform: {
+		translation: { x: -1, y: -0.5, z: -0.05 },
+		rotation: { x: 90, y: 0, z: 0 },
+		scale: 0.95
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.4, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 4
+	}
+}

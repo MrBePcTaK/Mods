@@ -1,0 +1,34 @@
+{
+"ingredientPattern": "_C_,_F_,_S_",
+	"ingredients": {
+	"C": {
+		"type": "item",
+		"code": "game:hammer-iron",
+		"quantity": 1,
+		"isTool": true,
+		"toolDurabilityCost": 50
+	},
+	"F": {
+		"type": "item",
+		"code": "game:chisel-iron",
+		"quantity": 1,
+		"isTool": true,
+		"toolDurabilityCost": 50
+	},
+		"S": {
+		"type": "item",
+		"code": "game:ingot-iron",
+		"quantity": 1
+}
+	
+
+	},
+	"width": 3,
+	"height": 3,
+	"shapeless": false,
+	"output": { 
+		"type": "item", 
+		"code": "tstools:itip" },
+	"quantity": 1
+	
+}

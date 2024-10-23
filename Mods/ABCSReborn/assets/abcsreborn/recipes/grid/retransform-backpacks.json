@@ -1,0 +1,144 @@
+[
+	{	_Comment: "Tall leather to Tall linen",
+		ingredientPattern: "S_N,LBL,_L_",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"N": { type: "item", code: "game:sewingkit" },
+			"L": { type: "item", code: "game:cloth-plain", quantity: "4" },			
+			"B": { type: "item",  code: "abcsreborn:tallleatherbackpack", "returnedStack": { "type": "item", "code": "game:leather-gray", quantity: 10 } }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 2,	
+		output: { type: "item", code: "abcsreborn:tallbackpack", quantity: 1 }
+	},
+		{	_Comment: "Tall linen to Tall leather",
+			ingredientPattern: "S_N,LBL,_L_",
+			ingredients: {
+				"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+				"N": { type: "item", code: "game:sewingkit" },
+				"L": { type: "item", code: "game:leather-gray", quantity: "4" },			
+				"B": { type: "item",  code: "abcsreborn:tallbackpack", "returnedStack": { "type": "item", "code": "game:cloth-plain", quantity: 10 } }
+			},
+			width: 3,
+			height: 3,
+			recipeGroup: 2,	
+			output: { type: "item", code: "abcsreborn:tallleatherbackpack", quantity: 1 }
+		},
+		
+		
+
+	{	_Comment: "Basic leather to Basic linen",
+		ingredientPattern: "S_N,LBL,_L_",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"N": { type: "item", code: "game:sewingkit" },
+			"L": { type: "item", code: "game:cloth-plain", quantity: "4" },			
+			"B": { type: "item",  code: "abcsreborn:basicleatherbackpack", "returnedStack": { "type": "item", "code": "game:leather-black", quantity: 10 } }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 2,	
+		output: { type: "item", code: "abcsreborn:basicbackpack", quantity: 1 }
+	},
+		{	_Comment: "Basic linen to Basic leather",
+			ingredientPattern: "S_N,LBL,_L_",
+			ingredients: {
+				"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+				"N": { type: "item", code: "game:sewingkit" },
+				"L": { type: "item", code: "game:leather-black", quantity: "4" },			
+				"B": { type: "item",  code: "abcsreborn:basicbackpack", "returnedStack": { "type": "item", "code": "game:cloth-plain", quantity: 10 } }
+			},
+			width: 3,
+			height: 3,
+			recipeGroup: 2,	
+			output: { type: "item", code: "abcsreborn:basicleatherbackpack", quantity: 1 }
+		},
+		
+		
+		
+	{	_Comment: "Super leather to Super linen",
+		ingredientPattern: "S_N,LBL,_L_",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"N": { type: "item", code: "game:sewingkit" },
+			"L": { type: "item", code: "game:cloth-brown", quantity: "4" },			
+			"B": { type: "item",  code: "abcsreborn:superleatherbackpack", "returnedStack": { "type": "item", "code": "game:leather-orange", quantity: 10 } }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 2,	
+		output: { type: "item", code: "abcsreborn:superbackpack", quantity: 1 }
+	},
+		{	_Comment: "Super linen to Super leather",
+			ingredientPattern: "S_N,LBL,_L_",
+			ingredients: {
+				"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+				"N": { type: "item", code: "game:sewingkit" },
+				"L": { type: "item", code: "game:leather-orange", quantity: "4" },			
+				"B": { type: "item",  code: "abcsreborn:superbackpack", "returnedStack": { "type": "item", "code": "game:cloth-brown", quantity: 10 } }
+			},
+			width: 3,
+			height: 3,
+			recipeGroup: 2,	
+			output: { type: "item", code: "abcsreborn:superleatherbackpack", quantity: 1 }
+		},
+		
+		
+		
+	{	_Comment: "Mega leather to Mega linen",
+		ingredientPattern: "S_N,LBL,_L_",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"N": { type: "item", code: "game:sewingkit" },
+			"L": { type: "item", code: "game:cloth-black", quantity: "4" },			
+			"B": { type: "item",  code: "abcsreborn:megaleatherbackpack", "returnedStack": { "type": "item", "code": "game:leather-purple", quantity: 10 } }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 2,	
+		output: { type: "item", code: "abcsreborn:megabackpack", quantity: 1 }
+	},
+		{	_Comment: "Mega linen to Mega leather",
+			ingredientPattern: "S_N,LBL,_L_",
+			ingredients: {
+				"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+				"N": { type: "item", code: "game:sewingkit" },
+				"L": { type: "item", code: "game:leather-purple", quantity: "4" },			
+				"B": { type: "item",  code: "abcsreborn:megabackpack", "returnedStack": { "type": "item", "code": "game:cloth-black", quantity: 10 } }
+			},
+			width: 3,
+			height: 3,
+			recipeGroup: 2,	
+			output: { type: "item", code: "abcsreborn:megaleatherbackpack", quantity: 1 }
+		},
+
+
+
+	{	_Comment: "Ultra leather to Ultra linen",
+		ingredientPattern: "S_N,LBL,_L_",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"N": { type: "item", code: "game:sewingkit" },
+			"L": { type: "item", code: "game:cloth-white", quantity: "4" },			
+			"B": { type: "item",  code: "abcsreborn:ultraleatherbackpack", "returnedStack": { "type": "item", "code": "game:leather-white", quantity: 10 } }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 2,	
+		output: { type: "item", code: "abcsreborn:ultrabackpack", quantity: 1 }
+	},
+		{	_Comment: "Ultra linen to Ultra leather",
+			ingredientPattern: "S_N,LBL,_L_",
+			ingredients: {
+				"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+				"N": { type: "item", code: "game:sewingkit" },
+				"L": { type: "item", code: "game:leather-white", quantity: "4" },			
+				"B": { type: "item",  code: "abcsreborn:ultrabackpack", "returnedStack": { "type": "item", "code": "game:cloth-white", quantity: 10 } }
+			},
+			width: 3,
+			height: 3,
+			recipeGroup: 2,	
+			output: { type: "item", code: "abcsreborn:ultraleatherbackpack", quantity: 1 }
+		}
+]

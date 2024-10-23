@@ -1,0 +1,73 @@
+[
+	{
+		"ingredientPattern": "H,S",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "toolhead-pick-bone",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 1
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"output": {
+			"type": "item",
+			"code": "bonepickaxe",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "H,S,F",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "toolhead-arrow-bone",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 1
+			},
+			"F": {
+				"type": "item",
+				"code": "game:feather",
+				"quantity": 1
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"output": {
+			"type": "item",
+			"code": "game:arrow-flint",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "H,S",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "toolhead-arrow-bone",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 1
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"output": {
+			"type": "item",
+			"code": "game:arrow-crude",
+			"quantity": 1
+		}
+	}
+]

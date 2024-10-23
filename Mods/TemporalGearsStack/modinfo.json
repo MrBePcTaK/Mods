@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "temporal_gears_stack",
+  "name": "Temporal gears stack",
+  "description" : "Makes temporal gears stack up to 16.",
+  "authors": ["Guimoute"],
+  "version": "1.0.0",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "dependencies": {}
+}

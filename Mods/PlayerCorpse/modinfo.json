@@ -1,0 +1,12 @@
+{
+	"type": "Code",
+	"name": "Player Corpse",
+	"modid": "playercorpse",
+	"version": "1.10.1-rc.1",
+	"website": "https://github.com/darkhekromant/PlayerCorpse",
+	"authors": ["DArkHekRoMaNT"],
+	"dependencies": {
+		"game": "1.19.0",
+		"commonlib": "2.3.0"
+	}
+}

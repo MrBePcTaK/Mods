@@ -1,0 +1,11 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"_###____________",
+		"#___##__________",
+		"################",
+		"#___##__________",
+	]],
+	name: "rapier",
+	output: { type: "item", code: "rapier-{metal}", quantity: 1  }
+}

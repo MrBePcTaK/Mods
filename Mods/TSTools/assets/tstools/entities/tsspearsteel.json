@@ -1,0 +1,47 @@
+{
+	"code": "tsspearsteel",
+	"class": "EntityProjectile",
+	"hitboxSize": { x: 0.125, y: 0.125 },
+	"variantgroups": [
+		{ "code": "type", "states": ["generic", "scrap", "boar", "voulge", "fork", "ranseur"] },
+		{ "code": "material", "states": ["meteoriciron", "steel"] }
+	],
+	"skipVariants": [
+		"spear-generic-ruined",
+		"spear-generic-scrap"
+	],
+	"allowedVariants": [
+		"meteoriciron", "steel"
+	],
+	"client": {
+		"renderer": "Shape",
+		"shape": { "base": "tstools:item/tsspearsteel", "offsetX": -0.8125 },
+		"texturesByType": {
+		"*": {
+			"1": { "base": "tstools:item/tsshead_{material}" }
+		}
+	},
+		"behaviors": [
+			{ 
+				"code": "passivephysics", 
+				"groundDragFactor": 1,
+				"airDragFactor": 0.25,
+				"gravityFactor": 0.75
+			}, 
+			{ "code": "interpolateposition" }
+		],
+	},
+	"server": {
+		"behaviors": [
+			{ 
+				"code": "passivephysics", 
+				"groundDragFactor": 1,
+				"airDragFactor": 0.25,
+				"gravityFactor": 0.75
+			}, 
+			{ "code": "despawn","minSeconds": 600 }
+		]
+	},
+	"sounds": {
+	},
+}

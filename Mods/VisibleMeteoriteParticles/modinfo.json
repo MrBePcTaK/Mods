@@ -1,0 +1,9 @@
+{
+    "type": "code",
+    "side": "client",
+    "modid": "vmetp",
+    "name": "Visible Meteorite Particles",
+    "description": "Adds noticeable particles above meteoritic blocks.",
+    "authors": ["Malnaur"],
+    "version": "1.1.1"
+}

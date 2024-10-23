@@ -1,0 +1,72 @@
+[
+  {
+    "ingredientPattern": "_P_,SCS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "iron" }
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-steel"
+      }
+    },
+    "recipeGroup": 1,
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "chest-east",
+      "attributes": { "type": "steel" }
+    }
+  },
+  {
+    "ingredientPattern": "CU",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "iron" }
+      },
+      "U": {
+        "type": "item",
+        "code": "chestupgrade-steel"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "chest-east",
+      "attributes": { "type": "steel" }
+    }
+  },
+  {
+    "ingredientPattern": "T",
+    "ingredients": {
+      "T": {
+        "type": "block",
+        "code": "trunk-east",
+        "attributes": { "type": "steel" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "chest-east",
+      "attributes": { "type": "steel" },
+      "quantity": 2
+    }
+  }
+]
+
+
+
+

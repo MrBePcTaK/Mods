@@ -1,0 +1,436 @@
+[
+  {
+    "file": "game:blocktypes/plant/tallgrass",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "XSkillsGrass",
+        "properties": {
+          "xp": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/plant/bigberrybush",
+    "op": "add",
+    "path": "/behaviorsByType/*-ripe/-",
+    "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+        "xp": 0.33
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/smallberrybush",
+    "op": "add",
+    "path": "/behaviorsByType/*-ripe/-",
+    "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+        "xp": 0.33
+      }
+    }
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/berry/berrybush",
+    "op": "add",
+    "path": "/behaviorsByType/*-ripe/-",
+    "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+        "xp": 0.33
+      }
+    }
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/berry/groundberryplant",
+    "op": "add",
+    "path": "/behaviorsByType/*-ripe/-",
+    "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+        "xp": 0.33
+      }
+    }
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/berry/pricklyberrybush",
+    "op": "add",
+    "path": "/behaviorsByType/*-ripe/-",
+    "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+        "xp": 0.33
+      }
+    }
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/berry/shrubberrybush",
+    "op": "add",
+    "path": "/behaviorsByType/*-ripe/-",
+    "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+        "xp": 0.33
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/crop/cabbage",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsCrop",
+      "properties": {
+        "xpByType": {
+          "*-11": 0.35,
+          "*-12": 0.7,
+          "*": 0.0
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/crop/carrot",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsCrop",
+      "properties": {
+        "xpByType": {
+          "*-6": 0.27,
+          "*-7": 0.55,
+          "*": 0.0
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/crop/flax",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsCrop",
+      "properties": {
+        "xpByType": {
+          "*-9": 0.9,
+          "*": 0.0
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/crop/onion",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsCrop",
+      "properties": {
+        "xpByType": {
+          "*-6": 0.43,
+          "*-7": 0.85,
+          "*": 0.0
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/crop/parsnip",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsCrop",
+      "properties": {
+        "xpByType": {
+          "*-7": 0.45,
+          "*-8": 0.9,
+          "*": 0.0
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/crop/rice",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsCrop",
+      "properties": {
+        "xpByType": {
+          "*-10": 1.0,
+          "*": 0.0
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/crop/rye",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsCrop",
+      "properties": {
+        "xpByType": {
+          "*-9": 0.9,
+          "*": 0.0
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/crop/soybean",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsCrop",
+      "properties": {
+        "xpByType": {
+          "*-10": 0.28,
+          "*-11": 0.55,
+          "*": 0.0
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/crop/spelt",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsCrop",
+      "properties": {
+        "xpByType": {
+          "*-9": 0.9,
+          "*": 0.0
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/crop/turnip",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsCrop",
+      "properties": {
+        "xpByType": {
+          "*-4": 0.23,
+          "*-5": 0.45,
+          "*": 0.0
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/crop/sunflower",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsCrop",
+      "properties": {
+        "xpByType": {
+          "*-12": 0.85,
+          "*": 0.0
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/crop/amaranth",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsCrop",
+      "properties": {
+        "xpByType": {
+          "*-8":0.45,
+          "*-9":0.9,
+          "*": 0.0
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/crop/peanut",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsCrop",
+      "properties": {
+        "xpByType": {
+          "*-8":0.57,
+          "*-9":1.15,
+          "*": 0.0
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/crop/cassava",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsCrop",
+      "properties": {
+        "xpByType": {
+          "*-8":0.9,
+          "*-9":1.8,
+          "*": 0.0
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/crop/pineapple",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsCrop",
+      "properties": {
+        "xpByType": {
+          "*-16":2.0,
+          "*": 0.0
+        }
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/pumpkin/vine",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "XSkillsCrop",
+        "properties": {
+          "xp": 0.1
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/soil/farmland",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [ { "name": "XSkillsFarmland" } ],
+    "dependsOn": [{ "modid": "farmlanddropssoil", "invert": true }, { "modid": "xfarmlanddrops", "invert": true }]
+  },
+  {
+    "file": "game:blocktypes/plant/mushroom",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "XSkillsMushroom",
+        "properties": {
+          "xp": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/annuals",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "XSkillsMushroom",
+        "properties": {
+          "xp": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/smallannual",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "XSkillsMushroom",
+        "properties": {
+          "xp": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/bigleafperennial",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "XSkillsMushroom",
+        "properties": {
+          "xp": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/evergreens",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "XSkillsMushroom",
+        "properties": {
+          "xp": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/perennials",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "XSkillsMushroom",
+        "properties": {
+          "xp": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/sedge",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "XSkillsMushroom",
+        "properties": {
+          "xp": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/crop/herbcrop",
+    "op": "add",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "XSkillsMushroom",
+        "properties": {
+          "xp": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/wax/skep",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "XSkillsSkep",
+      "properties": {
+        "xp": 2.0,
+        "harvestTime": 2.0
+      }
+    }
+  }
+]

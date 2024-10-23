@@ -1,0 +1,82 @@
+{
+	code: "igorotaxe",
+	damagedby: ["attacking"],
+	tool: "sword",
+	class: "NormalSwordChargeFast",
+	attributes: {
+		handbook: { groupBy: ["igorot-*"] },
+		groundStorageTransformByType: {
+			"*": {
+				translation: { x: 0, y: 0.06, z: -0.1 },
+				rotation: { x: 26, y: 90, z: -90 },
+				scale: 0.88
+			}
+		},
+		toolrackTransform: {
+			translation: { x: 0, y: 0.8, z: 0 },
+			scale: 1.5
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffYByType: {
+				"*": 2
+			},
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	},{ name: "AnimationAuthoritative" }],
+	variantgroups: [
+		{ code: "metal", states: ["iron", "meteoriciron", "steel"] },
+	],
+	shape: { base: "item/weapon/igorot" },
+	heldTpHitAnimation: "falx",
+	heldTpUseAnimation: "interactstatic",
+	textures: { "iron": { base: "game:block/metal/anvil/{metal}" } },
+	attackRange: 2.8,
+	tooltierbytype: {
+		"*-iron": 5,
+		"*-meteoriciron": 5,
+		"*-steel": 6
+	},
+	attackpowerbytype: {
+		"*-iron": 8,
+		"*-meteoriciron": 8.5,
+		"*-steel": 10
+	},
+	durabilitybytype: {
+		"*-iron": 820,
+		"*-meteoriciron": 920,
+		"*-steel": 1680
+	},
+	damageTypeByType: {
+		"*": "PiercingAttack",
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "alphaweaponpack": ["*"] },
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -65, y: 45, z: 0 },
+		origin: { x: 0.5, y: -0.4, z: 0.6 },
+		scale: 1.5
+	},
+	fpHandTransform: {
+		translation: { x: -0.5, y: -0.2, z: 0 },
+		rotation: { x: -10, y: 10, z: 90 },
+		origin: { x: 0.5, y: 0.6, z: 0.5 },
+		scale: 3.25
+	},
+	tpHandTransform: {
+		translation: { x: -1.1, y: -0.5, z: -0.05 },
+		rotation: { x: 90, y: 0, z: 0 },
+		scale: 0.95
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.4, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 4
+	}
+}

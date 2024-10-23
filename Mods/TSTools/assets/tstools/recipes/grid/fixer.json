@@ -1,0 +1,33 @@
+{
+"ingredientPattern": "PO,SC,PO",
+	"ingredients": {
+	"P": {
+		"type": "item",
+		"code": "game:powderedborax",
+		"quantity": 2
+	},
+	"O": {
+		"type": "item",
+		"code": "game:ore-bituminouscoal",
+		"quantity": 2
+	},
+		"S": {
+		"type": "item",
+		"code": "game:powderedsulfur",
+		"quantity": 2
+},
+		"C": {
+		"type": "item",
+		"code": "game:coke",
+		"quantity": 2
+		}
+	},
+	"width": 2,
+	"height": 3,
+	"shapeless": false,
+	"output": { 
+		"type": "item", 
+		"code": "tstools:fixer",
+	"quantity": 2
+	 },
+}

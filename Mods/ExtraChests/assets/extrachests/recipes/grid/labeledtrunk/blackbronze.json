@@ -1,0 +1,188 @@
+[
+  {
+    "ingredientPattern": "_P_,SCS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*",
+        "quantity": 2
+      },
+      "C": {
+        "type": "block",
+        "code": "labeledtrunk-east",
+        "attributes": { "type": "copper" }
+
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-blackbronze",
+        "quantity": 2
+      }
+    },
+    "recipeGroup": 1,
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "blackbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "SC",
+    "ingredients": {
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      },
+      "C": {
+        "type": "block",
+        "code": "trunk-east",
+        "attributes": { "type": "blackbronze" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "blackbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CU",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "labeledtrunk-east",
+        "attributes": { "type": "copper" }
+      },
+      "U": {
+        "type": "item",
+        "code": "trunkupgrade-blackbronze"
+      }
+    },
+    "recipeGroup": 1,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "blackbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CU",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "trunk-east",
+        "attributes": { "type": "blackbronze" }
+      },
+      "U": {
+        "type": "item",
+        "code": "labelupgrade"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "blackbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "LL",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "blackbronze" }
+      }
+    },
+    "recipeGroup": 3,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "blackbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CL",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "blackbronze" }
+      },
+      "L": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "blackbronze" }
+      }
+    },
+    "recipeGroup": 3,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "blackbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CS",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "blackbronze" },
+        "quantity": 2
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      }
+    },
+    "recipeGroup": 3,
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "blackbronze" }
+    }
+  },
+  {
+    "ingredientPattern": "CSC",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "blackbronze" }
+      },
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      }
+    },
+    "recipeGroup": 3,
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledtrunk-east",
+      "attributes": { "type": "blackbronze" }
+    }
+  }
+]

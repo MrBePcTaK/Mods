@@ -1,0 +1,56 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadwolf-female-1-dead"
+    },
+    "file": "game:entities/land/wolf-female.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadwolf-female-1-dead"
+    },
+    "file": "game:entities/land/wolf-female.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadwolf-male-1-dead"
+    },
+    "file": "game:entities/land/wolf-male.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadwolf-male-1-dead"
+    },
+    "file": "game:entities/land/wolf-male.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadwolf-baby-1-dead"
+    },
+    "file": "game:entities/land/wolf-pup.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadwolf-baby-1-dead"
+    },
+    "file": "game:entities/land/wolf-pup.json"
+  }
+]

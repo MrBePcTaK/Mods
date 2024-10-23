@@ -1,0 +1,277 @@
+{
+	"medievalexpansion:block-myshinyblock-gold-good": "Pilastro di Oro",
+	"medievalexpansion:block-myshinyblock-gold-used": "Vecchio Pilastro di Oro",
+	"medievalexpansion:block-myshinyblock-iron-good": "Pilastro di Ferro",
+	"medievalexpansion:block-myshinyblock-iron-used": "Vecchio Pilastro di Ferro",
+	"medievalexpansion:block-portcullis3x3-model-closed-north": "Cancello di Ferro 3x3",
+	"medievalexpansion:block-portcullis3x4-model-closed-north": "Cancello di Ferro 3x4",
+	"medievalexpansion:block-portcullis3x5-model-closed-north": "Cancello di Ferro 3x5",
+	"medievalexpansion:block-portcullis4x3-model-closed-north": "Cancello di Ferro 4x3",
+	"medievalexpansion:block-portcullis4x4-model-closed-north": "Cancello di Ferro 4x4",
+	"medievalexpansion:block-portcullis4x5-model-closed-north": "Cancello di Ferro 4x5",
+	"medievalexpansion:block-portcullis5x3-model-closed-north": "Cancello di Ferro 5x3",
+	"medievalexpansion:block-portcullis5x4-model-closed-north": "Cancello di Ferro 5x4",
+	"medievalexpansion:block-portcullis5x5-model-closed-north": "Cancello di Ferro 5x5",
+
+	"medievalexpansion:block-gate3x3-model-oak-closed-north": "Portone 3x3 Quercia",
+	"medievalexpansion:block-gate3x3-model-acacia-closed-north": "Portone 3x3 Acacia",
+	"medievalexpansion:block-gate3x3-model-aged-closed-north": "Portone 3x3 Invecchiato",
+	"medievalexpansion:block-gate3x3-model-birch-closed-north": "Portone 3x3 Betulla",
+	"medievalexpansion:block-gate3x3-model-kapok-closed-north": "Portone 3x3 Kapok",
+	"medievalexpansion:block-gate3x3-model-maple-closed-north": "Portone 3x3 Acero",
+	"medievalexpansion:block-gate3x3-model-pine-closed-north": "Portone 3x3 Pino",
+	"medievalexpansion:block-gate3x3-model-purpleheart-closed-north": "Portone 3x3 Amaranto",
+	"medievalexpansion:block-gate3x3-model-walnut-closed-north": "Portone 3x3 Noce",
+	"medievalexpansion:block-gate3x3-model-redwood-closed-north": "Portone 3x3 Sequoia",
+	"medievalexpansion:block-gate3x3-model-larch-closed-north": "Portone 3x3 Larice",
+	"medievalexpansion:block-gate3x3-model-ebony-closed-north": "Portone 3x3 Ebano",
+	"medievalexpansion:block-gate3x3-model-baldcypress-closed-north": "Portone 3x3 Cipresso della palude",
+
+	"medievalexpansion:block-gate4x4-model-oak-closed-north": "Portone 4x4 Quercia",
+	"medievalexpansion:block-gate4x4-model-acacia-closed-north": "Portone 4x4 Acacia",
+	"medievalexpansion:block-gate4x4-model-aged-closed-north": "Portone 4x4 Invecchiato",
+	"medievalexpansion:block-gate4x4-model-birch-closed-north": "Portone 4x4 Betulla",
+	"medievalexpansion:block-gate4x4-model-kapok-closed-north": "Portone 4x4 Kapok",
+	"medievalexpansion:block-gate4x4-model-maple-closed-north": "Portone 4x4 Acero",
+	"medievalexpansion:block-gate4x4-model-pine-closed-north": "Portone 4x4 Pino",
+	"medievalexpansion:block-gate4x4-model-purpleheart-closed-north": "Portone 4x4 Amaranto",
+	"medievalexpansion:block-gate4x4-model-walnut-closed-north": "Portone 4x4 Noce",
+	"medievalexpansion:block-gate4x4-model-redwood-closed-north": "Portone 4x4 Sequoia",
+	"medievalexpansion:block-gate4x4-model-larch-closed-north": "Portone 4x4 Larice",
+	"medievalexpansion:block-gate4x4-model-ebony-closed-north": "Portone 4x4 Ebano",
+	"medievalexpansion:block-gate4x4-model-baldcypress-closed-north": "Portone 4x4 Cipresso della palude",
+
+	"medievalexpansion:block-gate5x5-model-oak-closed-north": "Portone 5x5 Quercia",
+	"medievalexpansion:block-gate5x5-model-acacia-closed-north": "Portone 5x5 Acacia",
+	"medievalexpansion:block-gate5x5-model-aged-closed-north": "Portone 5x5 Invecchiato",
+	"medievalexpansion:block-gate5x5-model-birch-closed-north": "Portone 5x5 Betulla",
+	"medievalexpansion:block-gate5x5-model-kapok-closed-north": "Portone 5x5 Kapok",
+	"medievalexpansion:block-gate5x5-model-maple-closed-north": "Portone 5x5 Acero",
+	"medievalexpansion:block-gate5x5-model-pine-closed-north": "Portone 5x5 Pino",
+	"medievalexpansion:block-gate5x5-model-purpleheart-closed-north": "Portone 5x5 Amaranto",
+	"medievalexpansion:block-gate5x5-model-walnut-closed-north": "Portone 5x5 Noce",
+	"medievalexpansion:block-gate5x5-model-redwood-closed-north": "Portone 5x5 Sequoia",
+	"medievalexpansion:block-gate5x5-model-larch-closed-north": "Portone 5x5 Larice",
+	"medievalexpansion:block-gate5x5-model-ebony-closed-north": "Portone 5x5 Ebano",
+	"medievalexpansion:block-gate5x5-model-baldcypress-closed-north": "Portone 5x5 Cipresso della palude",
+
+	"medievalexpansion:block-gate8x5-model-oak-closed-north": "Portone 8x5 Quercia",
+	"medievalexpansion:block-gate8x5-model-acacia-closed-north": "Portone 8x5 Acacia",
+	"medievalexpansion:block-gate8x5-model-aged-closed-north": "Portone 8x5 Invecchiato",
+	"medievalexpansion:block-gate8x5-model-birch-closed-north": "Portone 8x5 Betulla",
+	"medievalexpansion:block-gate8x5-model-kapok-closed-north": "Portone 8x5 Kapok",
+	"medievalexpansion:block-gate8x5-model-maple-closed-north": "Portone 8x5 Acero",
+	"medievalexpansion:block-gate8x5-model-pine-closed-north": "Portone 8x5 Pino",
+	"medievalexpansion:block-gate8x5-model-purpleheart-closed-north": "Portone 8x5 Amaranto",
+	"medievalexpansion:block-gate8x5-model-walnut-closed-north": "Portone 8x5 Noce",
+	"medievalexpansion:block-gate8x5-model-redwood-closed-north": "Portone 8x5 Sequoia",
+	"medievalexpansion:block-gate8x5-model-larch-closed-north": "Portone 8x5 Larice",
+	"medievalexpansion:block-gate8x5-model-ebony-closed-north": "Portone 8x5 Ebano",
+	"medievalexpansion:block-gate8x5-model-baldcypress-closed-north": "Portone 8x5 Cipresso della palude",
+
+	"medievalexpansion:block-drawbridge3x4-model-purpleheart-opened-north": "Ponte Levatoio 3x4 Amaranto",
+	"medievalexpansion:block-drawbridge3x5-model-purpleheart-opened-north": "Ponte Levatoio 3x5 Amaranto",
+	"medievalexpansion:block-drawbridge3x6-model-purpleheart-opened-north": "Ponte Levatoio 3x6 Amaranto",
+
+	"medievalexpansion:block-drawbridge4x5-model-purpleheart-opened-north": "Ponte Levatoio 4x5 Amaranto",
+	"medievalexpansion:block-drawbridge4x6-model-purpleheart-opened-north": "Ponte Levatoio 4x6 Amaranto",
+	"medievalexpansion:block-drawbridge4x7-model-purpleheart-opened-north": "Ponte Levatoio 4x7 Amaranto",
+
+	"medievalexpansion:block-drawbridge5x6-model-purpleheart-opened-north": "Ponte Levatoio 5x6 Amaranto",
+	"medievalexpansion:block-drawbridge5x7-model-purpleheart-opened-north": "Ponte Levatoio 5x7 Amaranto",
+
+	"medievalexpansion:block-drawbridge3x4-model-walnut-opened-north": "Ponte Levatoio 3x4 Noce",
+	"medievalexpansion:block-drawbridge3x5-model-walnut-opened-north": "Ponte Levatoio 3x5 Noce",
+	"medievalexpansion:block-drawbridge3x6-model-walnut-opened-north": "Ponte Levatoio 3x6 Noce",
+
+	"medievalexpansion:block-drawbridge4x5-model-walnut-opened-north": "Ponte Levatoio 4x5 Noce",
+	"medievalexpansion:block-drawbridge4x6-model-walnut-opened-north": "Ponte Levatoio 4x6 Noce",
+	"medievalexpansion:block-drawbridge4x7-model-walnut-opened-north": "Ponte Levatoio 4x7 Noce",
+
+	"medievalexpansion:block-drawbridge5x6-model-walnut-opened-north": "Ponte Levatoio 5x6 Noce",
+	"medievalexpansion:block-drawbridge5x7-model-walnut-opened-north": "Ponte Levatoio 5x7 Noce",
+
+	"medievalexpansion:block-drawbridge3x4-model-redwood-opened-north": "Ponte Levatoio 3x4 Sequoia",
+	"medievalexpansion:block-drawbridge3x5-model-redwood-opened-north": "Ponte Levatoio 3x5 Sequoia",
+	"medievalexpansion:block-drawbridge3x6-model-redwood-opened-north": "Ponte Levatoio 3x6 Sequoia",
+
+	"medievalexpansion:block-drawbridge4x5-model-redwood-opened-north": "Ponte Levatoio 4x5 Sequoia",
+	"medievalexpansion:block-drawbridge4x6-model-redwood-opened-north": "Ponte Levatoio 4x6 Sequoia",
+	"medievalexpansion:block-drawbridge4x7-model-redwood-opened-north": "Ponte Levatoio 4x7 Sequoia",
+
+	"medievalexpansion:block-drawbridge5x6-model-redwood-opened-north": "Ponte Levatoio 5x6 Sequoia",
+	"medievalexpansion:block-drawbridge5x7-model-redwood-opened-north": "Ponte Levatoio 5x7 Sequoia",
+
+	"medievalexpansion:block-drawbridge3x4-model-larch-opened-north": "Ponte Levatoio 3x4 Larice",
+	"medievalexpansion:block-drawbridge3x5-model-larch-opened-north": "Ponte Levatoio 3x5 Larice",
+	"medievalexpansion:block-drawbridge3x6-model-larch-opened-north": "Ponte Levatoio 3x6 Larice",
+
+	"medievalexpansion:block-drawbridge4x5-model-larch-opened-north": "Ponte Levatoio 4x5 Larice",
+	"medievalexpansion:block-drawbridge4x6-model-larch-opened-north": "Ponte Levatoio 4x6 Larice",
+	"medievalexpansion:block-drawbridge4x7-model-larch-opened-north": "Ponte Levatoio 4x7 Larice",
+
+	"medievalexpansion:block-drawbridge5x6-model-larch-opened-north": "Ponte Levatoio 5x6 Larice",
+	"medievalexpansion:block-drawbridge5x7-model-larch-opened-north": "Ponte Levatoio 5x7 Larice",
+
+	"medievalexpansion:block-drawbridge3x4-model-ebony-opened-north": "Ponte Levatoio 3x4 Ebano",
+	"medievalexpansion:block-drawbridge3x5-model-ebony-opened-north": "Ponte Levatoio 3x5 Ebano",
+	"medievalexpansion:block-drawbridge3x6-model-ebony-opened-north": "Ponte Levatoio 3x6 Ebano",
+
+	"medievalexpansion:block-drawbridge4x5-model-ebony-opened-north": "Ponte Levatoio 4x5 Ebano",
+	"medievalexpansion:block-drawbridge4x6-model-ebony-opened-north": "Ponte Levatoio 4x6 Ebano",
+	"medievalexpansion:block-drawbridge4x7-model-ebony-opened-north": "Ponte Levatoio 4x7 Ebano",
+
+	"medievalexpansion:block-drawbridge5x6-model-ebony-opened-north": "Ponte Levatoio 5x6 Ebano",
+	"medievalexpansion:block-drawbridge5x7-model-ebony-opened-north": "Ponte Levatoio 5x7 Ebano",
+
+	"medievalexpansion:block-drawbridge3x4-model-baldcypress-opened-north": "Ponte Levatoio 3x4 Cipresso della palude",
+	"medievalexpansion:block-drawbridge3x5-model-baldcypress-opened-north": "Ponte Levatoio 3x5 Cipresso della palude",
+	"medievalexpansion:block-drawbridge3x6-model-baldcypress-opened-north": "Ponte Levatoio 3x6 Cipresso della palude",
+
+	"medievalexpansion:block-drawbridge4x5-model-baldcypress-opened-north": "Ponte Levatoio 4x5 Cipresso della palude",
+	"medievalexpansion:block-drawbridge4x6-model-baldcypress-opened-north": "Ponte Levatoio 4x6 Cipresso della palude",
+	"medievalexpansion:block-drawbridge4x7-model-baldcypress-opened-north": "Ponte Levatoio 4x7 Cipresso della palude",
+
+	"medievalexpansion:block-drawbridge5x6-model-baldcypress-opened-north": "Ponte Levatoio 5x6 Cipresso della palude",
+	"medievalexpansion:block-drawbridge5x7-model-baldcypress-opened-north": "Ponte Levatoio 5x7 Cipresso della palude",
+
+	"medievalexpansion:block-drawbridge3x4-model-oak-opened-north": "Ponte Levatoio 3x4 Quercia",
+	"medievalexpansion:block-drawbridge3x5-model-oak-opened-north": "Ponte Levatoio 3x5 Quercia",
+	"medievalexpansion:block-drawbridge3x6-model-oak-opened-north": "Ponte Levatoio 3x6 Quercia",
+
+	"medievalexpansion:block-drawbridge4x5-model-oak-opened-north": "Ponte Levatoio 4x5 Quercia",
+	"medievalexpansion:block-drawbridge4x6-model-oak-opened-north": "Ponte Levatoio 4x6 Quercia",
+	"medievalexpansion:block-drawbridge4x7-model-oak-opened-north": "Ponte Levatoio 4x7 Quercia",
+
+	"medievalexpansion:block-drawbridge5x6-model-oak-opened-north": "Ponte Levatoio 5x6 Quercia",
+	"medievalexpansion:block-drawbridge5x7-model-oak-opened-north": "Ponte Levatoio 5x7 Quercia",
+
+	"medievalexpansion:block-drawbridge3x4-model-acacia-opened-north": "Ponte Levatoio 3x4 Acacia",
+	"medievalexpansion:block-drawbridge3x5-model-acacia-opened-north": "Ponte Levatoio 3x5 Acacia",
+	"medievalexpansion:block-drawbridge3x6-model-acacia-opened-north": "Ponte Levatoio 3x6 Acacia",
+
+	"medievalexpansion:block-drawbridge4x5-model-acacia-opened-north": "Ponte Levatoio 4x5 Acacia",
+	"medievalexpansion:block-drawbridge4x6-model-acacia-opened-north": "Ponte Levatoio 4x6 Acacia",
+	"medievalexpansion:block-drawbridge4x7-model-acacia-opened-north": "Ponte Levatoio 4x7 Acacia",
+
+	"medievalexpansion:block-drawbridge5x6-model-acacia-opened-north": "Ponte Levatoio 5x6 Acacia",
+	"medievalexpansion:block-drawbridge5x7-model-acacia-opened-north": "Ponte Levatoio 5x7 Acacia",
+
+	"medievalexpansion:block-drawbridge3x4-model-aged-opened-north": "Ponte Levatoio 3x4 Invecchiato",
+	"medievalexpansion:block-drawbridge3x5-model-aged-opened-north": "Ponte Levatoio 3x5 Invecchiato",
+	"medievalexpansion:block-drawbridge3x6-model-aged-opened-north": "Ponte Levatoio 3x6 Invecchiato",
+
+	"medievalexpansion:block-drawbridge4x5-model-aged-opened-north": "Ponte Levatoio 4x5 Invecchiato",
+	"medievalexpansion:block-drawbridge4x6-model-aged-opened-north": "Ponte Levatoio 4x6 Invecchiato",
+	"medievalexpansion:block-drawbridge4x7-model-aged-opened-north": "Ponte Levatoio 4x7 Invecchiato",
+
+	"medievalexpansion:block-drawbridge5x6-model-aged-opened-north": "Ponte Levatoio 5x6 Invecchiato",
+	"medievalexpansion:block-drawbridge5x7-model-aged-opened-north": "Ponte Levatoio 5x7 Invecchiato",
+
+	"medievalexpansion:block-drawbridge3x4-model-birch-opened-north": "Ponte Levatoio 3x4 Betulla",
+	"medievalexpansion:block-drawbridge3x5-model-birch-opened-north": "Ponte Levatoio 3x5 Betulla",
+	"medievalexpansion:block-drawbridge3x6-model-birch-opened-north": "Ponte Levatoio 3x6 Betulla",
+
+	"medievalexpansion:block-drawbridge4x5-model-birch-opened-north": "Ponte Levatoio 4x5 Betulla",
+	"medievalexpansion:block-drawbridge4x6-model-birch-opened-north": "Ponte Levatoio 4x6 Betulla",
+	"medievalexpansion:block-drawbridge4x7-model-birch-opened-north": "Ponte Levatoio 4x7 Betulla",
+
+	"medievalexpansion:block-drawbridge5x6-model-birch-opened-north": "Ponte Levatoio 5x6 Betulla",
+	"medievalexpansion:block-drawbridge5x7-model-birch-opened-north": "Ponte Levatoio 5x7 Betulla",
+
+	"medievalexpansion:block-drawbridge3x4-model-kapok-opened-north": "Ponte Levatoio 3x4 Kapok",
+	"medievalexpansion:block-drawbridge3x5-model-kapok-opened-north": "Ponte Levatoio 3x5 Kapok",
+	"medievalexpansion:block-drawbridge3x6-model-kapok-opened-north": "Ponte Levatoio 3x6 Kapok",
+
+	"medievalexpansion:block-drawbridge4x5-model-kapok-opened-north": "Ponte Levatoio 4x5 Kapok",
+	"medievalexpansion:block-drawbridge4x6-model-kapok-opened-north": "Ponte Levatoio 4x6 Kapok",
+	"medievalexpansion:block-drawbridge4x7-model-kapok-opened-north": "Ponte Levatoio 4x7 Kapok",
+
+	"medievalexpansion:block-drawbridge5x6-model-kapok-opened-north": "Ponte Levatoio 5x6 Kapok",
+	"medievalexpansion:block-drawbridge5x7-model-kapok-opened-north": "Ponte Levatoio 5x7 Kapok",
+
+	"medievalexpansion:block-drawbridge3x4-model-maple-opened-north": "Ponte Levatoio 3x4 Acero",
+	"medievalexpansion:block-drawbridge3x5-model-maple-opened-north": "Ponte Levatoio 3x5 Acero",
+	"medievalexpansion:block-drawbridge3x6-model-maple-opened-north": "Ponte Levatoio 3x6 Acero",
+
+	"medievalexpansion:block-drawbridge4x5-model-maple-opened-north": "Ponte Levatoio 4x5 Acero",
+	"medievalexpansion:block-drawbridge4x6-model-maple-opened-north": "Ponte Levatoio 4x6 Acero",
+	"medievalexpansion:block-drawbridge4x7-model-maple-opened-north": "Ponte Levatoio 4x7 Acero",
+
+	"medievalexpansion:block-drawbridge5x6-model-maple-opened-north": "Ponte Levatoio 5x6 Acero",
+	"medievalexpansion:block-drawbridge5x7-model-maple-opened-north": "Ponte Levatoio 5x7 Acero",
+
+	"medievalexpansion:block-drawbridge3x4-model-pine-opened-north": "Ponte Levatoio 3x4 Pino",
+	"medievalexpansion:block-drawbridge3x5-model-pine-opened-north": "Ponte Levatoio 3x5 Pino",
+	"medievalexpansion:block-drawbridge3x6-model-pine-opened-north": "Ponte Levatoio 3x6 Pino",
+
+	"medievalexpansion:block-drawbridge4x5-model-pine-opened-north": "Ponte Levatoio 4x5 Pino",
+	"medievalexpansion:block-drawbridge4x6-model-pine-opened-north": "Ponte Levatoio 4x6 Pino",
+	"medievalexpansion:block-drawbridge4x7-model-pine-opened-north": "Ponte Levatoio 4x7 Pino",
+
+	"medievalexpansion:block-drawbridge5x6-model-pine-opened-north": "Ponte Levatoio 5x6 Pino",
+	"medievalexpansion:block-drawbridge5x7-model-pine-opened-north": "Ponte Levatoio 5x7 Pino",
+
+	"medievalexpansion:block-floorplate-wood-up-north": "Pedana a pressione di Legno",
+	"medievalexpansion:block-floorplate-stone-up-north": "Pedana a pressione di Pietra",
+
+	"medievalexpansion:item-portcullispart": "Parte di Cancello di Ferro",
+	"medievalexpansion:item-portcullisdismantled": "Cancello smantellato",
+
+	"medievalexpansion:item-repairkit-large-copper": "Kit riparatore Grande (Rame)",
+	"medievalexpansion:item-repairkit-large-tinbronze": "Kit riparatore Grande (Bronzo allo stagno)",
+	"medievalexpansion:item-repairkit-large-iron": "Kit riparatore Grande (Ferro)",
+	"medievalexpansion:item-repairkit-large-steel": "Kit riparatore Grande (Acciaio)",
+
+	"medievalexpansion:restore-durability": "Ripristina durabilità: {0}",
+	"medievalexpansion:can-repair-constructions": "Può riparare le costruzioni",
+	"medievalexpansion:blockhelp-repair": "Ripara",
+
+	"medievalexpansion:block-streetlight-north": "Lampione",
+	"medievalexpansion:block-waterwheelbase-north": "Base Ruota Idraulica",
+	"medievalexpansion:block-waterwheelpenstock-door-north": "Canale con portello",
+	"medievalexpansion:block-waterwheelpenstock-normal-north": "Canale",
+	"medievalexpansion:block-waterwheelpenstock-output-north": "Canale di uscita",
+	"medievalexpansion:waterwheel-complete": "Ruota Idraulica",
+	"medievalexpansion:item-waterwheelspin-oak": "Ruota Idraulica con Ingranaggio",
+	"medievalexpansion:item-penstockhatch-oak": "Portello per Canale",
+	"medievalexpansion:waterwheel-requires-gear": "Richiede ingranaggio",
+	"medievalexpansion:penstock-requires-hatch": "Richiede portello",
+	"medievalexpansion:waterwheel-requires-repair": "Riparazione necessaria",
+	"medievalexpansion:waterwheel-efficiency": "Efficienza: {0}%",
+	"medievalexpansion:waterwheel-durability": "Durabilità: {0}%",
+	"medievalexpansion:waterwheel-typ": "Tipo: {0}",
+	"medievalexpansion:waterwheel-typ-undershot": "Alimentata dal basso (Undershot)",
+	"medievalexpansion:waterwheel-typ-breastshot": "Alimentata dal centro (Breastshot)",
+	"medievalexpansion:waterwheel-typ-overshot": "Alimentata dall'alto (Overshot)",
+
+	"medievalexpansion:waterwheel-usage-title": "Potenza Meccanica delle ruota idraulica",
+	"medievalexpansion:waterwheel-usage-text": "<strong>Potenza Meccanica delle ruota idraulica</strong><br><br>Richiede acqua per potenziare la ruota idraulica. L'acqua deve scorrere nella direzione corretta, la rotazione è antioraria.<br/>Ci sono 3 varianti di massima efficienza: <br />- Alimentata dal basso (Undershot): 30%<br />- Alimentata dal centro (Breastshot): 45%<br />- Alimentata dall'alto (Overshot): 85%<br/><br/>Per l'alimentazione dall'alto (Overshot), devi usare gli elementi del canale, il quale deve essere pieno d'acqua. Il canale deve essere posizionato sulla parte superiore della ruota.<br/><br/>Per l'alimentazione dal centro (Breastshot) l'acqua deve scorrere alla stessa altezza del livello dell'asse della ruota idraulica.<br/><br/>Gli amministratori del server possono cambiare le efficienze dal configfile.",
+	"medievalexpansion:block-firebrazier-normal-*": "Braciere di fuoco",
+	"medievalexpansion:block-firebrazier-creative-*": "Braciere di fuoco (Creativa)",
+	"medievalexpansion:firebrazier-burningtime": "Durata Combustione: {0}",
+	"medievalexpansion:blockhelp-firebrazier-fuel": "Aggiungi combustibile",
+	"medievalexpansion:blockhelp-firebrazier-ignite": "Accendi",
+
+	"medievalexpansion:item-creature-aurochs-female": "Mucca di uro",
+	"medievalexpansion:item-creature-aurochs-male": "Toro di uro",
+	"medievalexpansion:item-creature-aurochs-lamb": "Vitello di uro",
+	"medievalexpansion:item-dead-creature-aurochs-male": "Toro di uro morto",
+	"medievalexpansion:item-dead-creature-aurochs-female": "Mucca di uro morto",
+	"medievalexpansion:item-dead-creature-aurochs-lamb": "Vitello di uro morto",
+	"item-creature-medievalexpansion:aurochs-female": "Mucca di uro morto",
+	"item-creature-medievalexpansion:aurochs-male": "Toro di uro morto",
+	"item-creature-medievalexpansion:aurochs-lamb": "Vitello di uro morto",
+
+	"medievalexpansion:block-grasicemixpile": "Pila di ghiaccio di cantina",
+	"medievalexpansion:item-grasicemix": "Ghiaccio di cantina",
+	"medievalexpansion:blockhelp-grasicemix-addfuel": "Aggiungi ghiaccio di cantina",
+	"medievalexpansion:blockhelp-grasicemix-removefuel": "Rimuovi ghiaccio di cantina",
+
+	"medievalexpansion:aurochs-help-title": "Addomesticazione Uro",
+	"medievalexpansion:aurochs-help-text": "<strong>Addomesticazione Uro</strong><br><br>Gli uri hanno bisogno di una mangiatoia larga e sono nutriti con: <br> - Erba secca<br> - Fieno<br/> - Cavolo ",
+	"medievalexpansion:cellarice-help-title": "Raffreddamento Stanza - ghiaccio di cantina",
+	"medievalexpansion:cellarice-help-text": "<strong>Raffreddamento Stanza - ghiaccio di cantina</strong><br><br>il ghiaccio di cantina è impilabile in un'area di blocchi 3x3x2 per un'ottimale supporto all'interno della stanza.<br/> Posizionato all'interno di una stanza raffredderà la stanza e il ghiaccio di cantina si scioglierà dopo un lungo periodo.<br/><br/>Amminstratori del server possono cambiare il moltiplicatore dal configfile.",
+	"medievalexpansion:item-aurochsfood": "Miscela di cibo per uro",
+	"medievalexpansion:aurochs-food": "Cibo di uro misto paglia"
+}
