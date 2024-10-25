@@ -38,15 +38,15 @@
     },
 
     "quantityColumns": {
-      "normal": 9,
-      "bismuthbronze": 9,
-      "blackbronze": 9,
-      "copper": 9,
-      "iron": 9,
-      "steel": 9,
-      "tinbronze": 9
+      "normal": 4,
+      "copper": 6,
+      "tinbronze": 8,
+      "bismuthbronze": 8,
+      "blackbronze": 8,
+      "iron": 10,
+      "steel": 12
     },
-    "quantityRowsMax": 6,
+    "quantityRowsMax": 9,
 
 
     "dialogTitleLangCode": {
