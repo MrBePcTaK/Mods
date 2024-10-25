@@ -1,7 +1,7 @@
 {
   "code": "labeledchest",
-  "class": "BlockLabeledChest",
-  "entityclass": "LabeledChest",
+  "class": "BlockChestLabeledExtraChests",
+  "entityclass": "BEChestLabeledExtraChests",
   "attributes": {
     "partialAttachable": true,
     "inventoryClassName": "chest",
@@ -31,7 +31,6 @@
       "iron": 40,
       "steel": 48
     },
-
     "quantityColumns": {
       "copper": 6,
       "tinbronze": 8,
@@ -40,6 +39,7 @@
       "iron": 10,
       "steel": 12
     },
+    "quantityRowsMax": 4,
 
     "dialogTitleLangCode": {
       "copper": "chestcontents",
@@ -95,7 +95,7 @@
 
   "behaviors": [
     { "name": "Lockable" },
-    { "name": "Container" }
+    { "name": "ExtendedContainerExtraChests" }
   ],
 
   "entityBehaviors": [ { "name": "Animatable" } ],

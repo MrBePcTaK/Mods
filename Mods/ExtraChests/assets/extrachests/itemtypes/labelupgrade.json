@@ -1,6 +1,6 @@
 {
   "code": "labelupgrade",
-  "class": "LabelUpgrade",
+  "class": "LabelUpgradeExtraChests",
   "attributes": {
     "handbook": { "groupBy": [ "upgrade-*" ] }
   },

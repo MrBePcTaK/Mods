@@ -1,7 +1,7 @@
 {
   "code": "labeledtrunk",
-  "class": "BlockLabeledTrunk",
-  "entityclass": "LabeledTrunk",
+  "class": "BlockTrunkLabeledExtraChests",
+  "entityclass": "BETrunkLabeledExtraChests",
   "attributes": {
     "partialAttachable": true,
     "inventoryClassName": "chest",
@@ -38,7 +38,7 @@
     },
 
     "quantityColumns": {
-      "normal":  9,
+      "normal": 9,
       "bismuthbronze": 9,
       "blackbronze": 9,
       "copper": 9,
@@ -46,6 +46,7 @@
       "steel": 9,
       "tinbronze": 9
     },
+    "quantityRowsMax": 6,
 
 
     "dialogTitleLangCode": {
@@ -162,7 +163,7 @@
       }
     },
     { "name": "Lockable" },
-    { "name": "Container" }
+    { "name": "ExtendedContainerExtraChests" }
   ],
 
   "entityBehaviors": [ { "name": "Animatable" } ],

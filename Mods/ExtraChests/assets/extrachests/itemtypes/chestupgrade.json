@@ -1,6 +1,6 @@
 {
   "code": "chestupgrade",
-  "class": "ChestUpgrade",
+  "class": "ChestUpgradeExtraChests",
   "attributes": {
     "handbook": { "groupBy": [ "upgrade-*" ] },
     "requiredTier": {

@@ -1,6 +1,6 @@
 {
   "code": "trunkupgrade",
-  "class": "TrunkUpgrade",
+  "class": "TrunkUpgradeExtraChests",
   "attributes": {
     "handbook": { "groupBy": [ "upgrade-*" ] },
     "requiredTier": {

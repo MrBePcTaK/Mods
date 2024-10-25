@@ -1,7 +1,7 @@
 {
   "code": "trunk",
-  "class": "BlockGenericTypedContainerTrunk",
-  "entityclass": "GenericTypedContainer",
+  "class": "BlockTrunkExtraChests",
+  "entityclass": "BEGenericTypedContainerExtraChests",
   "attributes": {
     "partialAttachable": true,
     "inventoryClassName": "chest",
@@ -43,6 +43,7 @@
       "steel": 9,
       "tinbronze": 9
     },
+    "quantityRowsMax": 6,
 
 
     "dialogTitleLangCode": {
@@ -153,7 +154,7 @@
       }
     },
     { "name": "Lockable" },
-    { "name": "Container" }
+    { "name": "ExtendedContainerExtraChests" }
   ],
 
   "entityBehaviors": [ { "name": "Animatable" } ],
