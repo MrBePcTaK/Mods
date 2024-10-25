@@ -27,17 +27,17 @@
       "steel": true
     },
 
-    "quantitySlots": {
-      "normal": 36,
-      "copper": 54,
-      "tinbronze": 72,
-      "bismuthbronze": 72,
-      "blackbronze": 72,
-      "iron": 90,
-      "steel": 108
+    "quantityColumns": {
+      "normal": 9,
+      "bismuthbronze": 9,
+      "blackbronze": 9,
+      "copper": 9,
+      "iron": 9,
+      "steel": 9,
+      "tinbronze": 9
     },
 
-    "quantityColumns": {
+    "quantityRows": {
       "normal": 4,
       "copper": 6,
       "tinbronze": 8,
@@ -46,8 +46,6 @@
       "iron": 10,
       "steel": 12
     },
-    "quantityRowsMax": 9,
-
 
     "dialogTitleLangCode": {
       "copper": "trunkcontents",

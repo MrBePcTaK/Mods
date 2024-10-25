@@ -26,15 +26,6 @@
       "steel": true
     },
 
-    "quantitySlots": {
-      "copper": 24,
-      "tinbronze": 32,
-      "bismuthbronze": 32,
-      "blackbronze": 32,
-      "iron": 40,
-      "steel": 48
-    },
-
     "quantityColumns": {
       "copper": 6,
       "tinbronze": 8,
@@ -44,8 +35,14 @@
       "steel": 12
     },
 
-    "quantityRowsMax": 4,
-
+    "quantityRows": {
+      "copper": 4,
+      "tinbronze": 4,
+      "bismuthbronze": 4,
+      "blackbronze": 4,
+      "iron": 4,
+      "steel": 4
+    },
 
     "dialogTitleLangCode": {
       "copper": "chestcontents",
