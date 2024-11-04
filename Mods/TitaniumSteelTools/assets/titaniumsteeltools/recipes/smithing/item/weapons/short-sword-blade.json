@@ -1,0 +1,42 @@
+[
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-copper"
+
+    },
+    "output": {
+      "type": "item",
+      "code": "shortswordblade-copper"
+    },
+    "pattern": [
+      [
+        "_____##",
+        "__#####",
+        "#######",
+        "__#####",
+        "_____##"
+      ]
+    ]
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-tinbronze"
+
+    },
+    "output": {
+      "type": "item",
+      "code": "shortswordblade-tinbronze"
+    },
+    "pattern": [
+      [
+        "_____##",
+        "__#####",
+        "#######",
+        "__#####",
+        "_____##"
+      ]
+    ]
+  }
+]

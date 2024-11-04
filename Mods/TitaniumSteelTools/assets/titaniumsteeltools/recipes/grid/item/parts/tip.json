@@ -1,0 +1,70 @@
+[
+  {
+    "ingredientPattern": "C,F,S",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "allowedVariants": [ "iron", "meteoriciron", "steel", "titan" ],
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 50
+      },
+      "F": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "allowedVariants": [ "iron", "meteoriciron", "steel", "titan" ],
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 50
+      },
+      "S": {
+        "type": "item",
+        "code": "game:ingot-iron",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "tip-iron"
+    },
+    "quantity": 1
+  },
+  {
+    "ingredientPattern": "C,F,S",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "smitinghammer-*",
+        "allowedVariants": [ "titan" ],
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 50
+      },
+      "F": {
+        "type": "item",
+        "code": "chisel-*",
+        "allowedVariants": [ "titan" ],
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 50
+      },
+      "S": {
+        "type": "item",
+        "code": "game:ingot-iron",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "tip-iron"
+    },
+    "quantity": 1
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "ingredientPattern": "G,L",
+    "recipeGroup": 2,
+    "ingredients": {
+      "G": {
+        "type": "item",
+        "code": "tunnelhammer-iron"
+      },
+      "L": {
+        "type": "item",
+        "code": "repairtools-iron",
+        "isTool": true
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "copyAttributesFrom": "L",
+    "output": {
+      "type": "item",
+      "code": "tunnelhammer-iron"
+    }
+  },
+  {
+    "ingredientPattern": "G,L",
+    "recipeGroup": 2,
+    "ingredients": {
+      "G": {
+        "type": "item",
+        "code": "tunnelhammer-titan"
+      },
+      "L": {
+        "type": "item",
+        "code": "repairtools-titan",
+        "isTool": true
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "repairDurability": 300,
+    "copyAttributesFrom": "L",
+    "output": {
+      "type": "item",
+      "code": "tunnelhammer-titan"
+    }
+  }
+]

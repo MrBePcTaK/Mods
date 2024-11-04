@@ -1,0 +1,178 @@
+{
+  "code": "battleaxe",
+  "damagedby": [ "blockbreaking", "attacking" ],
+  "tool": "sword",
+  "attributes": {
+    "toolrackTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.01,
+        "z": 0
+      },
+      "scale": 1.69
+    },
+    "groundStorageTransform": {
+      "translation": {
+        "x": 0,
+        "y": -0.02,
+        "z": 0.33
+      },
+      "rotation": {
+        "x": 26,
+        "y": 88,
+        "z": -87
+      }
+    }
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "WallHalves",
+        "wallOffY": 1,
+        "sprintKey": true,
+        "selectionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        },
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 0,
+          "y2": 0,
+          "z2": 0
+        }
+      }
+    },
+    {
+      "name": "AnimationAuthoritative"
+    },
+    {
+      "name": "ToolReplaceable",
+      "properties": {
+        "replaceItemModId": "titaniumsteeltools",
+        "replaceItemCode": "battleaxebroken",
+        "useSameVariant": true
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "metal",
+      "states": [ "iron" ]
+    }
+  ],
+  "shapeByType": {
+    "*": { "base": "item/weapons/battle-axe" }
+  },
+  "heldTpHitAnimation": "spearhit",
+  "texturesByType": {
+    "*-iron": {
+      "handle1": { "base": "item/wood/handles/wooden" },
+      "handle2": { "base": "item/wood/handles/reinforced" },
+      "head-core-material": { "base": "item/metal/iron" },
+      "head-blade-material": { "base": "item/metal/titan" },
+      "reinforcing-rings-material": { "base": "item/metal/copper" }
+    }
+  },
+  "attackRangebytype": {
+    "*": 2.5
+  },
+  "tooltierbytype": {
+    "*-iron": 4
+  },
+  "miningspeedbytype": {
+    "*-iron": {
+      "wood": 2,
+      "leaves": 2
+    }
+  },
+  "attackpowerbytype": {
+    "*-iron": 5
+  },
+  "durabilitybytype": {
+    "*-iron": 1200
+  },
+  "creativeinventoryByType": {
+    "*": {
+      "general": [ "*" ],
+      "items": [ "*" ],
+      "tools": [ "*" ],
+      "titaniumsteeltools": [ "*" ]
+    }
+  },
+
+  "guiTransform": {
+    "translation": {
+      "x": 6,
+      "y": 2,
+      "z": 0
+    },
+    "rotation": {
+      "x": -90,
+      "y": -131,
+      "z": -180
+    },
+    "origin": {
+      "x": 0.65,
+      "y": 0,
+      "z": 0.45
+    },
+    "scale": 1.82
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": -0.3,
+      "y": -0.4,
+      "z": 0.5
+    },
+    "rotation": {
+      "x": -29,
+      "y": -5,
+      "z": 87
+    },
+    "origin": {
+      "x": 0.2,
+      "y": 0.5,
+      "z": 0.5
+    },
+    "scale": 3.45
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.36,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 3.6
+
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.86,
+      "y": -0.5,
+      "z": -0.58
+    },
+    "rotation": {
+      "x": 90,
+      "y": 0,
+      "z": -10
+    },
+    "scale": 0.95
+  }
+}

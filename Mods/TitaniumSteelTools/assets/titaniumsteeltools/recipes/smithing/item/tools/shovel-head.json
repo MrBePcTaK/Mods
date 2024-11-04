@@ -1,0 +1,21 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "game:ingot-titanium"
+  },
+  "pattern": [
+    [
+      "__#####",
+      "_######",
+      "#######",
+      "#######",
+      "_######",
+      "__#####"
+    ]
+  ],
+  "name": "TShovel",
+  "output": {
+    "type": "item",
+    "code": "shovelhead-titan"
+  }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "ingredientPattern": "G,L",
+    "recipeGroup": 2,
+    "ingredients": {
+      "G": {
+        "type": "item",
+        "code": "spear-titan"
+      },
+      "L": {
+        "type": "item",
+        "code": "repairtools-titan",
+        "isTool": true
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "repairDurability": 300,
+    "copyAttributesFrom": "L",
+    "output": {
+      "type": "item",
+      "code": "spear-titan"
+    }
+  }
+]

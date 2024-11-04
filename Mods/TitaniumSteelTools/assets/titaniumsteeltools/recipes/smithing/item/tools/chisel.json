@@ -1,0 +1,21 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "game:ingot-titanium"
+  },
+  "pattern": [
+    [
+      "________",
+      "#_______",
+      "########",
+      "#_______",
+      "________",
+      "________"
+    ]
+  ],
+  "name": "Titan Chisel",
+  "output": {
+    "type": "item",
+    "code": "chisel-titan"
+  }
+}

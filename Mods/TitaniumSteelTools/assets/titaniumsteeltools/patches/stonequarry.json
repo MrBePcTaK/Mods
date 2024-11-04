@@ -1,0 +1,129 @@
+[
+  {
+	"side": "Server",  
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+  "value": "titanium",
+    "file": "stonequarry:blocktypes/plugandfeather.json",
+    "dependsOn": [ { "modid": "stonequarry" } ]
+	},
+   {
+    "op": "add",
+    "path": "/attributes/searchrangeByType/*-titanium-*",
+    "value": 16,
+    "file": "stonequarry:blocktypes/plugandfeather.json"
+  },
+  {
+	"side": "Server",
+    "file": "titaniumsteeltools:itemtypes/shammer",
+    "op": "add",
+    "path": "/attributes/plugimpact",
+    "value": 10,
+	"dependsOn": [ { "modid": "stonequarry" } ]
+  },
+  {
+	"side": "Server",  
+    "op": "add",
+    "path": "/variantgroups/1/states/-",
+  "value": "titanium",
+    "file": "stonequarry:itemtypes/tool/chisel.json",
+    "dependsOn": [ { "modid": "stonequarry" } ]
+	},
+	{
+	"side": "Server",  
+    "op": "add",
+    "path": "/durabilityByType/*-titanium",
+	"value": 3000,
+    "file": "stonequarry:itemtypes/tool/chisel.json",
+    "dependsOn": [ { "modid": "stonequarry" } ]
+	},
+	{
+	"side": "Server",  
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+  "value": "titanium",
+    "file": "stonequarry:itemtypes/tool/rubblehammer.json",
+    "dependsOn": [ { "modid": "stonequarry" } ]
+	},
+	{
+	"side": "Server",  
+    "op": "add",
+    "path": "/durabilityByType/*-titanium",
+	"value": 3000,
+    "file": "stonequarry:itemtypes/tool/rubblehammer.json",
+    "dependsOn": [ { "modid": "stonequarry" } ]
+	},
+	{
+	"side": "Server",  
+    "op": "add",
+    "path": "/attackpowerByType/*-titanium",
+	"value": 3,
+    "file": "stonequarry:itemtypes/tool/rubblehammer.json",
+    "dependsOn": [ { "modid": "stonequarry" } ]
+	},
+	{
+	"side": "Server",  
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+  "value": "titanium",
+    "file": "stonequarry:itemtypes/toolhead/finishingchiselhead.json",
+    "dependsOn": [ { "modid": "stonequarry" } ]
+	},
+	{
+	"side": "Server",  
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+  "value": "titanium",
+    "file": "stonequarry:itemtypes/toolhead/rubblehammerhead.json",
+    "dependsOn": [ { "modid": "stonequarry" } ]
+	},
+	{
+	"side": "Server",  
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+  "value": "titanium",
+    "file": "stonequarry:itemtypes/toolhead/wedgechiselhead.json",
+    "dependsOn": [ { "modid": "stonequarry" } ]
+	},
+	{
+	"side": "Server",  
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+  "value": "titanium",
+    "file": "stonequarry:recipes/smithing/plugandfeather.json",
+    "dependsOn": [ { "modid": "stonequarry" } ]
+	},
+	{
+	"side": "Server",  
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+  "value": "titanium",
+    "file": "stonequarry:recipes/smithing/tool/finishingchiselhead.json",
+    "dependsOn": [ { "modid": "stonequarry" } ]
+	},
+	{
+	"side": "Server",  
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+  "value": "titanium",
+    "file": "stonequarry:recipes/smithing/tool/roughcutchisel.json",
+    "dependsOn": [ { "modid": "stonequarry" } ]
+	},
+	{
+	"side": "Server",  
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+  "value": "titanium",
+    "file": "stonequarry:recipes/smithing/tool/rubblehammerhead.json",
+    "dependsOn": [ { "modid": "stonequarry" } ]
+	},
+	{
+	"side": "Server",  
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+  "value": "titanium",
+    "file": "stonequarry:recipes/smithing/tool/wedgechiselhead.json",
+    "dependsOn": [ { "modid": "stonequarry" } ]
+	},
+  
+]

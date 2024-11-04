@@ -1,0 +1,69 @@
+{
+	"game:tabname-titaniumsteeltools": "TSTools",
+
+	"item-fixer": "Кузнечная смесь",
+	"item-tip-iron": "Железный наконечник",
+	"item-titaniumingot-titansponge": "Слиток титановой губки",
+	"item-handle-wooden": "Деревянная рукоять",
+	"item-handle-reinforced": "Укрепленная рукоять",
+	"item-bowbase": "Основание лука",
+	"item-bowwing": "Крыло лука",
+	"item-durableflaxtwine": "Прочный шпагат",
+
+	"item-repairtools-iron": "Ремонтный набор для железных инструментов",
+	"item-repairtools-titan": "Ремонтный набор для титановых инструментов",
+	"item-handbooktext-*repairtools-*": "Набор восстанавливает 1000 единиц прочности инструменту, расходуя 1 единицу своей прочности",
+
+	"item-backpack-titan": "Рюкзак с титановыми вставками",
+
+	"item-bow-compound": "Композитный лук",
+	"item-bowbroken-compound": "Сломанный композитный лук",
+
+
+	"item-shortswordblade-copper": "Клинок медного меча",
+	"item-shortswordblade-tinbronze": "Клинок бронзового меча",
+	"item-battleaxehead-iron": "Железное оголовье боевого топора",
+	"item-swordblade-titan": "Титановый клинок",
+	"item-spearhead-titan": "Титановый наконечник копья",
+	"item-battlehammerhead-titan": "Титановое оголовье боевого молота",
+
+	"item-shortsword-copper": "Короткий медный меч",
+	"item-shortsword-tinbronze": "Короткий бронзовый меч",
+	"item-battleaxe-iron": "Железный боевой топор",
+	"item-sword-titan": "Титановый меч",
+	"item-spear-titan": "Титановое копье",
+	"item-battlehammer-titan": "Титановый боевой молот",
+
+	"item-shortswordbroken-copper": "Сломанный короткий медный меч",
+	"item-shortswordbroken-tinbronze": "Сломанный короткий бронзовый меч",
+	"item-battleaxebroken-iron": "Сломанный железный боевой топор",
+	"item-swordbroken-titan": "Сломанный титановый меч",
+	"item-spearbroken-titan": "Сломанное титановое копье",
+	"item-battlehammerbroken-titan": "Сломанный титановый боевой молот",
+
+
+	"item-pickaxehead-titan": "Титановое оголовье кирки",
+	"item-axehead-titan": "Титановое оголовье топора",
+	"item-shovelhead-titan": "Титановый лоток лопаты",
+	"item-tunnelhammerhead-titan": "Титановое оголовье туннельного молота",
+	"item-prospectingpickhead-titan": "Титановое оголовье геологического молотка",
+
+	"item-tongs-copper": "Медные клещи",
+	"item-tunnelhammer-iron": "Железный туннельный молот",
+	"item-tunnelhammer-titan": "Титановый туннельный молот",
+	"item-pickaxe-titan": "Титановая кирка",
+	"item-axe-titan": "Титановый топор",
+	"item-shovel-titan": "Титановая лопата",
+	"item-paxel-titan": "Титановый паксель",
+	"item-chisel-titan": "Титановое зубило",
+	"item-smitinghammer-titan": "Титановый кузнечный молот",
+	"item-prospectingpick-titan": "Титановый геологический молоток",
+
+	"item-tunnelhammerbroken-iron": "Сломанный железный туннельный молот",
+	"item-tunnelhammerbroken-titan": "Сломанный титановый туннельный молот",
+	"item-pickaxebroken-titan": "Сломанная титановая кирка",
+	"item-axebroken-titan": "Сломанный титановый топор",
+	"item-shovelbroken-titan": "Сломанная титановая лопата",
+	"item-paxelbroken-titan": "Сломанный титановый паксель",
+	"item-prospectingpickbroken-titan": "Сломанный титановый геологический молоток"
+}

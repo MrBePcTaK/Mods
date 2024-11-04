@@ -1,0 +1,117 @@
+{
+  "code": "repairtools",
+  "attributes": {
+    "repairDurability": 1000,
+    "canRepairConstructions": false
+  },
+  "maxstacksize": 16,
+  "variantgroups": [
+    {
+      "code": "metal",
+      "states": [ "iron", "titan" ]
+    }
+  ],
+  "shapeByType": {
+    "*-iron": {
+      "base": "item/tools/repair-tools/iron-repair-tools"
+    },
+    "*-titan": {
+      "base": "item/tools/repair-tools/titan-repair-tools"
+    }
+  },
+  "texturesByType": {
+    "*-iron": {
+      "iron": { "base": "item/metal/iron" },
+      "leser": { "base": "item/wool/leser" },
+      "titan": { "base": "item/metal/titan" },
+      "copper": { "base": "item/metal/copper" },
+      "tinbronze": { "base": "item/metal/tinbronze" }
+    },
+    "*-titan": {
+      "iron": { "base": "item/metal/iron" },
+      "titan": { "base": "item/metal/titan" },
+      "copper": { "base": "item/metal/copper" },
+      "tinbronze": { "base": "item/metal/tinbronze" }
+    }
+  },
+  "durabilitybytype": {
+    "*-iron": 10,
+    "*-titan": 15
+  },
+  "creativeinventoryByType": {
+    "*": {
+      "general": [ "*" ],
+      "items": [ "*" ],
+      "tools": [ "*" ],
+      "titaniumsteeltools": [ "*" ]
+    }
+  },
+
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.2,
+      "z": 0
+    },
+    "rotation": {
+      "x": 20,
+      "y": -10,
+      "z": 100
+    },
+    "scale": 1.12
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.4,
+      "y": -0.7,
+      "z": -0.9
+    },
+    "rotation": {
+      "x": -180,
+      "y": 68,
+      "z": -180
+    },
+    "origin": {
+      "x": 0,
+      "e": 0.5,
+      "z": 0
+    },
+    "scale": 0.39
+  },
+  "guiTransform": {
+    "translation": {
+      "x": -4,
+      "y": 0,
+      "z": -50
+    },
+    "rotation": {
+      "x": 50,
+      "y": 56,
+      "z": 65
+    },
+    "origin": {
+      "x": 0,
+      "y": -0.8,
+      "z": 0
+    },
+    "scale": 1.57
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.17,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": -117,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5299
+    },
+    "scale": 1.72
+  }
+}

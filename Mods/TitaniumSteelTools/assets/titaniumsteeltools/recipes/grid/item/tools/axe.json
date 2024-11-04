@@ -1,0 +1,28 @@
+{
+  "ingredientPattern": "S_S,_K_,_M_",
+  "ingredients": {
+    "S": {
+      "type": "item",
+      "code": "fixer",
+      "quantity": 4
+    },
+    "K": {
+      "type": "item",
+      "code": "axehead-titan",
+      "quantity": 1
+    },
+    "M": {
+      "type": "item",
+      "code": "handle-reinforced",
+      "quantity": 1
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "shapeless": false,
+  "output": {
+    "type": "item",
+    "code": "axe-titan"
+  },
+  "quantity": 1
+}

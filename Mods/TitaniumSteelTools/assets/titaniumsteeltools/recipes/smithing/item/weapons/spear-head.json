@@ -1,0 +1,21 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "game:ingot-titanium"
+  },
+  "pattern": [
+    [
+      "____####",
+      "_#####__",
+      "#######_",
+      "#######_",
+      "_#####__",
+      "____####"
+    ]
+  ],
+  "name": "Spear",
+  "output": {
+    "type": "item",
+    "code": "spearhead-titan"
+  }
+}

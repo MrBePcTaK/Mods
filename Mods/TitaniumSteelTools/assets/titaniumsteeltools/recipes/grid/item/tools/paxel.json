@@ -1,0 +1,43 @@
+{
+  "ingredientPattern": "STS,_K_,ZMF",
+  "ingredients": {
+    "S": {
+      "type": "item",
+      "code": "fixer",
+      "quantity": 4
+    },
+    "K": {
+      "type": "item",
+      "code": "axehead-titan",
+      "quantity": 1
+    },
+    "M": {
+      "type": "item",
+      "code": "handle-reinforced",
+      "quantity": 1
+    },
+    "T": {
+      "type": "item",
+      "code": "game:gear-temporal",
+      "quantity": 1
+    },
+    "Z": {
+      "type": "item",
+      "code": "pickaxehead-titan",
+      "quantity": 1
+    },
+    "F": {
+      "type": "item",
+      "code": "shovelhead-titan",
+      "quantity": 1
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "shapeless": false,
+  "output": {
+    "type": "item",
+    "code": "paxel-titan"
+  },
+  "quantity": 1
+}

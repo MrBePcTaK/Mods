@@ -1,0 +1,179 @@
+{
+  "code": "prospectingpick",
+  "storageFlags": 5,
+  "class": "ItemProspectingPick",
+  "tool": "pickaxe",
+  "damagedby": [ "blockbreaking", "attacking" ],
+  "maxstacksize": 1,
+  "attributes": {
+    "handbook": {
+      "groupBy": [ "prospectingpick-*" ]
+    },
+    "toolrackTransform": {
+      "rotation": {
+        "y": 1,
+        "z": -1
+      },
+      "translation": {
+        "x": -0.3,
+        "y": 0.6
+      },
+      "scale": 1.25
+    },
+    "groundStorageTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.1,
+        "z": -0.085
+      },
+      "rotation": {
+        "x": 26,
+        "y": 88,
+        "z": -87
+      },
+      "scale": 0.88
+    },
+    "slotRefillIdentifier": "propick"
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "WallHalves",
+        "wallOffY": 1,
+        "sprintKey": true,
+        "selectionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        },
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 0,
+          "y2": 0,
+          "z2": 0
+        }
+      }
+    },
+    {
+      "name": "ToolReplaceable",
+      "properties": {
+        "replaceItemModId": "titaniumsteeltools",
+        "replaceItemCode": "prospectingpickbroken",
+        "useSameVariant": true
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "metal",
+      "states": [ "titan" ]
+    }
+  ],
+  "shapeByType": {
+    "*": { "base": "item/tools/prospecting-pick" }
+  },
+  "heldTpHitAnimation": "smithing",
+  "texturesByType": {
+    "*-titan": {
+      "handle": { "base": "item/wood/handles/reinforced" },
+      "head-core": { "base": "item/metal/iron" },
+      "head-side": { "base": "item/metal/titan" },
+      "head-connection": { "base": "item/metal/tinbronze" },
+      "pommel": { "base": "item/metal/tinbronze" }
+    }
+  },
+  "tooltierByType": {
+    "*-titan": 6
+  },
+  "miningspeedByType": {
+    "*-titan": {
+      "stone": 6,
+      "ore": 6
+    }
+  },
+  "attackpowerByType": {
+    "*-titan": 4
+  },
+  "durabilityByType": {
+    "*-titan": 2000
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "tools": [ "*" ],
+    "titaniumsteeltools": [ "*" ]
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": -0.4,
+      "y": -0.4,
+      "z": 0.6
+    },
+    "rotation": {
+      "x": -46,
+      "y": 12,
+      "z": 90
+    },
+    "origin": {
+      "x": 0.1,
+      "y": 0.5,
+      "z": 0.5
+    },
+    "scale": 2.5
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 107,
+      "y": -58,
+      "z": -16
+    },
+    "origin": {
+      "x": 0.44,
+      "y": 0.3,
+      "z": 0.42
+    },
+    "scale": 1.68
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0.3,
+      "y": 0.4,
+      "z": -0.2
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.45,
+      "z": 0.5
+    },
+    "scale": 3.6
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.78,
+      "y": -0.53,
+      "z": -0.11
+    },
+    "rotation": {
+      "x": 90,
+      "y": 0,
+      "z": -2
+    },
+    "scale": 0.9
+  }
+}

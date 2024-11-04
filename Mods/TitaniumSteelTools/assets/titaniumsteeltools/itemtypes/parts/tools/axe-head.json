@@ -1,0 +1,102 @@
+{
+  "code": "axehead",
+  "variantgroups": [
+    {
+      "code": "metal",
+      "states": [ "titan" ]
+    }
+  ],
+  "heldTpUseAnimation": "interactstatic",
+  "maxstacksize": 4,
+  "shapeByType": {
+    "*": { "base": "item/parts/tools/axe-head" }
+  },
+  "texturesByType": {
+    "*-titan": {
+      "material": { "base": "item/metal/iron" },
+      "titan-tip": { "base": "item/metal/titan" },
+      "battleaxehead": { "base": "item/metal/titan" },
+      "metal": { "base": "item/metal/iron" }
+    }
+  },
+  "creativeinventoryByType": {
+    "*": {
+      "general": [ "*" ],
+      "items": [ "*" ],
+      "tools": [ "*" ],
+      "titaniumsteeltools": [ "*" ]
+    }
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": -0.5,
+      "y": -0.2,
+      "z": 0
+    },
+    "rotation": {
+      "x": 26,
+      "y": 15,
+      "z": 90
+    },
+    "origin": {
+      "x": 1,
+      "y": 0.4,
+      "z": 0.5
+    },
+    "scale": 3.4
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": -89,
+      "y": 47,
+      "z": 33
+    },
+    "origin": {
+      "x": 1,
+      "y": 0.2,
+      "z": 0.45
+    },
+    "scale": 2.3
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 1,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 4.17
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.47,
+      "y": -0.01,
+      "z": -0.56
+    },
+    "rotation": {
+      "x": -95,
+      "y": 66,
+      "z": 0
+    },
+    "origin": {
+      "x": 1,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 0.8
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "game:ingot-titanium"
+  },
+  "pattern": [
+    [
+      "#####",
+      "_###_",
+      "_###_",
+      "#####"
+    ],
+    [
+      "#####",
+      "_###_",
+      "_###_",
+      "#####"
+    ]
+  ],
+  "name": "Hammer SP Titan",
+  "output": {
+    "type": "item",
+    "code": "hammerhead-titan"
+  }
+}

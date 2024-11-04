@@ -1,0 +1,28 @@
+{
+  "ingredientPattern": "_K_,SMS,___",
+  "ingredients": {
+    "S": {
+      "type": "item",
+      "code": "fixer",
+      "quantity": 1
+    },
+    "K": {
+      "type": "item",
+      "code": "hammerhead-titan",
+      "quantity": 1
+    },
+    "M": {
+      "type": "item",
+      "code": "handle-reinforced",
+      "quantity": 1
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "shapeless": false,
+  "output": {
+    "type": "item",
+    "code": "smitinghammer-titan"
+  },
+  "quantity": 1
+}

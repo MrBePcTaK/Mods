@@ -1,0 +1,65 @@
+[
+    {
+    "side": "Server",
+	"file": "game:worldproperties/block/toolmetal.json",
+    "op": "add",
+    "path": "/variants/-",
+	"value": { "code": "titanium"}
+  },
+	{ 
+		"side": "Server",
+        "file": "game:itemtypes/resource/workitem.json",		
+		"op": "add",
+		"path": "/attributesByType/workitem-titanium",
+		"value": {"requiresAnvilTier": 3}
+	},
+		{ 
+		"side": "Server", 
+		"op": "replace",
+		"path": "/attributes/handbook/excludeByType/*-titanium",
+		"value": false,
+		"file": "game:itemtypes/resource/metalchain.json"
+	},
+	{ 
+		"side": "Server", 
+		"op": "replace",
+		"path": "/attributes/handbook/excludeByType/*-ilmenite-*",
+		"value": false,
+		"file": "game:itemtypes/resource/nugget.json"
+	},	
+	{ 
+		"side": "Server", 
+		"op": "replace",
+		"path": "/attributes/handbook/excludeByType/*-titanium",
+		"value": false,
+		"file": "game:itemtypes/resource/metalbit.json"
+	},
+	{ 
+		"side": "Server", 
+		"op": "replace",
+		"path": "/attributes/handbook/excludeByType/*-titanium",
+		"value": false,
+		"file": "game:itemtypes/resource/ingot.json"
+	},		
+	{ 
+		"side": "Server", 
+		"op": "add",
+		"path": "/attributes/reinforcementStrengthByType/*-titanium",
+		"value": 1800,
+		"file": "game:itemtypes/resource/ingot.json"
+	},
+	{ 
+		"side": "Server", 
+		"op": "add",
+		"path": "/attributes/requiresAnvilTierByType/ingot-titanium",
+		"value": 3,
+		"file": "game:itemtypes/resource/ingot.json"
+	},
+	{ 
+		"side": "Server", 
+		"op": "replace",
+		"path": "/attributes/handbook/excludeByType/*-titanium",
+		"value": false,
+		"file": "game:itemtypes/resource/metalplate.json"
+	}
+]

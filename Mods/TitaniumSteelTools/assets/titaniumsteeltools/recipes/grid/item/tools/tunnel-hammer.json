@@ -1,0 +1,73 @@
+[
+  {
+    "ingredientPattern": "STS,_K_,_M_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "fixer",
+        "quantity": 4
+      },
+      "K": {
+        "type": "item",
+        "code": "hammerhead-titan",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "handle-reinforced",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "tunnelhammer-titan"
+    },
+    "quantity": 1
+  },
+  {
+    "ingredientPattern": "NTN,SKS,_M_",
+    "ingredients": {
+      "N": {
+        "type": "item",
+        "code": "tip-iron",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "fixer",
+        "quantity": 4
+      },
+      "K": {
+        "type": "item",
+        "code": "game:hammerhead-iron",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "handle-reinforced",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:ingot-tinbronze",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "tunnelhammer-iron"
+    },
+    "quantity": 1
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "code": "titaniumingot",
+  "class": "ItemIngot",
+  "maxstacksize": 64,
+  "storageFlags": 5,
+  "attributes": {
+    "carburizablePropsByType": {
+      "ingot-ts": {
+        "carburizedOutput": {
+          "type": "item",
+          "code": "game:ingot-titanium"
+        }
+      }
+    }
+  },
+  "variantgroups": [
+    {
+      "code": "metal",
+      "states": [ "titansponge" ]
+    }
+  ],
+  "shapeByType": {
+    "*-titansponge": { "base": "item/resources/titan-sponge-ingot" }
+  },
+  "texturesByType": {
+    "*-titansponge": {
+      "narost": { "base": "item/metal/copper" },
+      "ingot": { "base": "item/metal/steel" },
+      "copton": { "base": "item/resources/copton" },
+      "titan-tip": { "base": "item/metal/titan" }
+    }
+  },
+  "creativeinventoryByType": {
+    "*": {
+      "general": [ "*" ],
+      "items": [ "*" ],
+      "titaniumsteeltools": [ "*" ]
+    }
+  },
+  "materialDensityByType": {
+    "*-titansponge": 4880
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 2,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 149,
+      "y": -36,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.1,
+      "z": 0.5
+    },
+    "scale": 3.5
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.1,
+      "z": 0
+    },
+    "rotation": {
+      "x": 65,
+      "y": 21,
+      "z": -6
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.1,
+      "z": 0.5
+    },
+    "scale": 2.15
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.77,
+      "y": -0.15,
+      "z": -0.64
+    },
+    "rotation": {
+      "x": 0,
+      "y": -71,
+      "z": 18
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.1,
+      "z": 0.5
+    },
+    "scale": 0.75
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 4.8
+  }
+}

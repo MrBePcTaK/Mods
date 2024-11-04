@@ -1,0 +1,298 @@
+{
+	"editor": {
+		"backDropShape": "block/clay/crucible",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 5.0, 8.0 ],
+			"to": [ 8.0, 5.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 5.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "HandleB",
+					"from": [ -3.5, 2.0, 2.5 ],
+					"to": [ 4.5, 3.0, 3.5 ],
+					"rotationOrigin": [ -3.5, 3.0, 3.5 ],
+					"faces": {
+						"north": {
+							"texture": "#jaws",
+							"uv": [ 3.0, 7.5, 11.0, 8.5 ]
+						},
+						"east": {
+							"texture": "#jaws",
+							"uv": [ 12.5, 13.5, 13.5, 14.5 ]
+						},
+						"south": {
+							"texture": "#jaws",
+							"uv": [ 0.5, 9.0, 8.5, 10.0 ]
+						},
+						"west": {
+							"texture": "#jaws",
+							"uv": [ 4.0, 2.0, 5.0, 3.0 ]
+						},
+						"up": {
+							"texture": "#jaws",
+							"uv": [ 4.5, 5.5, 12.5, 6.5 ]
+						},
+						"down": {
+							"texture": "#jaws",
+							"uv": [ 7.0, 10.0, 15.0, 11.0 ]
+						}
+					},
+					"children": [
+						{
+							"name": "HandleBfore",
+							"from": [ 0.0, 0.0, 1.0 ],
+							"to": [ 9.0, 1.0, 2.0 ],
+							"rotationOrigin": [ 0.0, 1.0, 1.0 ],
+							"rotationX": -177.0,
+							"rotationY": 30.0,
+							"rotationZ": -180.0,
+							"faces": {
+								"north": {
+									"texture": "#jaws",
+									"uv": [ 3.0, 9.0, 12.0, 10.0 ]
+								},
+								"east": {
+									"texture": "#jaws",
+									"uv": [ 14.5, 7.0, 15.5, 8.0 ]
+								},
+								"south": {
+									"texture": "#jaws",
+									"uv": [ 4.5, 12.5, 13.5, 13.5 ]
+								},
+								"west": {
+									"texture": "#jaws",
+									"uv": [ 13.5, 11.0, 14.5, 12.0 ]
+								},
+								"up": {
+									"texture": "#jaws",
+									"uv": [ 6.0, 9.0, 15.0, 10.0 ]
+								},
+								"down": {
+									"texture": "#jaws",
+									"uv": [ 4.5, 4.0, 13.5, 5.0 ]
+								}
+							},
+							"children": [
+								{
+									"name": "RopeLeft",
+									"from": [ 5.0, -0.2, -0.2 ],
+									"to": [ 8.0, 1.2, 1.2 ],
+									"rotationOrigin": [ 6.7, -0.2, 0.5 ],
+									"faces": {
+										"north": {
+											"texture": "#handle",
+											"uv": [ 12.0, 13.5, 15.0, 14.5 ]
+										},
+										"east": {
+											"texture": "#handle",
+											"uv": [ 9.5, 6.0, 10.5, 7.0 ]
+										},
+										"south": {
+											"texture": "#handle",
+											"uv": [ 1.5, 1.5, 4.5, 2.5 ]
+										},
+										"west": {
+											"texture": "#handle",
+											"uv": [ 7.5, 2.5, 8.5, 3.5 ]
+										},
+										"up": {
+											"texture": "#handle",
+											"uv": [ 0.5, 3.0, 3.5, 4.0 ]
+										},
+										"down": {
+											"texture": "#handle",
+											"uv": [ 12.0, 4.0, 15.0, 5.0 ]
+										}
+									}
+								}
+							]
+						},
+						{
+							"name": "HandleBBack",
+							"from": [ 8.0, 0.0, 0.0 ],
+							"to": [ 16.0, 1.0, 1.0 ],
+							"rotationOrigin": [ 8.0, 0.5, 1.0 ],
+							"rotationX": -3.0,
+							"rotationY": 17.0,
+							"faces": {
+								"north": {
+									"texture": "#jaws",
+									"uv": [ 7.5, 4.0, 15.5, 5.0 ]
+								},
+								"east": {
+									"texture": "#jaws",
+									"uv": [ 2.5, 12.0, 3.5, 13.0 ]
+								},
+								"south": {
+									"texture": "#jaws",
+									"uv": [ 3.0, 8.5, 11.0, 9.5 ]
+								},
+								"west": {
+									"texture": "#jaws",
+									"uv": [ 6.5, 11.0, 7.5, 12.0 ]
+								},
+								"up": {
+									"texture": "#jaws",
+									"uv": [ 1.5, 3.0, 9.5, 4.0 ]
+								},
+								"down": {
+									"texture": "#jaws",
+									"uv": [ 2.5, 14.5, 10.5, 15.5 ]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "HandleA",
+					"from": [ -4.0, 2.0, -0.5 ],
+					"to": [ 4.0, 3.0, 0.5 ],
+					"rotationOrigin": [ -4.0, 2.0, 0.5 ],
+					"rotationY": 28.0,
+					"faces": {
+						"north": {
+							"texture": "#jaws",
+							"uv": [ 5.0, 12.0, 13.0, 12.9926 ]
+						},
+						"east": {
+							"texture": "#jaws",
+							"uv": [ 13.5, 10.5037, 14.5, 11.4963 ]
+						},
+						"south": {
+							"texture": "#jaws",
+							"uv": [ 2.0, 13.0074, 10.0, 14.0 ]
+						},
+						"west": {
+							"texture": "#jaws",
+							"uv": [ 5.0, 9.4963, 6.0, 10.4889 ]
+						},
+						"up": {
+							"texture": "#jaws",
+							"uv": [ 4.5, 10.0, 12.5, 10.9926 ]
+						},
+						"down": {
+							"texture": "#jaws",
+							"uv": [ 4.5, 7.4963, 12.5, 8.4889 ]
+						}
+					},
+					"children": [
+						{
+							"name": "diagonalA",
+							"from": [ 0.1, 0.0, -1.0 ],
+							"to": [ 10.0, 1.0, 0.0 ],
+							"rotationOrigin": [ 0.1, 0.5, 0.0 ],
+							"rotationX": -1.0,
+							"rotationY": -157.5,
+							"faces": {
+								"north": {
+									"texture": "#jaws",
+									"uv": [ 4.0, 5.5, 13.5, 6.5 ]
+								},
+								"east": {
+									"texture": "#jaws",
+									"uv": [ 6.0, 2.0, 7.0, 3.0 ]
+								},
+								"south": {
+									"texture": "#jaws",
+									"uv": [ 2.5, 14.0, 12.0, 15.0 ]
+								},
+								"west": {
+									"texture": "#jaws",
+									"uv": [ 11.0, 12.0, 12.0, 13.0 ]
+								},
+								"up": {
+									"texture": "#jaws",
+									"uv": [ 4.0, 12.5, 13.5, 13.5 ]
+								},
+								"down": {
+									"texture": "#jaws",
+									"uv": [ 4.5, 5.5, 14.0, 6.5 ]
+								}
+							},
+							"children": [
+								{
+									"name": "RopeRight",
+									"from": [ 5.5, -0.2, -0.2 ],
+									"to": [ 8.5, 1.2, 1.2 ],
+									"rotationOrigin": [ 7.0, -0.2, 0.5 ],
+									"faces": {
+										"north": {
+											"texture": "#handle",
+											"uv": [ 10.5, 0.0, 13.5, 1.0 ]
+										},
+										"east": {
+											"texture": "#handle",
+											"uv": [ 13.5, 14.0, 14.5, 15.0 ]
+										},
+										"south": {
+											"texture": "#handle",
+											"uv": [ 4.0, 14.5, 7.0, 15.5 ]
+										},
+										"west": {
+											"texture": "#handle",
+											"uv": [ 13.0, 5.5, 14.0, 6.5 ]
+										},
+										"up": {
+											"texture": "#handle",
+											"uv": [ 6.5, 7.5, 9.5, 8.5 ]
+										},
+										"down": {
+											"texture": "#handle",
+											"uv": [ 8.5, 4.5, 11.5, 5.5 ]
+										}
+									}
+								}
+							]
+						},
+						{
+							"name": "HandleABack",
+							"from": [ 7.7, 0.0, 0.0 ],
+							"to": [ 15.7, 1.0, 1.0 ],
+							"rotationOrigin": [ 8.0, 1.0, 1.0 ],
+							"rotationY": -11.0,
+							"faces": {
+								"north": {
+									"texture": "#jaws",
+									"uv": [ 3.0, 8.0, 11.0, 9.0 ]
+								},
+								"east": {
+									"texture": "#jaws",
+									"uv": [ 13.0, 6.0, 14.0, 7.0 ]
+								},
+								"south": {
+									"texture": "#jaws",
+									"uv": [ 0.5, 0.5, 8.5, 1.5 ]
+								},
+								"west": {
+									"texture": "#jaws",
+									"uv": [ 3.0, 6.0, 4.0, 7.0 ]
+								},
+								"up": {
+									"texture": "#jaws",
+									"uv": [ 7.5, 3.0, 15.5, 4.0 ]
+								},
+								"down": {
+									"texture": "#jaws",
+									"uv": [ 8.0, 8.0, 16.0, 9.0 ]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

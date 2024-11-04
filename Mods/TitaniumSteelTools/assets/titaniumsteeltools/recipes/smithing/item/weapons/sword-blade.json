@@ -1,0 +1,18 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "game:ingot-titanium"
+  },
+  "pattern": [
+    [
+      "__####_#",
+      "########",
+      "___###_#"
+    ]
+  ],
+  "name": "TSsword",
+  "output": {
+    "type": "item",
+    "code": "swordblade-titan"
+  }
+}

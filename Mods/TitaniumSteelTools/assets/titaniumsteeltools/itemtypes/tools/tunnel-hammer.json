@@ -1,0 +1,188 @@
+{
+  "code": "tunnelhammer",
+  "damagedby": [ "blockbreaking", "attacking" ],
+  "tool": "pickaxe",
+  "class": "TunnelHammer",
+  "attributes": {
+    "toolrackTransform": {
+      "translation": {
+        "x": 0.01,
+        "y": 0
+      },
+      "rotation": {
+        "y": 1,
+        "z": -1
+      },
+      "scale": 1.5
+    },
+    "groundStorageTransform": {
+      "translation": {
+        "x": 0,
+        "y": -0.02,
+        "z": 0.33
+      },
+      "rotation": {
+        "x": 26,
+        "y": 88,
+        "z": -87
+      },
+      "scale": 1.01
+    }
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "WallHalves",
+        "wallOffY": 1,
+        "sprintKey": true,
+        "selectionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        },
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 0,
+          "y2": 0,
+          "z2": 0
+        }
+      }
+    },
+    {
+      "name": "ToolReplaceable",
+      "properties": {
+        "replaceItemModId": "titaniumsteeltools",
+        "replaceItemCode": "tunnelhammerbroken",
+        "useSameVariant": true
+      }
+    }
+  ],
+  "maxstacksize": 1,
+
+  "variantgroups": [
+    {
+      "code": "metal",
+      "states": [ "iron", "titan" ]
+    }
+  ],
+
+  "shapeByType": {
+    "*": { "base": "item/tools/tunnel-hammer" }
+  },
+  "heldTpHitAnimationByType": {
+    "*": "smithing"
+  },
+  "texturesByType": {
+    "*-iron": {
+      "handle": { "base": "item/wood/handles/reinforced" },
+      "tunnel-hammer-head-material": { "base": "item/iron-hammer" },
+      "tunnel-hammer-tip-material": { "base": "item/metal/iron" },
+      "reinforcing-rings-material": { "base": "item/metal/titan" }
+    },
+    "*-titan": {
+      "handle": { "base": "item/wood/handles/reinforced" },
+      "tunnel-hammer-head-material": { "base": "item/metal/iron" },
+      "tunnel-hammer-tip-material": { "base": "item/metal/titan" },
+      "reinforcing-rings-material": { "base": "item/metal/titan" }
+    }
+  },
+  "tooltierbytype": {
+    "*-iron": 4,
+    "*-titan": 6
+  },
+  "miningspeedbytype": {
+    "*-iron": {
+      "ceramic": 3,
+      "stone": 8,
+      "ore": 8,
+      "metal": 7,
+      "ice": 4.5
+    },
+    "*-titan": {
+      "ceramic": 4,
+      "stone": 12,
+      "ore": 12,
+      "metal": 12,
+      "ice": 5
+    }
+  },
+  "attackpowerbytype": {
+    "*-iron": 3,
+    "*-titan": 4
+  },
+  "durabilitybytype": {
+    "*-iron": 2000,
+    "*-titan": 3000
+  },
+  "creativeinventoryByType": {
+    "*": {
+      "general": [ "*" ],
+      "items": [ "*" ],
+      "tools": [ "*" ],
+      "titaniumsteeltools": [ "*" ]
+    }
+  },
+  "fpHandTransform": {
+    "rotation": {
+      "x": 150,
+      "y": -14,
+      "z": -100
+    },
+    "scale": 2.36
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": -120
+    },
+    "rotation": {
+      "x": -96,
+      "y": 50,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 2,
+      "z": 0.6
+    },
+    "scale": 1.91
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.045,
+      "z": 0
+    },
+    "rotation": {
+      "x": 180,
+      "y": 9,
+      "z": 3
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5299
+    },
+    "scale": 4.68
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.76,
+      "y": -0.5,
+      "z": -0.65
+    },
+    "rotation": {
+      "x": -99,
+      "y": 18,
+      "z": -1
+    },
+    "scale": 0.8
+  }
+}

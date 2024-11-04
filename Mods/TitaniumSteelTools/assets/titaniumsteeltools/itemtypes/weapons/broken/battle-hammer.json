@@ -1,0 +1,146 @@
+{
+  "code": "battlehammerbroken",
+  "attributes": {
+    "toolrackTransform": {
+      "translation": {
+        "x": "0",
+        "y": "0.01",
+        "z": "0"
+      },
+      "scale": 1.69
+    },
+    "groundStorageTransform": {
+      "translation": {
+        "x": 0,
+        "y": -0.16,
+        "z": -0.06
+      },
+      "rotation": {
+        "x": 26,
+        "y": 88,
+        "z": -75
+      }
+    }
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "WallHalves",
+        "wallOffY": 1,
+        "sprintKey": true,
+        "selectionBox": {
+          "x1": "0",
+          "y1": "0",
+          "z1": "0",
+          "x2": "1",
+          "y2": "0.1",
+          "z2": "1"
+        },
+        "collisionBox": {
+          "x1": "0",
+          "y1": "0",
+          "z1": "0",
+          "x2": "0",
+          "y2": "0",
+          "z2": "0"
+        }
+      }
+    },
+    { "name": "AnimationAuthoritative" }
+  ],
+  "variantgroups": [
+    {
+      "code": "metal",
+      "states": [ "titan" ]
+    }
+  ],
+  "shapeByType": {
+    "*": { "base": "item/weapons/broken/battle-hammer" }
+  },
+  "heldTpHitAnimation": "falx",
+  "texturesByType": {
+    "*-titan": {
+      "handle": { "base": "item/wood/handles/wooden" },
+      "handle-grip": { "base": "item/wood/handles/reinforced" },
+      "pommel": { "base": "item/metal/titan" },
+      "tinbronze": { "base": "item/metal/tinbronze" },
+      "head-middle": { "base": "game:block/metal/ingot/titanium" }
+    }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "tools": [ "*" ],
+    "titaniumsteeltools": [ "*" ]
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": 6,
+      "y": -3.4,
+      "z": 0
+    },
+    "rotation": {
+      "x": -90,
+      "y": -131,
+      "z": -180
+    },
+    "origin": {
+      "x": 0.65,
+      "y": 0,
+      "z": 0.45
+    },
+    "scale": 1.59
+
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 6,
+      "y": 2,
+      "z": 0
+    },
+    "rotation": {
+      "x": -90,
+      "y": -131,
+      "z": -180
+    },
+    "origin": {
+      "x": 0.65,
+      "y": 0,
+      "z": 0.45
+    },
+    "scale": 1.82
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.36,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 3.6
+
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.13,
+      "y": -0.5,
+      "z": -0.63
+    },
+    "rotation": {
+      "x": 90,
+      "y": 0,
+      "z": -10
+    },
+    "scale": 0.96
+  }
+}

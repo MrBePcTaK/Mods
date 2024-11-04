@@ -1,0 +1,135 @@
+{
+  "code": "bowbroken",
+  "maxstacksize": 1,
+  "attributes": {
+    "toolrackTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.9,
+        "z": 0
+      },
+      "scale": 1.72
+    },
+    "groundStorageTransform": {
+      "translation": {
+        "x": -0.4,
+        "y": 0.01,
+        "z": 0.22
+      },
+      "rotation": {
+        "x": 34,
+        "y": 180,
+        "z": -90
+      },
+      "scale": 1.08
+    }
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "WallHalves",
+        "wallOffY": 2,
+        "sprintKey": true,
+        "selectionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        },
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 0,
+          "y2": 0,
+          "z2": 0
+        }
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "compound" ]
+    }
+  ],
+  "shapeByType": {
+    "*": { "base": "item/weapons/broken/bow/{type}" }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "tools": [ "*" ],
+    "titaniumsteeltools": [ "*" ]
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0
+    },
+    "rotation": {
+      "x": 4,
+      "y": 1,
+      "z": 84
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 3.41
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 8,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": -33,
+      "y": 24,
+      "z": -30
+    },
+    "origin": {
+      "x": 0.6,
+      "y": 0.7,
+      "z": 0
+    },
+    "scale": 1.44
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 4.8
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.45,
+      "y": -0.35,
+      "z": -0.9
+    },
+    "rotation": {
+      "x": -77,
+      "y": 180,
+      "z": 5
+    },
+    "scale": 1.25
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "game:ingot-titanium"
+  },
+  "pattern": [
+    [
+      "_____####_____",
+      "__##########__",
+      "#####____#####"
+    ]
+  ],
+  "name": "Titan Pickaxe",
+  "output": {
+    "type": "item",
+    "code": "pickaxehead-titan"
+  }
+}

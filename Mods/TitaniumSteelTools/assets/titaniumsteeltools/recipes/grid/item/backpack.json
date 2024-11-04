@@ -1,0 +1,32 @@
+{
+  "ingredientPattern": "LN_,ZML,LN_",
+  "ingredients": {
+    "L": {
+      "type": "item",
+      "code": "game:leather-plain",
+      "quantity": 2
+    },
+    "M": {
+      "type": "item",
+      "code": "game:ingot-titanium",
+      "quantity": 2
+    },
+    "Z": {
+      "type": "item",
+      "code": "game:gear-temporal",
+      "quantity": 1
+    },
+    "N": {
+      "type": "item",
+      "code": "game:metalplate-iron",
+      "quantity": 1
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "name": "tsbackpack",
+  "output": {
+    "type": "item",
+    "code": "backpack-titan"
+  }
+}

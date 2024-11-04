@@ -1,0 +1,10 @@
+{
+    "type": "code",
+    "modid": "titaniumsteeltools",
+    "name": "TitaniumSteelTools",
+    "authors": [
+        "HolyPryanik"
+    ],
+    "description": "Add titanium tools",
+    "version": "2.0.0"
+}

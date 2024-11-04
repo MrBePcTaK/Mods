@@ -1,0 +1,48 @@
+[
+  {
+    "ingredientPattern": "N,S",
+    "ingredients": {
+      "N": {
+        "type": "item",
+        "code": "shortswordblade-tinbronze",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "handle-wooden",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "shortsword-tinbronze"
+    },
+    "quantity": 1
+  },
+  {
+    "ingredientPattern": "N,S",
+    "ingredients": {
+      "N": {
+        "type": "item",
+        "code": "shortswordblade-copper",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "handle-wooden",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "shortsword-copper"
+    },
+    "quantity": 1
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "ingredientPattern": "_C_,_FM,ZSR",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "allowedVariants": [ "iron", "meteoriciron", "steel", "titan" ],
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 100
+      },
+      "F": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "allowedVariants": [ "iron", "meteoriciron", "steel", "titan" ],
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 100
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalplate-iron",
+        "quantity": 3
+      },
+      "Z": {
+        "type": "item",
+        "code": "game:ingot-titanium",
+        "quantity": 2
+      },
+      "R": {
+        "type": "item",
+        "code": "fixer",
+        "quantity": 4
+      },
+      "M": {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "repairtools-titan"
+    },
+    "quantity": 1
+  },
+  {
+    "ingredientPattern": "_C_,_FM,ZSR",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "smitinghammer-*",
+        "allowedVariants": [ "titan" ],
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 100
+      },
+      "F": {
+        "type": "item",
+        "code": "chisel-*",
+        "allowedVariants": [ "titan" ],
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 100
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalplate-iron",
+        "quantity": 3
+      },
+      "Z": {
+        "type": "item",
+        "code": "game:ingot-titanium",
+        "quantity": 2
+      },
+      "R": {
+        "type": "item",
+        "code": "fixer",
+        "quantity": 4
+      },
+      "M": {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "repairtools-titan"
+    },
+    "quantity": 1
+  },
+  {
+    "ingredientPattern": "_C_,_FM,ZSR",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 50
+      },
+      "F": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 50
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalplate-iron",
+        "quantity": 2
+      },
+      "Z": {
+        "type": "item",
+        "code": "game:ingot-nickel",
+        "quantity": 2
+      },
+      "R": {
+        "type": "item",
+        "code": "fixer",
+        "quantity": 2
+      },
+      "M": {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "repairtools-iron"
+    },
+    "quantity": 1
+  },
+  {
+    "ingredientPattern": "_C_,_FM,ZSR",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "smitinghammer-*",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 50
+      },
+      "F": {
+        "type": "item",
+        "code": "chisel-*",
+        "quantity": 1,
+        "isTool": true,
+        "toolDurabilityCost": 50
+      },
+      "S": {
+        "type": "item",
+        "code": "game:metalplate-iron",
+        "quantity": 2
+      },
+      "Z": {
+        "type": "item",
+        "code": "game:ingot-nickel",
+        "quantity": 2
+      },
+      "R": {
+        "type": "item",
+        "code": "fixer",
+        "quantity": 2
+      },
+      "M": {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "repairtools-iron"
+    },
+    "quantity": 1
+  }
+]

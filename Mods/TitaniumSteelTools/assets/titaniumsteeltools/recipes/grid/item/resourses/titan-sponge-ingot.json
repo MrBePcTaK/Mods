@@ -1,0 +1,28 @@
+{
+  "ingredientPattern": "NTN,TKT,NTN",
+  "ingredients": {
+    "N": {
+      "type": "item",
+      "code": "fixer",
+      "quantity": 1
+    },
+    "K": {
+      "type": "item",
+      "code": "game:ingot-steel",
+      "quantity": 1
+    },
+    "T": {
+      "type": "item",
+      "code": "game:crushed-ilmenite",
+      "quantity": 1
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "shapeless": false,
+  "output": {
+    "type": "item",
+    "code": "ingot-titansponge"
+  },
+  "quantity": 1
+}

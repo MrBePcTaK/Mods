@@ -1,0 +1,25 @@
+{
+  "ingredientPattern": "M_M,_T_,_S_",
+  "ingredients": {
+    "T": {
+      "type": "item",
+      "code": "spearhead-titan"
+    },
+    "S": {
+      "type": "item",
+      "code": "handle-wooden"
+    },
+    "M": {
+      "type": "item",
+      "code": "fixer",
+      "quantity": 2
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "output": {
+    "type": "item",
+    "code": "spear-titan",
+    "quantity": 1
+  }
+}

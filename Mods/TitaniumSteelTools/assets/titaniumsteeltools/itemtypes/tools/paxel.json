@@ -1,0 +1,173 @@
+{
+  "code": "paxel",
+  "damagedby": [ "blockbreaking", "attacking" ],
+  "tool": "pickaxe",
+  "attributes": {
+    "toolrackTransform": {
+      "translation": {
+        "x": -0.2,
+        "y": 0.01,
+        "z": 0
+      },
+      "scale": 2
+    },
+    "groundStorageTransform": {
+      "translation": {
+        "x": 0,
+        "y": -0.16,
+        "z": 0.255
+      },
+      "rotation": {
+        "x": 20,
+        "y": 88,
+        "z": -87
+      },
+      "scale": 0.88
+    }
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "WallHalves",
+        "wallOffY": 1,
+        "sprintKey": true,
+        "selectionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        },
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 0,
+          "y2": 0,
+          "z2": 0
+        }
+      }
+    },
+    {
+      "name": "ToolReplaceable",
+      "properties": {
+        "replaceItemModId": "titaniumsteeltools",
+        "replaceItemCode": "paxelbroken",
+        "useSameVariant": true
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "metal",
+      "states": [ "titan" ]
+    }
+  ],
+  "maxstacksize": 1,
+  "shapeByType": {
+    "*": { "base": "item/tools/paxel" }
+  },
+  "heldTpHitAnimationByType": {
+    "*": "smithing"
+  },
+  "texturesByType": {
+    "*-titan": {
+      "handle": { "base": "item/wood/handles/reinforced" },
+      "paxel-core-material": { "base": "item/metal/iron" },
+      "reinforcing-rings-material": { "base": "item/metal/tinbronze" },
+      "paxel-head-material": { "base": "item/metal/titan" }
+    }
+  },
+  "tooltierbytype": {
+    "*-titan": 6
+  },
+  "miningspeedbytype": {
+    "*-titan": {
+      "ceramic": 4,
+      "stone": 11,
+      "ore": 11,
+      "metal": 11,
+      "ice": 4,
+      "soil": 8,
+      "sand": 8,
+      "gravel": 5,
+      "snow": 5,
+      "wood": 13,
+      "plant": 6,
+      "leaves": 4
+    }
+  },
+  "attackpowerbytype": {
+    "*-titan": 4
+  },
+  "durabilitybytype": {
+    "*-titan": 6000
+  },
+  "creativeinventoryByType": {
+    "*": {
+      "general": [ "*" ],
+      "items": [ "*" ],
+      "tools": [ "*" ],
+      "titaniumsteeltools": [ "*" ]
+    }
+  },
+  "fpHandTransform": {
+    "rotation": {
+      "x": 150,
+      "y": -2,
+      "z": -96
+    },
+    "scale": 3
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.05,
+      "y": -0.45,
+      "z": -0.6
+    },
+    "rotation": {
+      "x": -99,
+      "y": 17,
+      "z": 0
+    },
+    "scale": 0.84
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 4,
+      "y": 2,
+      "z": 0
+    },
+    "rotation": {
+      "x": -96,
+      "y": 50,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.7,
+      "z": 0.58
+    },
+    "scale": 1.8
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.04,
+      "z": 0
+    },
+    "rotation": {
+      "x": 180,
+      "y": 8,
+      "z": -1
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5299
+    },
+    "scale": 3.74
+  }
+}

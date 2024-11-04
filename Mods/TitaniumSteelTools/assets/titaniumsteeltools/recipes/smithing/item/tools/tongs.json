@@ -1,0 +1,21 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "game:ingot-copper"
+  },
+  "pattern": [
+    [
+      "_##__##_",
+      "_######_",
+      "__#__#__",
+      "__#__#__",
+      "__#__#__",
+      "__#__#__"
+    ]
+  ],
+  "name": "Tongs",
+  "output": {
+    "type": "item",
+    "code": "tongs-copper"
+  }
+}

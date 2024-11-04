@@ -1,0 +1,26 @@
+[
+  {
+    "ingredientPattern": "G,L",
+    "recipeGroup": 2,
+    "ingredients": {
+      "G": {
+        "type": "item",
+        "code": "shovel-titan"
+      },
+      "L": {
+        "type": "item",
+        "code": "repairtools-titan",
+        "isTool": true
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "copyAttributesFrom": "L",
+    "output": {
+      "type": "item",
+      "code": "shovel-titan"
+    }
+  }
+]

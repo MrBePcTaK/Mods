@@ -1,0 +1,23 @@
+{
+  "ingredientPattern": "N,S",
+  "ingredients": {
+    "N": {
+      "type": "item",
+      "code": "battleaxehead-iron",
+      "quantity": 1
+    },
+    "S": {
+      "type": "item",
+      "code": "handle-wooden",
+      "quantity": 1
+    }
+  },
+  "width": 1,
+  "height": 2,
+  "shapeless": false,
+  "output": {
+    "type": "item",
+    "code": "battleaxe-iron"
+  },
+  "quantity": 1
+}

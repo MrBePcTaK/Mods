@@ -1,0 +1,59 @@
+{
+  "code": "spear",
+  "class": "EntityProjectile",
+  "variantgroups": [
+    {
+      "code": "metal",
+      "states": [ "titan" ]
+    }
+  ],
+  "attributes": {
+    "attackPower": 10
+  },
+  "hitboxSize": {
+    "x": 0.125,
+    "y": 0.125
+  },
+  "client": {
+    "renderer": "Shape",
+    "shapeByType": {
+      "*": {
+        "base": "item/weapons/spear",
+        "offsetX": -0.8125
+      }
+    },
+    "texturesByType": {
+      "*": {
+        "handle": { "base": "item/wood/handles/reinforced" },
+        "reinforcing-rings-material": { "base": "item/metal/tinbronze" },
+        "spear-head": { "base": "item/metal/titan" },
+        "spear-head-core": { "base": "item/metal/iron" }
+      }
+    },
+    "behaviors": [
+      {
+        "code": "passivephysics",
+        "groundDragFactor": 1,
+        "airDragFactor": 0.25,
+        "gravityFactor": 0.75
+      },
+      { "code": "interpolateposition" }
+    ]
+  },
+  "server": {
+    "behaviors": [
+      {
+        "code": "passivephysics",
+        "groundDragFactor": 1,
+        "airDragFactor": 0.25,
+        "gravityFactor": 0.75
+      },
+      {
+        "code": "despawn",
+        "minSeconds": 600
+      }
+    ]
+  },
+  "sounds": {
+  }
+}

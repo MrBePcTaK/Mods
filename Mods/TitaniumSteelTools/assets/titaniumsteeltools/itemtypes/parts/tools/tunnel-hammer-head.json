@@ -1,0 +1,82 @@
+{
+  "code": "tunnelhammerhead",
+  "variantgroups": [
+    {
+      "code": "metal",
+      "states": [ "titan" ]
+    }
+  ],
+  "heldTpUseAnimation": "interactstatic",
+  "maxstacksize": 4,
+  "shapeByType": {
+    "*": { "base": "item/parts/tools/tunnel-hammer-head" }
+  },
+  "texturesByType": {
+    "*-titan": {
+      "metal": { "base": "item/metal/iron" },
+      "tsshead_steel": { "base": "item/metal/steel" }
+    }
+  },
+  "creativeinventoryByType": {
+    "*": {
+      "general": [ "*" ],
+      "items": [ "*" ],
+      "tools": [ "*" ],
+      "titaniumsteeltools": [ "*" ]
+    }
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 11,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 35,
+      "y": -106,
+      "z": -92
+    },
+    "origin": {
+      "x": 0,
+      "y": 0.2,
+      "z": 0
+    },
+    "scale": 2.73
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 6
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.12,
+      "y": 0,
+      "z": 0.07
+    },
+    "rotation": {
+      "x": 0,
+      "y": -90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 1
+  }
+}

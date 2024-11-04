@@ -1,0 +1,69 @@
+{
+	"game:tabname-titaniumsteeltools": "TSTools",
+
+	"item-fixer": "Fixer",
+	"item-tip-iron": "Iron tip",
+	"item-titaniumingot-titansponge": "Titanium sponge",
+	"item-handle-wooden": "Wooden handle",
+	"item-handle-reinforced": "Reinforced handle",
+	"item-bowbase": "Bow base",
+	"item-bowwing": "Bow wing",
+	"item-durableflaxtwine": "Durable flax twine",
+
+	"item-repairtools-iron": "Iron repair kit",
+	"item-repairtools-titan": "Titanium repair kit",
+	"item-handbooktext-*repairtools-*": "This kit repairs tool by 1000 durability by cost of 1 own durability",
+
+	"item-backpack-titan": "Backpack with titanium insertions",
+
+	"item-bow-compound": "Compound bow",
+	"item-bowbroken-compound": "Broken compound bow",
+
+
+	"item-shortswordblade-copper": "Copper blade",
+	"item-shortswordblade-tinbronze": "Tinbronze blade",
+	"item-battleaxehead-iron": "Iron battle axe head",
+	"item-swordblade-titan": "Titanium blade",
+	"item-spearhead-titan": "Titanium spear tip",
+	"item-battlehammerhead-titan": "Titanium battle hammer head",
+
+	"item-shortsword-copper": "Short copper blade",
+	"item-shortsword-tinbronze": "Short tinbronze blade",
+	"item-battleaxe-iron": "Iron battle axe",
+	"item-sword-titan": "Titanium sword",
+	"item-spear-titan": "Titanium axe",
+	"item-battlehammer-titan": "Titanium battle hammer",
+
+	"item-shortswordbroken-copper": "Broken short copper blade",
+	"item-shortswordbroken-tinbronze": "Broken short tinbronze blade",
+	"item-battleaxebroken-iron": "Broken iron battle axe",
+	"item-swordbroken-titan": "Broken titanium sword",
+	"item-spearbroken-titan": "Broken titanium axe",
+	"item-battlehammerbroken-titan": "Broken titanium battle hammer",
+
+
+	"item-pickaxehead-titan": "Titanium pickaxe head",
+	"item-axehead-titan": "Titanium axe head",
+	"item-shovelhead-titan": "Titanium shovel head",
+	"item-tunnelhammerhead-titan": "Titanium tunnel hammer head",
+	"item-prospectingpickhead-titan": "Titanium procpecting pick head",
+
+	"item-tongs-copper": "Copper tongs",
+	"item-tunnelhammer-iron": "Iron tunnel hammer",
+	"item-tunnelhammer-titan": "Titanium tunnel hammer",
+	"item-pickaxe-titan": "Titanium pickaxe",
+	"item-axe-titan": "Titanium axe",
+	"item-shovel-titan": "Titanium shovel",
+	"item-paxel-titan": "Titanium paxel",
+	"item-chisel-titan": "Titanium chisel",
+	"item-smitinghammer-titan": "Titanium smiting hammer",
+	"item-prospectingpick-titan": "Titanium prospecting pick",
+
+	"item-tunnelhammerbroken-iron": "Broken iron tunnel hammer",
+	"item-tunnelhammerbroken-titan": "Broken titanium tunnel hammer",
+	"item-pickaxebroken-titan": "Broken titanium pickaxe",
+	"item-axebroken-titan": "Broken titanium axe",
+	"item-shovelbroken-titan": "Broken titanium shovel",
+	"item-paxelbroken-titan": "Broken titanium chisel",
+	"item-prospectingpickbroken-titan": "Brokne titanium prospecting pick"
+}

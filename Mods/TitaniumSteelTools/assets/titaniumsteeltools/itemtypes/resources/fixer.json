@@ -1,0 +1,10 @@
+{
+   "code": "fixer",
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"titaniumsteeltools": [ "*" ]
+	},
+	 "texture": { "base": "item/resources/fixer" },
+	 "maxstacksize": 64
+}
