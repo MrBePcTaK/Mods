@@ -1,8 +1,0 @@
-{
-     "code": "fixer",
-	 "creativeinventory": { "general": ["*"], "tstools": ["*"] },
-	 "texture": { "base": "tstools:item/fixer" },
-	 "maxstacksize": 64
-	                          
-	 
-}
