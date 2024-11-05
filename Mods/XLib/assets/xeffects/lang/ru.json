@@ -1,10 +1,10 @@
 ﻿{
-  "group": "Group",
-  "category": "Category",
+  "group": "Группа",
+  "category": "Категория",
   "stacks": "Stacks",
   "duration": "Длительность",
-  "interval": "Interval",
-  "effects": "Effects",
+  "interval": "Интервал",
+  "effects": "Эффекты",
   "healingrate": "Recovery rate",
   "cures": "Cures",
 
@@ -57,5 +57,5 @@
   "regeneration-effect": "Regeneration",
   "regeneration-effectdesc": "Modifies your healing effectiveness by {0:N2}.",
   "animation-effect": "Animated",
-  "animation-effectdesc": "Can play animations.",
+  "animation-effectdesc": "Can play animations."
 }
