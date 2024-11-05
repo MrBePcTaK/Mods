@@ -2,7 +2,6 @@
   "ingredient": {
     "type": "item",
     "code": "game:ingot-iron"
-
   },
   "output": {
     "type": "item",

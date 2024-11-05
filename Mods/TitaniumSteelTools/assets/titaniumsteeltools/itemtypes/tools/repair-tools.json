@@ -1,8 +1,7 @@
 {
   "code": "repairtools",
   "attributes": {
-    "repairDurability": 1000,
-    "canRepairConstructions": false
+    "repairDurability": 1000
   },
   "maxstacksize": 16,
   "variantgroups": [

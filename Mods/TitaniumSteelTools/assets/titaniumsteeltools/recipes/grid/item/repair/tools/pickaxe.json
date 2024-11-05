@@ -1,0 +1,27 @@
+[
+  {
+    "name": "repair",
+    "ingredientPattern": "G,L",
+    "recipeGroup": 2,
+    "ingredients": {
+      "G": {
+        "type": "item",
+        "code": "pickaxe-titan"
+      },
+      "L": {
+        "type": "item",
+        "code": "repairtools-titan",
+        "isTool": true
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "copyAttributesFrom": "G",
+    "output": {
+      "type": "item",
+      "code": "pickaxe-titan"
+    }
+  }
+]

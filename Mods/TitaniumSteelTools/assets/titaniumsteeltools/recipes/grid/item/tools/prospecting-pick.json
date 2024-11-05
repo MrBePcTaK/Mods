@@ -1,14 +1,14 @@
 {
-  "ingredientPattern": "_K_,SMS,___",
+  "ingredientPattern": "S_S,_K_,_M_",
   "ingredients": {
     "S": {
       "type": "item",
       "code": "fixer",
-      "quantity": 1
+      "quantity": 4
     },
     "K": {
       "type": "item",
-      "code": "tunnelhammerhead-titan",
+      "code": "prospectingpickhead-titan",
       "quantity": 1
     },
     "M": {
@@ -22,7 +22,7 @@
   "shapeless": false,
   "output": {
     "type": "item",
-    "code": "hammer-titan"
+    "code": "prospectingpick-titan"
   },
   "quantity": 1
 }

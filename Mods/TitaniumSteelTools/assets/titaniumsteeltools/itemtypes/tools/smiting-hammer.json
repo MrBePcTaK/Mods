@@ -1,5 +1,5 @@
 {
-  "code": "smitinghammer",
+  "code": "hammer",
   "damagedby": [ "blockbreaking", "attacking" ],
   "tool": "hammer",
   "class": "ItemHammer",

@@ -1,0 +1,26 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "game:ingot-titanium"
+  },
+  "pattern": [
+    [
+      "#######",
+      "_#####_",
+      "_##_##_",
+      "_#####_",
+      "#######"
+    ],
+    [
+      "#######",
+      "_#####_",
+      "_##_##_",
+      "_#####_",
+      "#######"
+    ]
+  ],
+  "output": {
+    "type": "item",
+    "code": "battlehammerhead-titan"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "ingredientPattern": "P,O,S",
+  "ingredients": {
+    "P": {
+      "type": "item",
+      "code": "game:flaxtwine",
+      "quantity": 2
+    },
+    "O": {
+      "type": "item",
+      "code": "game:resin",
+      "quantity": 2
+    },
+    "S": {
+      "type": "item",
+      "code": "game:fat",
+      "quantity": 2
+    }
+  },
+  "width": 1,
+  "height": 3,
+  "shapeless": true,
+  "output": {
+    "type": "item",
+    "code": "durableflaxtwine",
+    "quantity": 1
+  }
+}

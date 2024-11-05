@@ -1,0 +1,44 @@
+{
+  "ingredientPattern": "STS,RKR,ZMZ",
+  "ingredients": {
+    "S": {
+      "type": "item",
+      "code": "fixer",
+      "quantity": 4
+    },
+    "K": {
+      "type": "item",
+      "code": "battlehammerhead-titan",
+      "quantity": 1
+    },
+    "M": {
+      "type": "item",
+      "code": "handle-reinforced",
+      "quantity": 1
+    },
+    "T": {
+      "type": "item",
+      "code": "game:gear-temporal",
+      "quantity": 1
+    },
+    "R": {
+      "type": "item",
+      "code": "game:metalplate-iron",
+      "quantity": 1
+    },
+    "Z": {
+      "type": "item",
+      "code": "game:ingot-nickel",
+      "quantity": 1
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "shapeless": false,
+  "output": {
+    "type": "item",
+    "code": "battlehammer-titan"
+  },
+  "quantity": 1
+
+}

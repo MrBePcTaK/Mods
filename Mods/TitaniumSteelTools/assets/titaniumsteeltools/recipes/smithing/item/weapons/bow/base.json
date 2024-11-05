@@ -1,0 +1,21 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "game:ingot-titanium"
+  },
+  "pattern": [
+    [
+      "____###_",
+      "___###__",
+      "__###___",
+      "__###___",
+      "___###__",
+      "____###_"
+    ]
+  ],
+  "name": "Titan Bow Base",
+  "output": {
+    "type": "item",
+    "code": "bowbase"
+  }
+}

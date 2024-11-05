@@ -1,11 +1,11 @@
 {
-  "code": "titaniumingot",
+  "code": "ingot",
   "class": "ItemIngot",
   "maxstacksize": 64,
   "storageFlags": 5,
   "attributes": {
     "carburizablePropsByType": {
-      "ingot-ts": {
+      "*-titansponge": {
         "carburizedOutput": {
           "type": "item",
           "code": "game:ingot-titanium"
