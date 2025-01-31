@@ -1,0 +1,11 @@
+{
+	"type": "Code",
+	"name": "CrateBulkInput",
+	"modid": "cratebulkinput",
+	"version": "1.0.0",
+	"description": "Add all matching items to crate in one click",
+	"authors": ["DArkHekRoMaNT"],
+	"dependencies": {
+		"game": "1.19.8"
+	}
+}
